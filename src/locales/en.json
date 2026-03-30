@@ -301,132 +301,155 @@
     "cscMoneyGuide": {
       "title": "Crime Scene Cleaner Money Guide",
       "displayType": "card-list",
-      "intro": "Money in Crime Scene Cleaner comes from clean job scores, collecting valuables, and finding hidden items across each location. Better payout comes from approaching missions with both cleanup quality and treasure hunting in mind.",
-      "cards": [
+      "intro": "Crime Scene Cleaner rewards players who treat each map like both a cleanup contract and a scavenger route. The strongest money runs come from fully exploring the scene, looting valuables, and detouring into secret areas that hide safes, rare items, or large cash stashes.",
+      "items": [
         {
-          "name": "Collect All Valuables",
-          "description": "Every job location contains items worth money. Check drawers, cabinets, shelves, and under furniture. A complete search before leaving always reveals additional payouts."
+          "title": "Fully clear the scene before leaving",
+          "description": "Clean blood, remove trash, collect evidence, and reset misplaced objects. Perfect-score runs are tied to better mission completion value and long-term progression.",
+          "tip": "Multiple perfect-score achievements require cleaning everything, collecting every piece of trash, restoring objects, and finding all clues."
         },
         {
-          "name": "Find Hidden Items and Rooms",
-          "description": "Some maps have secret areas and puzzle-triggered spaces with additional valuables. Players who discover hidden rooms consistently earn more per mission."
+          "title": "Use Crime Sense and clue checks often",
+          "description": "Sweep rooms for missed stains, hidden evidence, and easy-to-overlook interaction points before you exit. Missed evidence or stains can cost score, slowing efficient progression.",
+          "tip": "Bad Call perfect-score guidance breaks scoring into separate sections — a single missed category can ruin the run."
         },
         {
-          "name": "Aim for Higher Completion Ratings",
-          "description": "Score-based payout means a cleaner finish yields more money. Fewer missed spots and a higher overall rating translate directly into better mission payouts."
+          "title": "Steal valuables whenever the route is safe",
+          "description": "Pick up cash, valuables, and special loot during missions instead of treating them as optional flavor items. There is a global achievement for stealing $50,000, confirming that theft is a core income path.",
+          "tip": "The global achievement 'Money, Money, Money' tracks total stolen cash across all runs."
         },
         {
-          "name": "Use the Achievement Route",
-          "description": "Following the Treasure and Strawberry Fields achievement paths is one of the most reliable ways to maximize cash earned in a single playthrough."
+          "title": "Prioritize secret rooms with loot",
+          "description": "Take side paths that lead to hidden rooms, safes, and concealed stash areas. Several secrets directly lead to money-related rewards or valuable pickups worth revisiting.",
+          "tip": "Italian Job hides the gambling room and safe for the 'Treasure' achievement, while Affair With Death hides a basement cash-paper stash for 'Money For Nothing'."
+        },
+        {
+          "title": "Grab high-value one-off pickups during achievement routes",
+          "description": "Fold collectible or secret-objective items into normal clears instead of replaying later. You can combine money progress with achievement progress in the same mission run.",
+          "tip": "Bad Call contains the miraculous fertilizer for 'Strawberry Fields Forever', and several secret routes also contain tapes or access keys that make a run more efficient overall."
+        },
+        {
+          "title": "Explore first, then clean in a loop",
+          "description": "Do a fast reconnaissance pass before deep cleaning so you understand where bodies, clues, locked rooms, and secret paths connect. Exploration reduces backtracking and helps collect loot in one pass.",
+          "tip": "The most efficient maps reward players who know secret entrances, rooftop routes, hidden passages, and locker or safe chains before committing to a final cleanup."
         }
-      ],
-      "highlights": [
-        "Check every drawer and cabinet before leaving",
-        "Explore all rooms including locked side areas",
-        "Higher completion ratings mean bigger payouts",
-        "Achievement routes often overlap with best money spots"
       ]
     },
     "cscPerfectScore": {
       "title": "Crime Scene Cleaner Perfect Score Guide",
       "displayType": "step-by-step",
-      "intro": "A perfect score in Crime Scene Cleaner requires clearing everything in each area without leaving missed spots, uncollected items, or displaced furniture. Knowing what the game tracks is the first step to avoiding score penalties.",
-      "regions": [
+      "intro": "Perfect-score runs are built on discipline, not speed. The game repeatedly expects total cleanup, full clue collection, and proper object restoration before you leave a mission.",
+      "steps": [
         {
-          "name": "Complete Blood and Stain Cleanup",
-          "type": "Key Requirement",
-          "description": "Every blood stain, splash, and surface contamination must be fully cleaned. Ceilings, walls, and above-eye-level surfaces are common spots players miss in their first pass."
+          "title": "Start with a scouting lap",
+          "description": "Before deep cleaning, walk the whole scene and identify bodies, key rooms, clue hotspots, secret doors, and any locked side areas. A fast reconnaissance pass prevents late backtracking and reduces missed hidden objectives."
         },
         {
-          "name": "Remove All Bodies and Trash",
-          "type": "Key Requirement",
-          "description": "Body bags and all trash items must be fully removed from the scene. Partial removal does not count — the area must be completely cleared to avoid score deductions."
+          "title": "Clear the three scoring pillars first",
+          "description": "Treat cleaning, evidence, and body handling as separate score buckets. Do not assume one perfect category will carry the others — Bad Call's perfect-score guidance explicitly frames missions around separate scoring sections."
         },
         {
-          "name": "Collect All Evidence and Valuables",
-          "type": "Key Requirement",
-          "description": "Evidence pieces, personal effects, and mission-specific collectibles must all be accounted for. Missing any piece affects your score and may lock certain completion bonuses."
+          "title": "Remove every visible stain and piece of trash",
+          "description": "Do a room-by-room sweep instead of random spot cleaning. Check corners, side rooms, bathrooms, and routes behind breakable boards or vents to catch everything the game tracks."
         },
         {
-          "name": "Restore Displaced Furniture and Objects",
-          "type": "Bonus Points",
-          "description": "Some missions require furniture to be returned to its original position or broken items replaced. Completing this fully adds to your final score and is required for certain achievements."
+          "title": "Restore objects and fix the scene state",
+          "description": "Put displaced items back in their original place and avoid creating new mess while you work. Mission-perfect achievement descriptions consistently require putting every object back where it belongs."
+        },
+        {
+          "title": "Find all clues before the final exit",
+          "description": "Do not rush the last objective trigger. Re-check clue-related rooms, hidden passages, and extra compartments before ending the mission — perfect-score achievements across multiple maps require finding all clues."
+        },
+        {
+          "title": "Clear the map-specific extras",
+          "description": "Some levels hide score-relevant content in side areas. Italian Job is a major example because perfect cleanup also includes Granny's Apartment. Maps with detached spaces are easy to under-clear on the main path alone."
+        },
+        {
+          "title": "Use easier maps to practice clean execution",
+          "description": "Toxic Love is widely treated as a forgiving map for cleaner execution and side-achievement routing. Practicing on cleaner layouts helps build habits before harder late-game maps like Modern Art or Call In Dead."
+        },
+        {
+          "title": "Finish with a final verification lap",
+          "description": "Check bathrooms, vents, hidden cupboards, rooftop paths, and any room unlocked by keys, cards, or switches before you leave. Late misses are usually in optional-looking spaces that still count toward full completion."
         }
       ]
     },
     "cscAchievements": {
       "title": "Crime Scene Cleaner Achievements Guide",
       "displayType": "table",
-      "intro": "Crime Scene Cleaner has 80 Steam achievements covering mission completion, collectibles, tool use, exploration, and score targets. Many achievements can be combined into a single efficient run with the right route.",
-      "creatures": [
-        {
-          "name": "The Cleaner",
-          "role": "Completion",
-          "description": "Awarded for completing a mission with full cleanup. Unlocking this early sets the foundation for the True Cleaner and 100 percent completion paths."
-        },
-        {
-          "name": "Treasure",
-          "role": "Exploration",
-          "description": "Requires finding a specific hidden item or collection across one of the main missions. Overlaps with the money farming route."
-        },
-        {
-          "name": "Strawberry Fields Forever",
-          "role": "Exploration",
-          "description": "Connected to a hidden interaction or location in one of the story missions. Players following the treasure achievement route often unlock this in the same run."
-        },
-        {
-          "name": "98 Percent",
-          "role": "Completion",
-          "description": "Linked to the common player experience of reaching near-complete cleanup and getting stuck. Usually caused by a missed stain above eye level or behind furniture."
-        },
-        {
-          "name": "Nightmare Survivor",
-          "role": "Difficulty",
-          "description": "Awarded for completing a mission on Nightmare difficulty. Requires mastering cleanup routing and resource management under stricter conditions."
-        },
-        {
-          "name": "Act 2 Complete",
-          "role": "Progression",
-          "description": "Unlocked after completing all Act 2 missions including the completion-heavy Amber Alert and its associated secrets."
-        }
+      "intro": "Crime Scene Cleaner tracks a large achievement set, but completion players usually start with perfect-score milestones, money-related secrets, and map-specific hidden interactions. The fastest route combines mission-perfect goals with secret-path achievements in the same run.",
+      "items": [
+        { "name": "Bad Call", "requirement": "Complete Bad Call mission with perfect score", "chapter": "Bad Call", "rate": "74.5%" },
+        { "name": "Trial by Blood", "requirement": "Complete Trial by Blood mission with perfect score", "chapter": "Trial By Blood", "rate": "70.4%" },
+        { "name": "Gold On The Ceiling", "requirement": "Find and use the V.I.P card", "chapter": "Trial By Blood", "rate": "72.1%" },
+        { "name": "Get Lucky", "requirement": "Find and open the hidden safe", "chapter": "Toxic Love", "rate": "63.9%" },
+        { "name": "Treasure", "requirement": "Get to the gambling room and open the safe", "chapter": "Italian Job", "rate": "61.1%" },
+        { "name": "Money For Nothing", "requirement": "Get rid of worthless paper from the basement", "chapter": "Affair With Death", "rate": "62.3%" },
+        { "name": "Strawberry Fields Forever", "requirement": "Steal miraculous fertilizer", "chapter": "Bad Call", "rate": "49.7%" },
+        { "name": "Money, Money, Money", "requirement": "Steal $50,000 total", "chapter": "Game-wide", "rate": "43.1%" },
+        { "name": "Another Brick in the Wall", "requirement": "Touch the lamp and see what happens", "chapter": "Short Circuit", "rate": "27.6%" },
+        { "name": "Lookin' Out My Back Door", "requirement": "Find Zack's secret room", "chapter": "Call In Dead", "rate": "27.3%" }
       ]
     },
     "cscSecrets": {
       "title": "Crime Scene Cleaner Secrets Guide",
       "displayType": "accordion",
-      "intro": "Crime Scene Cleaner has hidden rooms, puzzle-triggered doors, and secret interactions across multiple missions. Many secrets overlap with collectibles, achievement routes, and hidden money spots.",
-      "items": [
+      "intro": "Secret hunting matters because it overlaps with money, collectibles, and achievements. Several of the game's best side rewards are hidden behind vents, rooftop paths, fake walls, and key-card chains.",
+      "sections": [
         {
-          "name": "Hidden Rooms",
-          "type": "Secret Type",
-          "description": "Several missions include rooms that are not visible on first glance. These are accessed through specific triggers, item interactions, or by finding concealed doorways behind furniture or walls."
+          "name": "Bad Call",
+          "summary": "3 tapes and 3 secrets. Strong early chapter for building secret habits — teaches rooftop access, hidden keys, and optional rooms.",
+          "details": [
+            "Break boards at the barred window and carefully cross the planks to reach the rooftop secret.",
+            "Pick up the first key in the boarded room, then combine it with the second key route to open the gated bathroom-area secret.",
+            "The miraculous fertilizer for Strawberry Fields Forever is tied to this chapter's secret routing."
+          ]
         },
         {
-          "name": "Puzzle-Triggered Doors",
-          "type": "Secret Type",
-          "description": "Some areas require solving a specific environmental puzzle or finding an item before an alternate path opens. These are most common in the larger missions."
+          "name": "Italian Job",
+          "summary": "3 tapes and 3 secrets. One of the best chapters for money-focused secret play.",
+          "details": [
+            "Take the key from the kitchen drawer, open the hatch under the office boxes, then hack the wall safe in the hidden gambling room.",
+            "Open the side door, break the wooden planks, and continue through the hidden area for another secret branch.",
+            "Use a ladder or stacked boxes to get over the brick wall in the backyard for Rock and Roll All Nite."
+          ]
         },
         {
-          "name": "Cassette Tape Locations",
-          "type": "Collectible Secret",
-          "description": "Cassette tapes and CDs are hidden throughout each mission and are easy to miss on a standard clear. Many are in rooms that require you to clean first before the item becomes visible."
+          "name": "Affair With Death",
+          "summary": "3 tapes and 3 secrets. Excellent chapter for combining secrets with money and side achievements.",
+          "details": [
+            "Use the ladder near the basketball court or circle up the stairs and follow the edge to the tree-side secret.",
+            "Crawl through the hole behind the boxes to reach the hidden paper-money room for Money For Nothing.",
+            "Collect the toilet key on the first floor and use it on the ground-floor laundry room."
+          ]
         },
         {
-          "name": "Evidence and Personal Effects",
-          "type": "Mission Interaction",
-          "description": "Some missions include personal effects or story-connected items that are not part of the main objective but contribute to the story and certain achievements."
+          "name": "Short Circuit",
+          "summary": "2 tapes and 2 secrets. Compact map with easy-to-miss interaction secrets.",
+          "details": [
+            "Interact with the tilted wall lamp on the first floor to open the hidden door and unlock Another Brick in the Wall.",
+            "Check the little door next to the fridge area for the second secret space.",
+            "This is a short chapter and a good replay map for clean secret-routing practice."
+          ]
         },
         {
-          "name": "Act 2 Hidden Content",
-          "type": "Expanded Secrets",
-          "description": "Act 2 missions like Amber Alert have more secrets, collectibles, and environmental interactions than Act 1. A dedicated secrets pass before leaving is recommended for full completion."
+          "name": "Modern Art",
+          "summary": "4 tapes and 2 secrets. Puzzle-heavy chapter with memorable secret design.",
+          "details": [
+            "Open the glass cases to build a staircase, interact with the golden cassette, and reveal the hidden room beside the stage.",
+            "Solving the monitor sequence opens the second secret door in the labyrinth area.",
+            "This map contains many breakable objects, making it efficient for stacking secret hunting with destruction-related progress."
+          ]
+        },
+        {
+          "name": "Call In Dead",
+          "summary": "4 tapes and 5 secrets. The densest secret chapter in the base campaign and one of the best replay maps for completionists.",
+          "details": [
+            "Break the vent in the power supply room and crawl through for the first secret.",
+            "Climb the stack of boxes on hall ground floor, duck under the metal beam, and follow the hidden path to another secret.",
+            "Climb the lockers and pipes, break into the vent, and enter Zack's room for Lookin' Out My Back Door."
+          ]
         }
-      ],
-      "unlockMilestones": [
-        "Find first hidden room in any mission",
-        "Discover a puzzle-triggered path",
-        "Collect all cassette tapes in one mission",
-        "Unlock Act 2 secrets and CDs in Amber Alert"
       ]
     },
     "cscCassetteTapes": {

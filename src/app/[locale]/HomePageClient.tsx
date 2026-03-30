@@ -9,16 +9,19 @@ import {
   ChevronDown,
   ClipboardCheck,
   Clock,
-  Eye,
   ExternalLink,
   Hammer,
-  Home,
+  Key,
+  Map,
   MessageCircle,
   Package,
+  Search,
   Settings,
+  ShoppingBag,
   Sparkles,
   Star,
   TrendingUp,
+  Trophy,
 } from 'lucide-react'
 import Link from 'next/link'
 import { useMessages } from 'next-intl'
@@ -150,6 +153,7 @@ export default function HomePageClient({ latestArticles, moduleLinkMap, locale }
   // FAQ accordion states
   const [faqExpanded, setFaqExpanded] = useState<number | null>(null)
   const [deckExpanded, setDeckExpanded] = useState<number | null>(null)
+  const [secretsExpanded, setSecretsExpanded] = useState<number | null>(null)
 
   // Scroll reveal animation
   useEffect(() => {
@@ -466,115 +470,144 @@ export default function HomePageClient({ latestArticles, moduleLinkMap, locale }
         </div>
       </section>
 
-      {/* Module 5: Qualia and Base Building */}
+      {/* Module 5: Money Guide */}
       <section id="money-guide" className="scroll-mt-24 px-4 py-20 bg-white/[0.02]">
         <div className="container mx-auto max-w-5xl">
           <div className="text-center mb-12 scroll-reveal">
-            <h2 className="text-4xl md:text-5xl font-bold mb-4"><LinkedTitle linkData={moduleLinkMap['cscMoneyGuide']} locale={locale}>{t.modules.cscMoneyGuide.title}</LinkedTitle></h2>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">
+              <LinkedTitle linkData={moduleLinkMap['cscMoneyGuide']} locale={locale}>
+                {t.modules.cscMoneyGuide.title}
+              </LinkedTitle>
+            </h2>
             <p className="text-muted-foreground text-lg max-w-3xl mx-auto">{t.modules.cscMoneyGuide.intro}</p>
           </div>
-          <div className="scroll-reveal grid grid-cols-1 md:grid-cols-2 gap-4 mb-8">
-            {t.modules.cscMoneyGuide.cards.map((card: any, index: number) => (
-              <div key={index} className="p-6 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors">
-                <h3 className="font-bold text-lg mb-2 text-[hsl(var(--nav-theme-light))]">
-                  <LinkedTitle linkData={moduleLinkMap[`cscMoneyGuide::cards::${index}`]} locale={locale}>
-                    {card.name}
-                  </LinkedTitle>
-                </h3>
-                <p className="text-muted-foreground text-sm">{card.description}</p>
-              </div>
-            ))}
-          </div>
-          <div className="scroll-reveal grid grid-cols-2 md:grid-cols-4 gap-4">
-            {t.modules.cscMoneyGuide.highlights.map((h: string, i: number) => (
-              <div key={i} className="p-4 bg-white/5 border border-border rounded-xl text-center hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors">
-                <Home className="w-6 h-6 text-[hsl(var(--nav-theme-light))] mx-auto mb-2" />
-                <p className="text-sm">{h}</p>
-              </div>
-            ))}
+          <div className="scroll-reveal grid grid-cols-1 md:grid-cols-2 gap-4">
+            {t.modules.cscMoneyGuide.items.map((item: any, index: number) => {
+              const moneyIcons = [ClipboardCheck, Search, ShoppingBag, Key, Package, Map]
+              const MoneyIcon = moneyIcons[index % moneyIcons.length]
+              return (
+                <div key={index} className="p-6 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors">
+                  <div className="flex items-center gap-3 mb-3">
+                    <div className="w-10 h-10 rounded-lg bg-[hsl(var(--nav-theme)/0.1)] flex items-center justify-center flex-shrink-0">
+                      <MoneyIcon className="w-5 h-5 text-[hsl(var(--nav-theme-light))]" />
+                    </div>
+                    <h3 className="font-bold text-[hsl(var(--nav-theme-light))]">{item.title}</h3>
+                  </div>
+                  <p className="text-muted-foreground text-sm mb-3">{item.description}</p>
+                  <p className="text-xs text-muted-foreground/70 italic border-l-2 border-[hsl(var(--nav-theme)/0.3)] pl-3">{item.tip}</p>
+                </div>
+              )
+            })}
           </div>
         </div>
       </section>
 
-      {/* Module 6: World Regions */}
+      {/* Module 6: Perfect Score Guide */}
       <section id="perfect-score" className="scroll-mt-24 px-4 py-20">
         <div className="container mx-auto max-w-5xl">
           <div className="text-center mb-12 scroll-reveal">
-            <h2 className="text-4xl md:text-5xl font-bold mb-4"><LinkedTitle linkData={moduleLinkMap['cscPerfectScore']} locale={locale}>{t.modules.cscPerfectScore.title}</LinkedTitle></h2>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">
+              <LinkedTitle linkData={moduleLinkMap['cscPerfectScore']} locale={locale}>
+                {t.modules.cscPerfectScore.title}
+              </LinkedTitle>
+            </h2>
             <p className="text-muted-foreground text-lg max-w-3xl mx-auto">{t.modules.cscPerfectScore.intro}</p>
           </div>
-          <div className="scroll-reveal grid grid-cols-1 md:grid-cols-2 gap-4">
-            {t.modules.cscPerfectScore.regions.map((region: any, index: number) => (
-              <div key={index} className="p-6 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors">
-                <div className="flex items-center gap-3 mb-3">
-                  <Eye className="w-5 h-5 text-[hsl(var(--nav-theme-light))]" />
-                  <h3 className="font-bold">
-                    <LinkedTitle linkData={moduleLinkMap[`cscPerfectScore::regions::${index}`]} locale={locale}>
-                      {region.name}
-                    </LinkedTitle>
-                  </h3>
-                  <span className="text-xs px-2 py-1 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)]">{region.type}</span>
+          <div className="scroll-reveal space-y-4">
+            {t.modules.cscPerfectScore.steps.map((step: any, index: number) => (
+              <div key={index} className="flex gap-4 p-6 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors">
+                <div className="flex-shrink-0 w-12 h-12 rounded-full bg-[hsl(var(--nav-theme)/0.2)] border-2 border-[hsl(var(--nav-theme)/0.5)] flex items-center justify-center">
+                  <span className="text-xl font-bold text-[hsl(var(--nav-theme-light))]">{index + 1}</span>
                 </div>
-                <p className="text-muted-foreground text-sm">{region.description}</p>
+                <div>
+                  <h3 className="text-xl font-bold mb-2 text-[hsl(var(--nav-theme-light))]">{step.title}</h3>
+                  <p className="text-muted-foreground text-sm">{step.description}</p>
+                </div>
               </div>
             ))}
           </div>
         </div>
       </section>
 
-      {/* Module 7: Creatures and Enemies */}
+      {/* Module 7: Achievements Guide */}
       <section id="achievements" className="scroll-mt-24 px-4 py-20 bg-white/[0.02]">
         <div className="container mx-auto max-w-5xl">
           <div className="text-center mb-12 scroll-reveal">
-            <h2 className="text-4xl md:text-5xl font-bold mb-4"><LinkedTitle linkData={moduleLinkMap['cscAchievements']} locale={locale}>{t.modules.cscAchievements.title}</LinkedTitle></h2>
+            <div className="flex items-center justify-center gap-3 mb-4">
+              <Trophy className="w-8 h-8 text-[hsl(var(--nav-theme-light))]" />
+              <h2 className="text-4xl md:text-5xl font-bold">
+                <LinkedTitle linkData={moduleLinkMap['cscAchievements']} locale={locale}>
+                  {t.modules.cscAchievements.title}
+                </LinkedTitle>
+              </h2>
+            </div>
             <p className="text-muted-foreground text-lg max-w-3xl mx-auto">{t.modules.cscAchievements.intro}</p>
           </div>
-          <div className="scroll-reveal grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-            {t.modules.cscAchievements.creatures.map((c: any, index: number) => (
-              <div key={index} className="p-6 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors">
-                <div className="mb-3">
-                  <span className={`text-xs px-2 py-1 rounded-full border ${["Hostile Enemy","Major Threat","Elite Threat"].includes(c.role) ? "bg-red-500/10 border-red-500/30 text-red-400" : "bg-[hsl(var(--nav-theme)/0.1)] border-[hsl(var(--nav-theme)/0.3)]"}`}>{c.role}</span>
-                </div>
-                <h3 className="font-bold mb-2">
-                  <LinkedTitle linkData={moduleLinkMap[`cscAchievements::creatures::${index}`]} locale={locale}>
-                    {c.name}
-                  </LinkedTitle>
-                </h3>
-                <p className="text-muted-foreground text-sm">{c.description}</p>
-              </div>
-            ))}
+          <div className="scroll-reveal overflow-x-auto rounded-xl border border-border">
+            <table className="w-full text-sm">
+              <thead>
+                <tr className="border-b border-border bg-white/5">
+                  <th className="text-left p-4 font-semibold text-[hsl(var(--nav-theme-light))]">Achievement</th>
+                  <th className="text-left p-4 font-semibold text-[hsl(var(--nav-theme-light))]">Requirement</th>
+                  <th className="text-left p-4 font-semibold text-[hsl(var(--nav-theme-light))] hidden md:table-cell">Chapter</th>
+                  <th className="text-right p-4 font-semibold text-[hsl(var(--nav-theme-light))]">Global</th>
+                </tr>
+              </thead>
+              <tbody>
+                {t.modules.cscAchievements.items.map((item: any, index: number) => (
+                  <tr key={index} className="border-b border-border/50 hover:bg-white/5 transition-colors">
+                    <td className="p-4 font-semibold">{item.name}</td>
+                    <td className="p-4 text-muted-foreground">{item.requirement}</td>
+                    <td className="p-4 hidden md:table-cell">
+                      <span className="px-2 py-1 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] text-xs whitespace-nowrap">{item.chapter}</span>
+                    </td>
+                    <td className="p-4 text-right font-semibold text-[hsl(var(--nav-theme-light))]">{item.rate}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
           </div>
         </div>
       </section>
 
-      {/* Module 8: Mobility Gear */}
+      {/* Module 8: Secrets Guide */}
       <section id="secrets" className="scroll-mt-24 px-4 py-20">
         <div className="container mx-auto max-w-5xl">
           <div className="text-center mb-12 scroll-reveal">
-            <h2 className="text-4xl md:text-5xl font-bold mb-4"><LinkedTitle linkData={moduleLinkMap['cscSecrets']} locale={locale}>{t.modules.cscSecrets.title}</LinkedTitle></h2>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">
+              <LinkedTitle linkData={moduleLinkMap['cscSecrets']} locale={locale}>
+                {t.modules.cscSecrets.title}
+              </LinkedTitle>
+            </h2>
             <p className="text-muted-foreground text-lg max-w-3xl mx-auto">{t.modules.cscSecrets.intro}</p>
           </div>
-          <div className="scroll-reveal grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mb-8">
-            {t.modules.cscSecrets.items.map((item: any, index: number) => (
-              <div key={index} className="p-6 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors">
-                <div className="flex items-center gap-2 mb-3">
-                  <ArrowRight className="w-5 h-5 text-[hsl(var(--nav-theme-light))]" />
-                  <span className="text-xs px-2 py-1 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)]">{item.type}</span>
-                </div>
-                <h3 className="font-bold mb-2">
-                  <LinkedTitle linkData={moduleLinkMap[`cscSecrets::items::${index}`]} locale={locale}>
-                    {item.name}
-                  </LinkedTitle>
-                </h3>
-                <p className="text-muted-foreground text-sm">{item.description}</p>
+          <div className="scroll-reveal space-y-2">
+            {t.modules.cscSecrets.sections.map((sec: any, index: number) => (
+              <div key={index} className="border border-border rounded-xl overflow-hidden">
+                <button
+                  onClick={() => setSecretsExpanded(secretsExpanded === index ? null : index)}
+                  className="w-full flex items-center justify-between p-5 text-left hover:bg-white/5 transition-colors"
+                >
+                  <div className="flex items-start gap-3 flex-1 min-w-0">
+                    <Key className="w-5 h-5 text-[hsl(var(--nav-theme-light))] flex-shrink-0 mt-0.5" />
+                    <div className="min-w-0">
+                      <span className="font-semibold">{sec.name}</span>
+                      <p className="text-xs text-muted-foreground mt-0.5">{sec.summary}</p>
+                    </div>
+                  </div>
+                  <ChevronDown className={`w-5 h-5 flex-shrink-0 ml-3 transition-transform ${secretsExpanded === index ? 'rotate-180' : ''}`} />
+                </button>
+                {secretsExpanded === index && (
+                  <div className="px-5 pb-5 space-y-2">
+                    {sec.details.map((detail: string, di: number) => (
+                      <div key={di} className="flex items-start gap-2">
+                        <ArrowRight className="w-4 h-4 text-[hsl(var(--nav-theme-light))] mt-1 flex-shrink-0" />
+                        <p className="text-muted-foreground text-sm">{detail}</p>
+                      </div>
+                    ))}
+                  </div>
+                )}
               </div>
-            ))}
-          </div>
-          <div className="scroll-reveal flex flex-wrap gap-3 justify-center">
-            {t.modules.cscSecrets.unlockMilestones.map((m: string, i: number) => (
-              <span key={i} className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] text-sm">
-                <Check className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />{m}
-              </span>
             ))}
           </div>
         </div>
