@@ -455,152 +455,181 @@
     "cscCassetteTapes": {
       "title": "Crime Scene Cleaner Cassette Tapes Guide",
       "displayType": "table",
-      "intro": "Cassette tapes and music CDs are hidden collectibles scattered across Crime Scene Cleaner missions. They are easy to miss during a standard cleanup run and often appear in areas that require careful searching.",
-      "sections": [
+      "eyebrow": "Collectibles",
+      "subtitle": "Track the music collectibles players most often miss on return visits. This hub works best when grouped by mission and paired with short route notes.",
+      "intro": "Crime Scene Cleaner hides cassette tapes and discs inside side rooms, puzzle rewards, and easy-to-skip corners. A practical collectibles page should not only name the item, but also tell the player what room it sits in and what action unlocks it.",
+      "items": [
         {
-          "name": "Act 1 Tape Locations",
-          "description": "Cassette tapes in Act 1 missions are usually placed in side rooms, on shelves, or in areas that become accessible after cleaning reveals the surrounding surface. Check each room before moving on."
+          "mission": "Bad Call",
+          "collectible": "Cieszyn's Venice",
+          "location": "Botanical Room behind the iron door in the courtyard",
+          "access": "Find the first key on a box under the balcony, get the second key from the bathroom in the secret corridor, then open the Botanical Room"
         },
         {
-          "name": "Act 2 CD Locations",
-          "description": "Act 2 includes additional music disc collectibles, particularly in the Amber Alert mission. The Act 2 secrets and CDs guide shows detailed locations for all collectibles in the new missions."
+          "mission": "Bad Call",
+          "collectible": "Epitaph of a Good Friend",
+          "location": "Shelf on the floor below the dealer's apartment lift",
+          "access": "Break the boards to reach the balcony, lower the lift, then edge along the wall to the lower floor"
         },
         {
-          "name": "Nightmare Mode Collectibles",
-          "description": "Cassette tapes appear in the Nightmare Mode variants of missions as well. The locations remain similar but the increased cleanup challenge makes finding them harder."
+          "mission": "Party's Over",
+          "collectible": "Over Again",
+          "location": "Bathroom in the right-hand side cabin",
+          "access": "Direct pickup once the cabin area is opened"
         },
         {
-          "name": "Community Location Maps",
-          "description": "The Steam community and Reddit frequently share updated cassette tape location lists. Community guides are maintained per mission and updated when new content adds additional tapes."
+          "mission": "Party's Over",
+          "collectible": "Voltage Resonance",
+          "location": "TV table in the party house",
+          "access": "Direct pickup in the main party house interior"
+        },
+        {
+          "mission": "Modern Art",
+          "collectible": "Kokko Kann",
+          "location": "Next to the blue radio in the Red Room",
+          "access": "Direct pickup while clearing the East Wing"
+        },
+        {
+          "mission": "Modern Art",
+          "collectible": "Future Culture",
+          "location": "On the stage in the West Wing cassette room",
+          "access": "Direct pickup in the cassette room"
+        },
+        {
+          "mission": "Modern Art",
+          "collectible": "Roma",
+          "location": "Duck Room Corridor floor next to the box",
+          "access": "Found after climbing up from the Duck Room into the corridor"
+        },
+        {
+          "mission": "Modern Art",
+          "collectible": "Economy of Pain",
+          "location": "Reward mannequin outside the secret TV room",
+          "access": "Solve the TV-room puzzle, enter the secret room, defeat all enemies with the katana, then collect the reward on exit"
         }
-      ],
-      "growthMilestones": [
-        "Find first cassette tape in any mission",
-        "Collect all tapes in a single Act 1 mission",
-        "Find all Act 2 CDs in Amber Alert",
-        "Complete the full collectibles set across all missions"
       ]
     },
     "cscBodiesEvidence": {
       "title": "Crime Scene Cleaner Bodies and Evidence Guide",
-      "displayType": "card-list",
-      "intro": "Body disposal and evidence collection are core objectives in Crime Scene Cleaner. Handling these efficiently opens movement lines, reveals hidden stains, and keeps mission completion on track.",
-      "priorities": [
+      "displayType": "checklist",
+      "eyebrow": "100 Percent Runs",
+      "subtitle": "This page helps players finish runs that stall at 95 to 99 percent. The best version is a mission checklist built around totals and the most commonly missed rooms or objects.",
+      "intro": "The usual failure point in Crime Scene Cleaner is not the main cleanup loop but the final missing interaction: one body in a side corridor, one clue tucked into a victim, or one object that did not register because the player skipped the required interaction.",
+      "items": [
         {
-          "name": "Dispose of Bodies First",
-          "priority": "Essential",
-          "description": "Body bags should be your first priority in any mission. Clearing bodies opens floor space, reveals hidden blood trails underneath, and makes the rest of the cleanup route faster."
+          "mission": "Bad Call",
+          "checkpoints": [
+            "Bodies total: 3",
+            "Evidence total: 9",
+            "Bodies are in the Kitchen, Backroom, and Attic",
+            "Evidence appears across the Lounge, Bonsai Room, Kitchen, Backroom, Attic #1, and Attic #3"
+          ]
         },
         {
-          "name": "Collect All Evidence",
-          "priority": "Very High",
-          "description": "Evidence items are tracked separately from general cleanup. Missing any piece affects your score and blocks certain completion achievements. Search each room thoroughly."
+          "mission": "Modern Art",
+          "checkpoints": [
+            "Central Exhibition objectives include 2 evidence and 34 furniture placements",
+            "Dark Room has 1 body and a Shield evidence item on top of the victim",
+            "Duck Room has 2 bodies plus Katana and Sword evidence items",
+            "Duck Room Corridor has 1 body and a Note inside the box"
+          ]
         },
         {
-          "name": "Clear Trash and Debris",
-          "priority": "High",
-          "description": "Trash and general debris must also be removed. Clear it alongside body disposal so you can access all floor areas and stains underneath."
+          "mission": "Short Circuit",
+          "checkpoints": [
+            "Ground Floor objectives include 5 evidence and 21 furniture placements",
+            "First Floor objectives include 6 evidence and 8 furniture placements",
+            "Bedroom 1 evidence: Phone on top of the drawer unit next to the bed",
+            "Bedroom 2 evidence: Smart Speaker next to the drawer unit by the wardrobe"
+          ]
         },
         {
-          "name": "Check for Hidden Evidence",
-          "priority": "High",
-          "description": "Some evidence items are tucked behind furniture, in drawers, or in rooms that are only accessible after cleaning the primary area. Do not assume a room is complete after the first pass."
-        },
-        {
-          "name": "Restore Personal Effects",
-          "priority": "Medium",
-          "description": "Some missions include personal items that need to be returned to their original placement. These are part of the mission completion requirements and affect the final score."
-        },
-        {
-          "name": "Track Room by Room",
-          "priority": "Medium",
-          "description": "Keep track of which rooms have been cleared and which still need bodies or evidence removed. A room-by-room approach prevents backtracking on larger multi-room missions."
+          "mission": "Haunted House Speaker Search",
+          "checkpoints": [
+            "If a speaker objective seems stuck, stop sweeping visually and follow the sound cue",
+            "Some players reported the third speaker can fail to register immediately",
+            "Computer interactions can count as objective progress, so re-check erased footage or triggered devices before restarting"
+          ]
         }
       ]
     },
     "cscTrueCleaner": {
       "title": "Crime Scene Cleaner True Cleaner Guide",
-      "displayType": "achievement-grid",
-      "intro": "Achieving a full clean rating in Crime Scene Cleaner means leaving nothing behind — no stains, no bodies, no evidence, no debris. This guide breaks down what the game checks in each category.",
-      "groups": [
+      "displayType": "step-by-step",
+      "eyebrow": "Challenge Mode",
+      "subtitle": "True Cleaner punishes sloppy routing more than normal missions do. A good guide should combine universal habits with mission examples that show where hidden dirt usually survives.",
+      "intro": "The fastest way to stabilize True Cleaner runs is to separate method from map knowledge. First build a repeatable cleaning routine, then use mission-specific dirt patterns only where the mode tends to waste time: ceilings, door interiors, paw prints, footprints, and rooms that become dirty again.",
+      "steps": [
         {
-          "name": "Floors and Open Surfaces",
-          "achievements": [
-            {
-              "title": "Blood Stains",
-              "description": "Clean all blood and organic stains from every floor section. Use Cleaner Sense to reveal stains in dark or hard-to-see areas."
-            },
-            {
-              "title": "Dirt and Debris",
-              "description": "General dirt, mud, and organic debris must be fully removed. Check corners and under furniture for missed patches."
-            }
-          ]
+          "step": 1,
+          "title": "Set up two buckets before the long clean",
+          "description": "Use one bucket to rinse the mop and another to apply detergent. This is especially useful in True Cleaner mode because detergents are limited."
         },
         {
-          "name": "Walls, Ceilings, and Elevated Surfaces",
-          "achievements": [
-            {
-              "title": "Splatter Above Eye Level",
-              "description": "Blood splatter reaches walls and ceilings in high-velocity scenes. Look up regularly and use the sponge for hard-to-reach vertical surfaces."
-            },
-            {
-              "title": "High Shelves and Fixtures",
-              "description": "Furniture tops and high shelves can collect contamination. Scan above eye level in every room before marking it complete."
-            }
-          ]
+          "step": 2,
+          "title": "Do a body-and-object sweep before the final polish",
+          "description": "A proven community method is to leave one body near the truck, clean the rest of the mission first, and avoid ending the mission after accidentally loading that body too early."
         },
         {
-          "name": "Furniture and Objects",
-          "achievements": [
-            {
-              "title": "Contaminated Furniture",
-              "description": "Upholstered furniture and decorative objects can hold stains. Use the sponge rather than the mop to avoid breaking fragile items."
-            },
-            {
-              "title": "Displaced and Broken Items",
-              "description": "Restore furniture to its original position and replace broken items where required. Missing this category is a common reason for incomplete scores."
-            }
-          ]
+          "step": 3,
+          "title": "Follow footprints, paw prints, and handprints instead of scanning randomly",
+          "description": "On Trial By Blood, dirty footprints lead from the entrance into the Men's Locker Room, and the Relaxation Zone still needs the pool drained and scrubbed. On Short Circuit, the TV Room gets dirtied again by the invisible cat, so follow the pawprints from the foyer door."
         },
         {
-          "name": "Bodies, Evidence, and Trash",
-          "achievements": [
-            {
-              "title": "All Bodies Bagged",
-              "description": "Every body must be fully bagged and removed from the scene. A single missed body prevents a full completion rating."
-            },
-            {
-              "title": "Evidence and Personal Effects",
-              "description": "All evidence items and personal effects must be collected. Check rooms after cleaning since items can be hidden under removed stains."
-            }
-          ]
+          "step": 4,
+          "title": "Check the hidden vertical surfaces every time",
+          "description": "Players commonly miss dirt on ceilings, around fans, on the inside of doors, behind beds, and around clutter piles. In Trial By Blood, the Sauna dirt spreads across benches, walls, floor, and the inside of the sauna door."
+        },
+        {
+          "step": 5,
+          "title": "Use mission counts to verify the run before exit",
+          "description": "For example, Bad Call True Cleaner requires 3 bodies, 9 evidence pieces, and 20 furniture restorations. Verify the objective counts room by room before the final truck run."
         }
       ]
     },
     "cscNightmareMode": {
       "title": "Crime Scene Cleaner Nightmare Mode Guide",
       "displayType": "accordion",
-      "intro": "Nightmare Mode in Crime Scene Cleaner adds additional challenges to existing missions, requiring more precise cleanup and stricter completion standards.",
-      "faqs": [
+      "eyebrow": "Nightmare",
+      "subtitle": "Nightmare mode remixes familiar maps into more puzzle-like cleanup runs. The most useful page structure is a mission-by-mission accordion that surfaces the special objective, collectible, and room pressure points first.",
+      "intro": "Nightmare mode is no longer just a harder replay of the same maps. It adds altered layouts, special objectives, and collectible routing that matter for completionist players.",
+      "sections": [
         {
-          "question": "What is Nightmare Mode in Crime Scene Cleaner?",
-          "answer": "Nightmare Mode is a harder variant of Crime Scene Cleaner's main missions that introduces additional cleanup requirements, stricter scoring, and more complex mission conditions compared to the standard version."
+          "section": "Modern Art Museum Nightmare",
+          "summary": "A large multi-wing route with portal navigation, misplaced furniture, evidence cleanup, and an Onyx cassette/disc collectible.",
+          "details": [
+            "Objectives include finding misplaced furniture across the Foyer, Cloud Level, Furniture Exhibition, Cafeteria, Magic Doors, Upper Passage, Music Exhibition, Ancient Exhibition, Sewage Exhibition, and Ducks Exhibition",
+            "The mission includes a dedicated cassette/disc objective for the Onyx collectible",
+            "Body routing relies on portal landmarks such as the cafeteria, ancient exhibition, furniture exhibition, upper passage, and sewage exhibition"
+          ]
         },
         {
-          "question": "How do I unlock Nightmare Mode in Crime Scene Cleaner?",
-          "answer": "Nightmare Mode becomes available after completing the standard version of a mission. Progress through the main mission list first before attempting the Nightmare variant of any location."
+          "section": "Party's Over Nightmare",
+          "summary": "A ritual-focused variant with a separate special objective and a Quartz cassette/disc pickup.",
+          "details": [
+            "This mission adds a special objective: preparing the ritual",
+            "The walkthrough also tracks the exact Quartz cassette/disc location",
+            "It is best handled as a structured cleanup instead of a freeform sweep"
+          ]
         },
         {
-          "question": "Is the cleanup area the same in Crime Scene Cleaner Nightmare Mode?",
-          "answer": "The base layout is similar, but Nightmare Mode typically has more stains, additional cleanup targets, or environmental changes that increase the difficulty of achieving a full clear."
+          "section": "Trial By Blood Nightmare",
+          "summary": "A reworked spa map with more guided evidence and person tracking.",
+          "details": [
+            "Key mission flow includes 7 people to find",
+            "The Solarium contains a Dreamcatcher evidence item hanging on the Flamingo statue",
+            "The VIP Room contains another Dreamcatcher evidence trigger behind a stone-activated wooden door",
+            "Locker cards such as W018 can tie into the Ruby cassette/disc route"
+          ]
         },
         {
-          "question": "Are there exclusive Crime Scene Cleaner achievements for Nightmare Mode?",
-          "answer": "Yes. Several Crime Scene Cleaner achievements are tied to completing missions in Nightmare Mode. Check the achievements list for specific unlocks associated with Nightmare completion."
-        },
-        {
-          "question": "What is the best strategy for Crime Scene Cleaner Nightmare Mode?",
-          "answer": "Master the standard version of a mission first and develop a reliable room-by-room route. Nightmare Mode rewards players who already have efficient cleanup habits from their regular playthroughs."
+          "section": "Why Nightmare Pages Matter After Act 2",
+          "summary": "Nightmare support keeps expanding alongside new post-launch mission coverage.",
+          "details": [
+            "The game hub added new Act 2 mission walkthroughs in March 2026",
+            "Nightmare pages are strongest when they focus on altered objectives, not just higher difficulty wording",
+            "Collectors benefit most when the page pairs each nightmare mission with its unique disc or special mechanic"
+          ]
         }
       ]
     },

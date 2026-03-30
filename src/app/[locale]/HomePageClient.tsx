@@ -616,89 +616,103 @@ export default function HomePageClient({ latestArticles, moduleLinkMap, locale }
       {/* 广告位 6: 移动端横幅 320×50 */}
       <AdBanner type="banner-320x50" adKey={process.env.NEXT_PUBLIC_AD_MOBILE_320X50} />
 
-      {/* Module 9: Farming and Growth */}
+      {/* Module 9: Cassette Tapes Guide */}
       <section id="cassette-tapes" className="scroll-mt-24 px-4 py-20">
         <div className="container mx-auto max-w-5xl">
           <div className="text-center mb-12 scroll-reveal">
+            <span className="inline-block text-xs font-semibold uppercase tracking-widest text-[hsl(var(--nav-theme-light))] mb-3">{t.modules.cscCassetteTapes.eyebrow}</span>
             <h2 className="text-4xl md:text-5xl font-bold mb-4"><LinkedTitle linkData={moduleLinkMap['cscCassetteTapes']} locale={locale}>{t.modules.cscCassetteTapes.title}</LinkedTitle></h2>
             <p className="text-muted-foreground text-lg max-w-3xl mx-auto">{t.modules.cscCassetteTapes.intro}</p>
           </div>
-          <div className="scroll-reveal grid grid-cols-1 md:grid-cols-2 gap-4 mb-8">
-            {t.modules.cscCassetteTapes.sections.map((s: any, index: number) => (
-              <div key={index} className="p-6 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors">
-                <div className="flex items-center gap-2 mb-3">
-                  <TrendingUp className="w-5 h-5 text-[hsl(var(--nav-theme-light))]" />
-                  <h3 className="font-bold">
-                    <LinkedTitle linkData={moduleLinkMap[`cscCassetteTapes::sections::${index}`]} locale={locale}>
-                      {s.name}
-                    </LinkedTitle>
-                  </h3>
-                </div>
-                <p className="text-muted-foreground text-sm">{s.description}</p>
-              </div>
-            ))}
+          {/* Desktop 4-column table */}
+          <div className="scroll-reveal hidden md:block overflow-x-auto rounded-xl border border-border mb-6">
+            <table className="w-full text-sm">
+              <thead>
+                <tr className="border-b border-border bg-white/5">
+                  <th className="text-left p-4 font-semibold text-[hsl(var(--nav-theme-light))]">Mission</th>
+                  <th className="text-left p-4 font-semibold text-[hsl(var(--nav-theme-light))]">Collectible</th>
+                  <th className="text-left p-4 font-semibold text-[hsl(var(--nav-theme-light))]">Location</th>
+                  <th className="text-left p-4 font-semibold text-[hsl(var(--nav-theme-light))]">Access Notes</th>
+                </tr>
+              </thead>
+              <tbody>
+                {t.modules.cscCassetteTapes.items.map((item: any, index: number) => (
+                  <tr key={index} className="border-b border-border/50 hover:bg-white/5 transition-colors">
+                    <td className="p-4 font-semibold whitespace-nowrap">
+                      <span className="px-2 py-1 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] text-xs">{item.mission}</span>
+                    </td>
+                    <td className="p-4 font-medium text-[hsl(var(--nav-theme-light))]">{item.collectible}</td>
+                    <td className="p-4 text-muted-foreground">{item.location}</td>
+                    <td className="p-4 text-muted-foreground text-xs">{item.access}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
           </div>
-          <div className="scroll-reveal flex flex-wrap gap-3 justify-center">
-            {t.modules.cscCassetteTapes.growthMilestones.map((m: string, i: number) => (
-              <span key={i} className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] text-sm">
-                <Check className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />{m}
-              </span>
+          {/* Mobile stacked cards */}
+          <div className="scroll-reveal md:hidden space-y-4">
+            {t.modules.cscCassetteTapes.items.map((item: any, index: number) => (
+              <div key={index} className="p-5 bg-white/5 border border-border rounded-xl">
+                <div className="flex items-center gap-2 mb-3">
+                  <span className="px-2 py-1 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] text-xs font-semibold">{item.mission}</span>
+                  <span className="font-bold text-[hsl(var(--nav-theme-light))]">{item.collectible}</span>
+                </div>
+                <p className="text-sm text-muted-foreground mb-2"><span className="font-medium text-foreground">Location:</span> {item.location}</p>
+                <p className="text-xs text-muted-foreground border-l-2 border-[hsl(var(--nav-theme)/0.3)] pl-3">{item.access}</p>
+              </div>
             ))}
           </div>
         </div>
       </section>
 
-      {/* Module 10: Best Early Unlocks */}
+      {/* Module 10: Bodies and Evidence Guide */}
       <section id="bodies-evidence" className="scroll-mt-24 px-4 py-20 bg-white/[0.02]">
         <div className="container mx-auto max-w-5xl">
           <div className="text-center mb-12 scroll-reveal">
+            <span className="inline-block text-xs font-semibold uppercase tracking-widest text-[hsl(var(--nav-theme-light))] mb-3">{t.modules.cscBodiesEvidence.eyebrow}</span>
             <h2 className="text-4xl md:text-5xl font-bold mb-4"><LinkedTitle linkData={moduleLinkMap['cscBodiesEvidence']} locale={locale}>{t.modules.cscBodiesEvidence.title}</LinkedTitle></h2>
             <p className="text-muted-foreground text-lg max-w-3xl mx-auto">{t.modules.cscBodiesEvidence.intro}</p>
           </div>
-          <div className="scroll-reveal grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-            {t.modules.cscBodiesEvidence.priorities.map((p: any, index: number) => (
+          <div className="scroll-reveal grid grid-cols-1 md:grid-cols-2 gap-5">
+            {t.modules.cscBodiesEvidence.items.map((item: any, index: number) => (
               <div key={index} className="p-6 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors">
-                <div className="flex items-center gap-2 mb-3">
-                  <Star className="w-5 h-5 text-[hsl(var(--nav-theme-light))]" />
-                  <span className={`text-xs px-2 py-1 rounded-full border ${p.priority === "Essential" ? "bg-red-500/10 border-red-500/30 text-red-400" : p.priority === "Very High" ? "bg-orange-500/10 border-orange-500/30 text-orange-400" : "bg-[hsl(var(--nav-theme)/0.1)] border-[hsl(var(--nav-theme)/0.3)]"}`}>{p.priority}</span>
+                <div className="flex items-center gap-3 mb-4">
+                  <div className="w-9 h-9 rounded-lg bg-[hsl(var(--nav-theme)/0.15)] flex items-center justify-center flex-shrink-0">
+                    <ClipboardCheck className="w-5 h-5 text-[hsl(var(--nav-theme-light))]" />
+                  </div>
+                  <h3 className="font-bold text-lg text-[hsl(var(--nav-theme-light))]">{item.mission}</h3>
                 </div>
-                <h3 className="font-bold mb-2">
-                  <LinkedTitle linkData={moduleLinkMap[`cscBodiesEvidence::priorities::${index}`]} locale={locale}>
-                    {p.name}
-                  </LinkedTitle>
-                </h3>
-                <p className="text-muted-foreground text-sm">{p.description}</p>
+                <ul className="space-y-2">
+                  {item.checkpoints.map((cp: string, ci: number) => (
+                    <li key={ci} className="flex items-start gap-2">
+                      <Check className="w-4 h-4 text-[hsl(var(--nav-theme-light))] mt-0.5 flex-shrink-0" />
+                      <span className="text-muted-foreground text-sm">{cp}</span>
+                    </li>
+                  ))}
+                </ul>
               </div>
             ))}
           </div>
         </div>
       </section>
 
-      {/* Module 11: Achievement Tracker */}
+      {/* Module 11: True Cleaner Guide */}
       <section id="true-cleaner" className="scroll-mt-24 px-4 py-20">
         <div className="container mx-auto max-w-5xl">
           <div className="text-center mb-12 scroll-reveal">
+            <span className="inline-block text-xs font-semibold uppercase tracking-widest text-[hsl(var(--nav-theme-light))] mb-3">{t.modules.cscTrueCleaner.eyebrow}</span>
             <h2 className="text-4xl md:text-5xl font-bold mb-4"><LinkedTitle linkData={moduleLinkMap['cscTrueCleaner']} locale={locale}>{t.modules.cscTrueCleaner.title}</LinkedTitle></h2>
             <p className="text-muted-foreground text-lg max-w-3xl mx-auto">{t.modules.cscTrueCleaner.intro}</p>
           </div>
-          <div className="scroll-reveal space-y-6">
-            {t.modules.cscTrueCleaner.groups.map((group: any, gi: number) => (
-              <div key={gi} className="p-6 bg-white/5 border border-border rounded-xl">
-                <div className="flex items-center gap-2 mb-4">
-                  <ClipboardCheck className="w-5 h-5 text-[hsl(var(--nav-theme-light))]" />
-                  <h3 className="font-bold text-lg">
-                    <LinkedTitle linkData={moduleLinkMap[`cscTrueCleaner::groups::${gi}`]} locale={locale}>
-                      {group.name}
-                    </LinkedTitle>
-                  </h3>
+          <div className="scroll-reveal space-y-4">
+            {t.modules.cscTrueCleaner.steps.map((step: any, index: number) => (
+              <div key={index} className="flex gap-4 p-6 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors">
+                <div className="flex-shrink-0 w-12 h-12 rounded-full bg-[hsl(var(--nav-theme)/0.2)] border-2 border-[hsl(var(--nav-theme)/0.5)] flex items-center justify-center">
+                  <span className="text-xl font-bold text-[hsl(var(--nav-theme-light))]">{step.step}</span>
                 </div>
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
-                  {group.achievements.map((a: any, ai: number) => (
-                    <div key={ai} className="p-3 bg-white/5 border border-border rounded-lg">
-                      <p className="font-semibold text-sm text-[hsl(var(--nav-theme-light))]">{a.title}</p>
-                      <p className="text-xs text-muted-foreground mt-1">{a.description}</p>
-                    </div>
-                  ))}
+                <div>
+                  <h3 className="text-xl font-bold mb-2 text-[hsl(var(--nav-theme-light))]">{step.title}</h3>
+                  <p className="text-muted-foreground text-sm">{step.description}</p>
                 </div>
               </div>
             ))}
@@ -706,25 +720,39 @@ export default function HomePageClient({ latestArticles, moduleLinkMap, locale }
         </div>
       </section>
 
-      {/* Module 12: Singleplayer FAQ */}
+      {/* Module 12: Nightmare Mode Guide */}
       <section id="nightmare-mode" className="scroll-mt-24 px-4 py-20 bg-white/[0.02]">
         <div className="container mx-auto max-w-5xl">
           <div className="text-center mb-12 scroll-reveal">
+            <span className="inline-block text-xs font-semibold uppercase tracking-widest text-[hsl(var(--nav-theme-light))] mb-3">{t.modules.cscNightmareMode.eyebrow}</span>
             <h2 className="text-4xl md:text-5xl font-bold mb-4"><LinkedTitle linkData={moduleLinkMap['cscNightmareMode']} locale={locale}>{t.modules.cscNightmareMode.title}</LinkedTitle></h2>
             <p className="text-muted-foreground text-lg max-w-3xl mx-auto">{t.modules.cscNightmareMode.intro}</p>
           </div>
           <div className="scroll-reveal space-y-2">
-            {t.modules.cscNightmareMode.faqs.map((faq: any, index: number) => (
+            {t.modules.cscNightmareMode.sections.map((sec: any, index: number) => (
               <div key={index} className="border border-border rounded-xl overflow-hidden">
                 <button
                   onClick={() => setFaqExpanded(faqExpanded === index ? null : index)}
                   className="w-full flex items-center justify-between p-5 text-left hover:bg-white/5 transition-colors"
                 >
-                  <span className="font-semibold">{faq.question}</span>
-                  <ChevronDown className={`w-5 h-5 flex-shrink-0 transition-transform ${faqExpanded === index ? "rotate-180" : ""}`} />
+                  <div className="flex items-start gap-3 flex-1 min-w-0">
+                    <AlertTriangle className="w-5 h-5 text-[hsl(var(--nav-theme-light))] flex-shrink-0 mt-0.5" />
+                    <div className="min-w-0">
+                      <span className="font-semibold block">{sec.section}</span>
+                      <p className="text-xs text-muted-foreground mt-0.5">{sec.summary}</p>
+                    </div>
+                  </div>
+                  <ChevronDown className={`w-5 h-5 flex-shrink-0 ml-3 transition-transform ${faqExpanded === index ? "rotate-180" : ""}`} />
                 </button>
                 {faqExpanded === index && (
-                  <div className="px-5 pb-5 text-muted-foreground text-sm">{faq.answer}</div>
+                  <div className="px-5 pb-5 space-y-2">
+                    {sec.details.map((detail: string, di: number) => (
+                      <div key={di} className="flex items-start gap-2">
+                        <ArrowRight className="w-4 h-4 text-[hsl(var(--nav-theme-light))] mt-1 flex-shrink-0" />
+                        <p className="text-muted-foreground text-sm">{detail}</p>
+                      </div>
+                    ))}
+                  </div>
                 )}
               </div>
             ))}
