@@ -18,18 +18,18 @@ const MODULE_FIELDS: Record<string, { field: string; nameKey: string }> = {
   cscWalkthrough: { field: 'cards', nameKey: 'name' },
   cscUpgradesGuide: { field: 'items', nameKey: 'name' },
   cscMopSkills: { field: 'solutions', nameKey: 'name' },
-  cscMoneyGuide: { field: 'cards', nameKey: 'name' },
-  cscPerfectScore: { field: 'regions', nameKey: 'name' },
-  cscAchievements: { field: 'creatures', nameKey: 'name' },
-  cscSecrets: { field: 'items', nameKey: 'name' },
-  cscCassetteTapes: { field: 'sections', nameKey: 'name' },
-  cscBodiesEvidence: { field: 'priorities', nameKey: 'name' },
-  cscTrueCleaner: { field: 'groups', nameKey: 'name' },
-  cscNightmareMode: { field: 'faqs', nameKey: 'question' },
-  cscAct2Walkthrough: { field: 'faqs', nameKey: 'question' },
-  cscAct2Secrets: { field: 'settings', nameKey: 'name' },
-  cscDetergents: { field: 'entries', nameKey: 'title' },
-  cscSystemInfo: { field: 'steps', nameKey: 'title' },
+  cscMoneyGuide: { field: 'items', nameKey: 'title' },
+  cscPerfectScore: { field: 'steps', nameKey: 'title' },
+  cscAchievements: { field: 'items', nameKey: 'name' },
+  cscSecrets: { field: 'sections', nameKey: 'name' },
+  cscCassetteTapes: { field: 'items', nameKey: 'mission' },
+  cscBodiesEvidence: { field: 'items', nameKey: 'mission' },
+  cscTrueCleaner: { field: 'steps', nameKey: 'title' },
+  cscNightmareMode: { field: 'sections', nameKey: 'section' },
+  cscAct2Walkthrough: { field: 'missions', nameKey: 'mission' },
+  cscAct2Secrets: { field: 'items', nameKey: 'mission' },
+  cscDetergents: { field: 'items', nameKey: 'detergent' },
+  cscSystemInfo: { field: 'items', nameKey: 'title' },
 }
 
 // Extra semantic keywords per module to boost matching for h2 titles
@@ -77,7 +77,7 @@ function matchScore(queryText: string, article: ArticleWithType, extraKeywords?:
 
   let score = 0
 
-  // Exact phrase match in title (stripped of "Lucid Blocks")
+  // Exact phrase match in title (stripped of game name)
   const strippedQuery = normalizedQuery.replace(/crime scene cleaner\s*/g, '').trim()
   const strippedTitle = normalizedTitle.replace(/crime scene cleaner\s*/g, '').trim()
   if (strippedQuery.length > 3 && strippedTitle.includes(strippedQuery)) {
