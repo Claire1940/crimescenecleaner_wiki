@@ -1,11 +1,11 @@
 {
-  "name": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-  "short_name": "Lucid Blocks",
-  "description": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
+  "name": "Crime Scene Cleaner Wiki - Reviews, Maps & Achievements",
+  "short_name": "CSC Wiki",
+  "description": "Crime Scene Cleaner wiki with guides for maps, achievements, updates, endings, tools, detergents, and platform info for Steam, Xbox, and PS5 players.",
   "start_url": "/",
   "display": "standalone",
   "orientation": "any",
-  "theme_color": "#1a7a7a",
+  "theme_color": "#8b1a1a",
   "background_color": "#0a0a0a",
   "icons": [
     {
