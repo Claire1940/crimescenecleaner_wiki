@@ -10,14 +10,7 @@
       "twitterDescription": "Crime Scene Cleaner wiki with guides for maps, achievements, updates, endings, tools, detergents, and platform info for Steam, Xbox, and PS5 players."
     }
   },
-  "nav": {
-    "guides": "Guides",
-    "crafting": "Crafting",
-    "items": "Items",
-    "biomes": "Biomes",
-    "building": "Building",
-    "support": "Support"
-  },
+  "nav": {},
   "common": {
     "home": "Home",
     "more": "More",

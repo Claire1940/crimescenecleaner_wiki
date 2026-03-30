@@ -9,26 +9,26 @@
   "retry_attempts": 2,
   "retry_delay": 5,
 
-  "languages": ["ru", "pt", "de", "es", "ja", "ko", "fr"],
+  "languages": ["ru", "de", "pt", "pl", "ja", "ko", "fr"],
   "default_language": "en",
   "output_dir": "content/",
 
   "game_names": {
-    "en": "Lucid Blocks",
-    "ru": "Lucid Blocks",
-    "pt": "Lucid Blocks",
-    "de": "Lucid Blocks",
-    "es": "Lucid Blocks",
-    "ja": "Lucid Blocks",
-    "ko": "Lucid Blocks",
-    "fr": "Lucid Blocks"
+    "en": "Crime Scene Cleaner",
+    "ru": "Crime Scene Cleaner",
+    "de": "Crime Scene Cleaner",
+    "pt": "Crime Scene Cleaner",
+    "pl": "Crime Scene Cleaner",
+    "ja": "Crime Scene Cleaner",
+    "ko": "Crime Scene Cleaner",
+    "fr": "Crime Scene Cleaner"
   },
 
   "lang_names": {
     "ru": "Russian",
-    "pt": "Portuguese (Brazil)",
     "de": "German",
-    "es": "Spanish (Latin America)",
+    "pt": "Portuguese (Brazil)",
+    "pl": "Polish",
     "ja": "Japanese",
     "ko": "Korean",
     "fr": "French"
