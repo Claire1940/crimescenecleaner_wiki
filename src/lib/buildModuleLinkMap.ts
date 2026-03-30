@@ -14,46 +14,46 @@ interface ArticleWithType extends ContentItem {
 
 // Module sub-field mapping: moduleKey -> { field, nameKey }
 const MODULE_FIELDS: Record<string, { field: string; nameKey: string }> = {
-  lucidBlocksBeginnerGuide: { field: 'steps', nameKey: 'title' },
-  lucidBlocksApotheosisCrafting: { field: 'cards', nameKey: 'name' },
-  lucidBlocksToolsAndWeapons: { field: 'items', nameKey: 'name' },
-  lucidBlocksStorageAndInventory: { field: 'solutions', nameKey: 'name' },
-  lucidBlocksQualiaAndBaseBuilding: { field: 'cards', nameKey: 'name' },
-  lucidBlocksWorldRegions: { field: 'regions', nameKey: 'name' },
-  lucidBlocksCreaturesAndEnemies: { field: 'creatures', nameKey: 'name' },
-  lucidBlocksMobilityGear: { field: 'items', nameKey: 'name' },
-  lucidBlocksFarmingAndGrowth: { field: 'sections', nameKey: 'name' },
-  lucidBlocksBestEarlyUnlocks: { field: 'priorities', nameKey: 'name' },
-  lucidBlocksAchievementTracker: { field: 'groups', nameKey: 'name' },
-  lucidBlocksSingleplayerAndPlatformFAQ: { field: 'faqs', nameKey: 'question' },
-  lucidBlocksSteamDeckAndController: { field: 'faqs', nameKey: 'question' },
-  lucidBlocksSettingsAndAccessibility: { field: 'settings', nameKey: 'name' },
-  lucidBlocksUpdatesAndPatchNotes: { field: 'entries', nameKey: 'title' },
-  lucidBlocksCrashFixAndTroubleshooting: { field: 'steps', nameKey: 'title' },
+  cscBeginnerGuide: { field: 'steps', nameKey: 'title' },
+  cscWalkthrough: { field: 'cards', nameKey: 'name' },
+  cscUpgradesGuide: { field: 'items', nameKey: 'name' },
+  cscMopSkills: { field: 'solutions', nameKey: 'name' },
+  cscMoneyGuide: { field: 'cards', nameKey: 'name' },
+  cscPerfectScore: { field: 'regions', nameKey: 'name' },
+  cscAchievements: { field: 'creatures', nameKey: 'name' },
+  cscSecrets: { field: 'items', nameKey: 'name' },
+  cscCassetteTapes: { field: 'sections', nameKey: 'name' },
+  cscBodiesEvidence: { field: 'priorities', nameKey: 'name' },
+  cscTrueCleaner: { field: 'groups', nameKey: 'name' },
+  cscNightmareMode: { field: 'faqs', nameKey: 'question' },
+  cscAct2Walkthrough: { field: 'faqs', nameKey: 'question' },
+  cscAct2Secrets: { field: 'settings', nameKey: 'name' },
+  cscDetergents: { field: 'entries', nameKey: 'title' },
+  cscSystemInfo: { field: 'steps', nameKey: 'title' },
 }
 
 // Extra semantic keywords per module to boost matching for h2 titles
 // These supplement the module title text when matching against articles
 const MODULE_EXTRA_KEYWORDS: Record<string, string[]> = {
-  lucidBlocksBeginnerGuide: ['guide', 'mastering', 'progression', 'crafting', 'starter'],
-  lucidBlocksApotheosisCrafting: ['apotheosis', 'fusion', 'essence'],
-  lucidBlocksToolsAndWeapons: ['crafting recipes', 'frost pick', 'osmium', 'azrael', 'faith wand'],
-  lucidBlocksStorageAndInventory: ['chest', 'cache cube', 'cabinet', 'storage'],
-  lucidBlocksQualiaAndBaseBuilding: ['qualia', 'clonaqualia', 'personal dimensions'],
-  lucidBlocksWorldRegions: ['tiamana', 'leyline', 'biomes', 'regions'],
-  lucidBlocksCreaturesAndEnemies: ['survival', 'combat', 'surreal creatures'],
-  lucidBlocksMobilityGear: ['bee glider', 'hookshot', 'glider', 'movement'],
-  lucidBlocksFarmingAndGrowth: ['seed', 'farming', 'growth', 'material', 'progression', 'crafting'],
-  lucidBlocksBestEarlyUnlocks: ['early', 'osmium', 'frost pick', 'starter', 'progression'],
-  lucidBlocksAchievementTracker: ['achievement', 'tiamana', 'leyline'],
-  lucidBlocksSingleplayerAndPlatformFAQ: ['multiplayer', 'platform', 'co op'],
-  lucidBlocksSteamDeckAndController: ['steam deck', 'controller', 'proton'],
-  lucidBlocksSettingsAndAccessibility: ['full screen', 'controls', 'display'],
-  lucidBlocksUpdatesAndPatchNotes: ['update', 'patch', 'fix'],
-  lucidBlocksCrashFixAndTroubleshooting: ['crash', 'vulkan', 'troubleshooting', 'full screen', 'controls', 'gameplay'],
+  cscBeginnerGuide: ['guide', 'beginner', 'basics', 'cleanup', 'tips', 'starter'],
+  cscWalkthrough: ['walkthrough', 'missions', 'bad call', 'amber alert', 'trial by blood'],
+  cscUpgradesGuide: ['upgrades', 'skills', 'bucket', 'mop upgrades', 'cleaning speed'],
+  cscMopSkills: ['mop', 'skills', 'detergent', 'two bucket', 'resistance', 'range'],
+  cscMoneyGuide: ['money', 'cash', 'valuables', 'treasure', 'payout', 'earn'],
+  cscPerfectScore: ['perfect score', 'completion', 'full clean', 'rating', '100 percent'],
+  cscAchievements: ['achievements', 'steam achievements', 'unlock', 'completion'],
+  cscSecrets: ['secrets', 'hidden rooms', 'puzzle', 'secret locations', 'cassette'],
+  cscCassetteTapes: ['cassette', 'tapes', 'music', 'cds', 'collectibles', 'locations'],
+  cscBodiesEvidence: ['bodies', 'evidence', 'disposal', 'bagging', 'trash'],
+  cscTrueCleaner: ['true cleaner', 'full clean', '100 percent', 'checklist', 'rating'],
+  cscNightmareMode: ['nightmare', 'difficulty', 'hard mode', 'nightmare mode'],
+  cscAct2Walkthrough: ['act 2', 'amber alert', 'act2', 'new missions'],
+  cscAct2Secrets: ['act 2 secrets', 'act 2 cds', 'amber alert secrets', 'hidden cds'],
+  cscDetergents: ['detergent', 'mixes', 'cleaning formula', 'bucket mix'],
+  cscSystemInfo: ['system requirements', 'pc requirements', 'updates', 'patch notes'],
 }
 
-const FILLER_WORDS = ['lucid', 'blocks', '2026', '2025', 'complete', 'the', 'and', 'for', 'how', 'with', 'our', 'this', 'your', 'all', 'from', 'learn', 'master']
+const FILLER_WORDS = ['crime', 'scene', 'cleaner', '2026', '2025', 'complete', 'the', 'and', 'for', 'how', 'with', 'our', 'this', 'your', 'all', 'from', 'learn', 'master']
 
 function normalize(text: string): string {
   return text
@@ -78,8 +78,8 @@ function matchScore(queryText: string, article: ArticleWithType, extraKeywords?:
   let score = 0
 
   // Exact phrase match in title (stripped of "Lucid Blocks")
-  const strippedQuery = normalizedQuery.replace(/lucid blocks?\s*/g, '').trim()
-  const strippedTitle = normalizedTitle.replace(/lucid blocks?\s*/g, '').trim()
+  const strippedQuery = normalizedQuery.replace(/crime scene cleaner\s*/g, '').trim()
+  const strippedTitle = normalizedTitle.replace(/crime scene cleaner\s*/g, '').trim()
   if (strippedQuery.length > 3 && strippedTitle.includes(strippedQuery)) {
     score += 100
   }

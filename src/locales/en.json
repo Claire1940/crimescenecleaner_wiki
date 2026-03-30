@@ -51,696 +51,641 @@
     }
   },
   "gameFeature": {
-    "title": "Lucid Blocks Gameplay",
-    "description": "Explore surreal biomes, fuse items with Apotheosis, and survive strange creatures in this dreamlike voxel sandbox on Steam."
+    "title": "Crime Scene Cleaner Gameplay",
+    "description": "Clean blood, bag bodies, remove evidence, and upgrade your cleaning tools across multiple crime scene locations in this gory first-person cleaning simulator on Steam, Xbox, and PS5."
   },
   "tools": {
-    "title": "Lucid Blocks",
-    "titleHighlight": "Resources",
-    "subtitle": "Everything you need to explore, craft, and survive in Lucid Blocks",
+    "title": "Crime Scene Cleaner",
+    "titleHighlight": "Guide Hub",
+    "subtitle": "Everything you need to know about cleaning, upgrading, and mastering Crime Scene Cleaner",
     "cards": [
       {
         "icon": "BookOpen",
-        "title": "Beginner Guide",
-        "description": "First steps, exploration, and early progression"
+        "title": "Crime Scene Cleaner Beginner Guide",
+        "description": "First steps, cleanup loop, and core tool basics"
       },
       {
-        "icon": "Sparkles",
-        "title": "Apotheosis Crafting",
-        "description": "Freeform fusion system and early recipes"
-      },
-      {
-        "icon": "Hammer",
-        "title": "Tools and Weapons",
-        "description": "Frost Pick, Azrael, Hookshot, and more"
-      },
-      {
-        "icon": "Package",
-        "title": "Storage and Inventory",
-        "description": "Cache Cubes, Cabinets, and Qualia storage"
-      },
-      {
-        "icon": "Home",
-        "title": "Qualia and Base Building",
-        "description": "Personal Qualia and home base setup"
-      },
-      {
-        "icon": "Eye",
-        "title": "World Regions",
-        "description": "Fog Meadow, Essence Morass, and more"
-      },
-      {
-        "icon": "AlertTriangle",
-        "title": "Creatures and Enemies",
-        "description": "Manikins, spiders, and how to survive"
-      },
-      {
-        "icon": "ArrowRight",
-        "title": "Mobility Gear",
-        "description": "Hookshot, Glider Glove, Bee Glider"
+        "icon": "Map",
+        "title": "Crime Scene Cleaner Walkthrough",
+        "description": "Key missions from Bad Call to Act 2 Amber Alert"
       },
       {
         "icon": "TrendingUp",
-        "title": "Farming and Growth",
-        "description": "Seed progression and material farming"
+        "title": "Crime Scene Cleaner Upgrades Guide",
+        "description": "Best upgrades for mop, bucket, and cleaning speed"
       },
       {
-        "icon": "Star",
-        "title": "Best Early Unlocks",
-        "description": "Priority upgrades for the first hour"
+        "icon": "Hammer",
+        "title": "Crime Scene Cleaner Mop Skills Guide",
+        "description": "Mop skills, detergent synergy, and two-bucket setup"
+      },
+      {
+        "icon": "DollarSign",
+        "title": "Crime Scene Cleaner Money Guide",
+        "description": "Earn cash faster through valuables and hidden spots"
+      },
+      {
+        "icon": "Target",
+        "title": "Crime Scene Cleaner Perfect Score Guide",
+        "description": "Avoid score penalties and clear maps to 100 percent"
+      },
+      {
+        "icon": "Trophy",
+        "title": "Crime Scene Cleaner Achievements Guide",
+        "description": "All 80 Steam achievements and how to unlock them"
+      },
+      {
+        "icon": "Eye",
+        "title": "Crime Scene Cleaner Secrets Guide",
+        "description": "Hidden rooms, puzzle doors, and secret interactions"
+      },
+      {
+        "icon": "Music",
+        "title": "Crime Scene Cleaner Cassette Tapes Guide",
+        "description": "All cassette and CD locations by mission"
+      },
+      {
+        "icon": "Package",
+        "title": "Crime Scene Cleaner Bodies and Evidence Guide",
+        "description": "Body disposal and evidence collection strategies"
       },
       {
         "icon": "ClipboardCheck",
-        "title": "Achievement Tracker",
-        "description": "All 19 Steam achievements and conditions"
-      },
-      {
-        "icon": "MessageCircle",
-        "title": "Singleplayer FAQ",
-        "description": "Platform, price, co-op, and language questions"
-      },
-      {
-        "icon": "Gamepad2",
-        "title": "Steam Deck and Controller",
-        "description": "Proton 9.0.4 setup and controller tips"
-      },
-      {
-        "icon": "Settings",
-        "title": "Settings and Accessibility",
-        "description": "Hide hands, Vulkan, and display options"
-      },
-      {
-        "icon": "Clock",
-        "title": "Updates and Patch Notes",
-        "description": "Recent fixes and roadmap notes"
+        "title": "Crime Scene Cleaner True Cleaner Guide",
+        "description": "Full clean rating checklist by surface and category"
       },
       {
         "icon": "Shield",
-        "title": "Crash Fix",
-        "description": "Vulkan check, logs path, and bug reporting"
+        "title": "Crime Scene Cleaner Nightmare Mode Guide",
+        "description": "How to approach Nightmare difficulty missions"
+      },
+      {
+        "icon": "Clock",
+        "title": "Crime Scene Cleaner Act 2 Walkthrough",
+        "description": "Act 2 missions, story content, and new locations"
+      },
+      {
+        "icon": "Star",
+        "title": "Crime Scene Cleaner Act 2 Secrets and CDs Guide",
+        "description": "All Act 2 hidden CDs and secret room locations"
+      },
+      {
+        "icon": "FlaskConical",
+        "title": "Crime Scene Cleaner Detergents Guide",
+        "description": "Best detergent mixes and cleaning efficiency tips"
+      },
+      {
+        "icon": "Settings",
+        "title": "Crime Scene Cleaner System Requirements and Updates",
+        "description": "PC specs, platform info, and update history"
       }
     ]
   },
   "modules": {
-    "lucidBlocksBeginnerGuide": {
-      "title": "Lucid Blocks Beginner Guide",
+    "cscBeginnerGuide": {
+      "title": "Crime Scene Cleaner Beginner Guide",
       "displayType": "steps",
-      "intro": "Start by learning how exploration, fusion, and progression connect. Lucid Blocks rewards experimentation, so early progress comes from gathering unusual materials, testing combinations, and unlocking your personal Qualia.",
+      "intro": "Crime Scene Cleaner rewards players who understand the order of operations before diving into each job. Learn the cleanup loop, tool choices, and early habits that save time across every mission.",
       "steps": [
         {
-          "title": "Explore Before You Commit",
-          "description": "Walk outward, mine common blocks, and keep any strange drops you find. Early progress is less about fixed quests and more about discovering what materials can become."
+          "title": "Scan the Whole Scene First",
+          "description": "Before touching anything, walk through the full location. Each mission in Crime Scene Cleaner has a different mess layout, and scanning the scene first helps you spot hidden blood trails, evidence, and blockers before you start cleaning."
         },
         {
-          "title": "Unlock Your Personal Qualia Early",
-          "description": "Your personal Qualia is one of the most important early milestones. It gives you a reliable place to regroup and build around."
+          "title": "Clear Bodies and Trash Early",
+          "description": "Body disposal and trash pickup open your movement lines and reveal hidden stains and evidence underneath. Doing this first reduces backtracking and helps you find items you would otherwise miss."
         },
         {
-          "title": "Use Osmium for Fast Early Progress",
-          "description": "Osmium is one of the most useful early materials. A popular early route is combining Osmium with sticks to make a Frost Pick for fast mining."
+          "title": "Use the Right Tool for Each Surface",
+          "description": "The mop handles general bloodstains and open floor areas. The sponge is better for delicate objects, carpets, and furniture. The pressure washer works well on large surfaces but can cause extra mess if used carelessly near fragile setups."
         },
         {
-          "title": "Record Good Fusions",
-          "description": "Keep track of successful combinations in your journal. Lucid Blocks has many possible fusion paths, so writing down useful results saves a lot of time."
+          "title": "Manage Your Bucket",
+          "description": "Both the mop and sponge get dirty over time. Rinse them before they start spreading contamination instead of removing it. Fresh water resets your tool, but it also removes detergent buffs, so time your rinses carefully."
+        },
+        {
+          "title": "Do a Full Sweep Before Leaving",
+          "description": "Completion in Crime Scene Cleaner is tracked per area. Before finishing a job, do a final walkthrough of every room including ceilings, high shelves, and furniture undersides. Hidden stains and missed items are the most common reason for lower scores."
+        },
+        {
+          "title": "Invest in Core Upgrades First",
+          "description": "Upgrade your mop resistance, bucket capacity, and cleaning speed before spending on niche tools. These core improvements pay off across every mission and reduce friction on larger, more complex maps."
         }
       ],
       "quickTips": [
-        "Apotheosis does not require a fixed recipe list.",
-        "Infinite world generation means moving higher or deeper can reveal completely different materials.",
-        "Movement tools and utility gear become a major quality-of-life boost once you start unlocking them.",
-        "Getting lost early is normal, but useful tools, storage, and movement options snowball fast once your first good fusions start working."
+        "Completion percentage is tracked per area, not per mission overall.",
+        "A dirty mop eventually spreads stains instead of removing them.",
+        "Check ceilings, high fixtures, and furniture surfaces — blood splatter appears everywhere.",
+        "Bucket rinsing removes detergent effects, so plan your bucket use before rinsing."
       ]
     },
-    "lucidBlocksApotheosisCrafting": {
-      "title": "Lucid Blocks Apotheosis Crafting",
+    "cscWalkthrough": {
+      "title": "Crime Scene Cleaner Walkthrough",
       "displayType": "cards",
-      "intro": "Apotheosis is the game's unrestricted fusion system. Instead of memorizing a traditional recipe book, you combine materials, watch the result, and build your own crafting knowledge over time.",
+      "intro": "Each Crime Scene Cleaner mission has its own layout, cleanup priorities, and secrets to find. Use this hub to understand what to expect from key missions and how to approach them efficiently.",
       "cards": [
         {
-          "name": "Freeform Fusion",
-          "description": "Apotheosis lets you fuse together different items without needing to follow a fixed recipe list."
+          "name": "Bad Call",
+          "description": "The first main mission and the clearest introduction to the full cleanup loop. Focus on learning full-clear habits, check the attic and backroom carefully, and use this mission to build the foundations for larger maps."
         },
         {
-          "name": "Multiple Useful Outcomes",
-          "description": "Different materials often push toward certain results. Community discoveries show that similar inputs can still lead to practical tools, storage, or combat upgrades."
+          "name": "Trial by Blood",
+          "description": "Set in Miko's Spa and Wellness, this mission tests how well you switch between broad cleaning and careful detail work in a more layered, decorative interior. Track secrets and cassette pickups while the rooms are still fresh."
         },
         {
-          "name": "Journal-First Crafting",
-          "description": "The best way to learn Apotheosis is to track your successful combinations. Your journal quickly becomes your own crafting reference."
+          "name": "Affair with Death",
+          "description": "The Mountainside Villa is one of the larger early jobs with five bodies and plenty of evidence. Route floor by floor instead of improvising and check locked side rooms as part of your main circuit."
         },
         {
-          "name": "Community-Tested Early Fusions",
-          "description": "Popular early examples include Osmium plus Stick for a Frost Pick, Stick plus Tungsten Appendage for Azrael, and Azrael plus Magnetite for the Tendril Rapier."
+          "name": "Amber Alert",
+          "description": "An Act 2 completion-heavy mission with collectibles, secrets, and multiple cleanup goals. Approach it like a 100 percent clear mission and track collectibles alongside main objectives."
         }
       ],
       "milestones": [
-        "Fuse an item",
-        "Fuse a vermin",
-        "Fuse a divine artifact"
+        "Learn the cleanup loop in Bad Call",
+        "Navigate Miko's Spa multi-room layout",
+        "Clear Mountainside Villa with a floor-by-floor route",
+        "Reach full completion in Amber Alert"
       ]
     },
-    "lucidBlocksToolsAndWeapons": {
-      "title": "Lucid Blocks Tools and Weapons",
-      "displayType": "itemCards",
-      "intro": "Lucid Blocks mixes official utility gear with community-discovered early weapons. The best setup is usually a blend of fast mining, safe traversal, and one dependable combat option.",
+    "cscUpgradesGuide": {
+      "title": "Crime Scene Cleaner Upgrades Guide",
+      "displayType": "table",
+      "intro": "The best upgrades in Crime Scene Cleaner are the ones that reduce friction on every single mission. Start with core tool improvements before spending on niche paths that only matter in specific situations.",
       "items": [
         {
-          "name": "Frost Pick",
-          "type": "Mining Tool",
-          "description": "A fast and affordable early pick made from Osmium and Stick. Players use it to speed up early material gathering."
+          "name": "Basic Mop Upgrades",
+          "type": "High Priority",
+          "description": "The mop is your main all-purpose tool and affects blood cleanup on nearly every map. Improving mop performance reduces dirty-tool downtime and is the strongest early investment."
         },
         {
-          "name": "Azrael",
-          "type": "Starter Weapon",
-          "description": "A practical early weapon route crafted from Stick and Tungsten Appendage."
+          "name": "Bucket Upgrades",
+          "type": "High Priority",
+          "description": "Bucket management is central because both mops and sponges rely on rinsing. Better bucket capacity and performance reduces resets and supports detergent use."
         },
         {
-          "name": "Tendril Rapier",
-          "type": "Upgraded Weapon",
-          "description": "A stronger follow-up made by combining Azrael with Magnetite. It is one of the most useful early-mid combat paths shared by players."
+          "name": "Sponge Upgrades",
+          "type": "High Priority",
+          "description": "The sponge handles fragile objects, carpets, and furniture surfaces. It becomes more valuable as mission variety increases and you encounter more complex indoor layouts."
         },
         {
-          "name": "Hookshot",
-          "type": "Mobility Tool",
-          "description": "An official traversal item that greatly improves movement and vertical exploration."
+          "name": "Additional Bucket",
+          "type": "High Priority",
+          "description": "The base of the two-bucket strategy. Run one bucket with detergent for cleaning buffs and one with plain water for rinsing, which helps you hold detergent effects much longer."
         },
         {
-          "name": "Bee Glider",
-          "type": "Mobility Tool",
-          "description": "An official movement item that helps cover space more safely and efficiently."
+          "name": "Cleaning Speed",
+          "type": "High Priority",
+          "description": "Speed upgrades affect the pace of nearly every mission and reduce time loss on larger jobs. Among the most recommended early skill picks across community guides."
         },
         {
-          "name": "Ball Wand",
-          "type": "Utility Weapon",
-          "description": "An official ranged utility item that expands your combat and puzzle options."
+          "name": "Pressure Washer Path",
+          "type": "Medium Priority",
+          "description": "Excellent for large open surfaces but more situational than mop and sponge upgrades. Best used in areas with low risk of creating extra mess from overspray."
         },
         {
-          "name": "Scuba Diving Gear",
-          "type": "Traversal Gear",
-          "description": "An official utility item for reaching areas that would otherwise slow down exploration."
+          "name": "Ozonator Utility",
+          "type": "Medium Priority",
+          "description": "Weakens nearby stains and softens rooms while you clean elsewhere. A useful support tool on larger jobs, but not a first-buy priority compared to core cleaning improvements."
         },
         {
-          "name": "Explosives",
-          "type": "Utility Damage",
-          "description": "Officially highlighted as part of the core toolset and useful for breaking through threats or obstacles."
+          "name": "Detergent Investment",
+          "type": "Lower Priority",
+          "description": "Detergents are strong but can be delayed if you use the two-bucket setup. Focus on raw cleaning tool efficiency first and add detergent depth once your core loop is stable."
         }
       ]
     },
-    "lucidBlocksStorageAndInventory": {
-      "title": "Lucid Blocks Storage and Inventory",
-      "displayType": "solutionCards",
-      "intro": "Inventory pressure starts early in Lucid Blocks, so building storage should be one of your first goals. Several real player-tested solutions already stand out.",
+    "cscMopSkills": {
+      "title": "Crime Scene Cleaner Mop Skills Guide",
+      "displayType": "card-list",
+      "intro": "The mop is the backbone of almost every cleanup run in Crime Scene Cleaner. A strong mop setup reduces rinsing interruptions, widens each cleaning pass, and keeps your loop efficient across long missions.",
       "solutions": [
         {
-          "name": "Cache Cube",
-          "role": "Chest-Like Storage",
-          "description": "Cache Cubes are one of the earliest practical storage answers and are treated by players as the game's main chest-style container."
+          "name": "Increased Resistance",
+          "role": "Core Pick",
+          "description": "One of the standout mop skills because it extends how long the mop stays effective before getting too dirty to clean. Directly reduces downtime caused by forced rinsing."
         },
         {
-          "name": "Cabinet",
-          "role": "Simple Base Storage",
-          "description": "Cabinets are another confirmed storage option. A shared early recipe uses 1 Cut Wood and 1 String."
+          "name": "Increased Range",
+          "role": "Efficiency",
+          "description": "Each cleaning pass covers more floor area, which adds up quickly in open-plan interiors with repeated stains across large surfaces."
         },
         {
-          "name": "Personal Qualia",
-          "role": "Long-Term Storage Hub",
-          "description": "Once unlocked, your personal Qualia becomes a natural place to organize materials, craft in peace, and expand your base setup."
+          "name": "Cleaning Speed",
+          "role": "Fast Clear",
+          "description": "Frequently recommended because it improves the pace of routine stain removal across nearly every mission. Pairs well with players going for faster full clears."
         },
         {
-          "name": "Journal Tracking",
-          "role": "Inventory Efficiency",
-          "description": "Recording useful combinations in your journal reduces wasted materials and makes inventory management much easier."
+          "name": "Clean and Power Detergents",
+          "role": "Synergy",
+          "description": "Detergent support improves stain handling and helps the mop stay effective for longer. Use with a dedicated detergent bucket to hold cleaning buffs through long sessions."
+        },
+        {
+          "name": "Careful Steps",
+          "role": "Safety",
+          "description": "A practical pick for players minimizing accidental rework, especially in cluttered indoor areas where pathing mistakes cost extra cleaning time."
+        },
+        {
+          "name": "Two-Bucket Setup",
+          "role": "Pro Setup",
+          "description": "One bucket with detergent for buffs and one with plain water for rinsing. The most widely shared mop-adjacent optimization for maintaining a stronger cleaning loop over time."
         }
       ],
       "managementTips": [
-        "Prioritize one dependable storage option before hoarding rare drops.",
-        "Build around your personal Qualia once it becomes available.",
-        "Keep crafting materials, combat tools, and movement gear separated so upgrades are easier to plan.",
-        "Use your journal as part of inventory management, not just crafting discovery."
+        "A dirty mop eventually creates new stains instead of removing them — rinse before this threshold.",
+        "Use one detergent bucket and one water bucket to hold cleaning buffs without losing them on every rinse.",
+        "Increased Range is especially valuable in open floor areas where coverage per pass matters most.",
+        "Build the mop setup first before committing to pressure washer or ozonator paths."
       ]
     },
-    "lucidBlocksQualiaAndBaseBuilding": {
-      "title": "Lucid Blocks Qualia and Base Building",
-      "displayType": "cards",
-      "intro": "Qualia is one of the most important progression milestones in Lucid Blocks. It gives you a personal space to regroup, store materials, and gradually turn exploration progress into a real home base.",
+    "cscMoneyGuide": {
+      "title": "Crime Scene Cleaner Money Guide",
+      "displayType": "card-list",
+      "intro": "Money in Crime Scene Cleaner comes from clean job scores, collecting valuables, and finding hidden items across each location. Better payout comes from approaching missions with both cleanup quality and treasure hunting in mind.",
       "cards": [
         {
-          "name": "Personal Qualia",
-          "description": "Unlocking a Qualia is an early milestone that gives you a more reliable place to return to while exploring the wider world."
+          "name": "Collect All Valuables",
+          "description": "Every job location contains items worth money. Check drawers, cabinets, shelves, and under furniture. A complete search before leaving always reveals additional payouts."
         },
         {
-          "name": "Storage-First Building",
-          "description": "Many players start using their Qualia as a storage hub before turning it into a larger base with organized crafting and building space."
+          "name": "Find Hidden Items and Rooms",
+          "description": "Some maps have secret areas and puzzle-triggered spaces with additional valuables. Players who discover hidden rooms consistently earn more per mission."
         },
         {
-          "name": "Creative Home Building",
-          "description": "Lucid Blocks supports creative building, and players are already using Qualia spaces to make houses and personalized layouts."
+          "name": "Aim for Higher Completion Ratings",
+          "description": "Score-based payout means a cleaner finish yields more money. Fewer missed spots and a higher overall rating translate directly into better mission payouts."
         },
         {
-          "name": "Progression Hub",
-          "description": "A strong base helps you separate exploration loot, crafting materials, seeds, tools, and mobility gear so your next upgrades are easier to plan."
+          "name": "Use the Achievement Route",
+          "description": "Following the Treasure and Strawberry Fields achievement paths is one of the most reliable ways to maximize cash earned in a single playthrough."
         }
       ],
       "highlights": [
-        "Enter a qualia",
-        "Store materials safely",
-        "Expand from utility to decoration",
-        "Use base space to support crafting and farming"
+        "Check every drawer and cabinet before leaving",
+        "Explore all rooms including locked side areas",
+        "Higher completion ratings mean bigger payouts",
+        "Achievement routes often overlap with best money spots"
       ]
     },
-    "lucidBlocksWorldRegions": {
-      "title": "Lucid Blocks World Regions",
-      "displayType": "regionCards",
-      "intro": "Lucid Blocks uses infinite world generation, so players keep discovering new environments and structures. A few named places are already showing up in achievements and community discussions.",
+    "cscPerfectScore": {
+      "title": "Crime Scene Cleaner Perfect Score Guide",
+      "displayType": "step-by-step",
+      "intro": "A perfect score in Crime Scene Cleaner requires clearing everything in each area without leaving missed spots, uncollected items, or displaced furniture. Knowing what the game tracks is the first step to avoiding score penalties.",
       "regions": [
         {
-          "name": "Fog Meadow",
-          "type": "Community-Noted Area",
-          "description": "Fog Meadow is already known among players as a tense area associated with hidden threats and dangerous encounters."
+          "name": "Complete Blood and Stain Cleanup",
+          "type": "Key Requirement",
+          "description": "Every blood stain, splash, and surface contamination must be fully cleaned. Ceilings, walls, and above-eye-level surfaces are common spots players miss in their first pass."
         },
         {
-          "name": "Tiamana Leyline",
-          "type": "Discovery Landmark",
-          "description": "The tiamana leyline is important enough to have its own achievement milestone, making it one of the clearest named world discoveries so far."
+          "name": "Remove All Bodies and Trash",
+          "type": "Key Requirement",
+          "description": "Body bags and all trash items must be fully removed from the scene. Partial removal does not count — the area must be completely cleared to avoid score deductions."
         },
         {
-          "name": "Clonaqualia",
-          "type": "Build Space",
-          "description": "Players are already using Clonaqualia as a place to build houses, store materials, and experiment with more permanent layouts."
+          "name": "Collect All Evidence and Valuables",
+          "type": "Key Requirement",
+          "description": "Evidence pieces, personal effects, and mission-specific collectibles must all be accounted for. Missing any piece affects your score and may lock certain completion bonuses."
         },
         {
-          "name": "Essence Morass",
-          "type": "Farming Area",
-          "description": "Essence Morass is being shared by players as a useful farming location, especially for fighting slimes and gaining experience."
+          "name": "Restore Displaced Furniture and Objects",
+          "type": "Bonus Points",
+          "description": "Some missions require furniture to be returned to its original position or broken items replaced. Completing this fully adds to your final score and is required for certain achievements."
         }
       ]
     },
-    "lucidBlocksCreaturesAndEnemies": {
-      "title": "Lucid Blocks Creatures and Enemies",
-      "displayType": "creatureCards",
-      "intro": "Lucid Blocks mixes surreal creatures with real danger. Official descriptions and community posts point to a world full of strange life, hostile threats, and a few standout encounters players remember quickly.",
+    "cscAchievements": {
+      "title": "Crime Scene Cleaner Achievements Guide",
+      "displayType": "table",
+      "intro": "Crime Scene Cleaner has 80 Steam achievements covering mission completion, collectibles, tool use, exploration, and score targets. Many achievements can be combined into a single efficient run with the right route.",
       "creatures": [
         {
-          "name": "Manikins",
-          "role": "Hostile Enemy",
-          "description": "Manikins are one of the officially named foes in the world and part of the game's surreal threat roster."
+          "name": "The Cleaner",
+          "role": "Completion",
+          "description": "Awarded for completing a mission with full cleanup. Unlocking this early sets the foundation for the True Cleaner and 100 percent completion paths."
         },
         {
-          "name": "Squishy Gels",
-          "role": "Hostile Enemy",
-          "description": "Squishy gels are another officially named enemy type and help define the game's strange biological style."
+          "name": "Treasure",
+          "role": "Exploration",
+          "description": "Requires finding a specific hidden item or collection across one of the main missions. Overlaps with the money farming route."
         },
         {
-          "name": "Higher-Dimensional Beings",
-          "role": "Hostile Enemy",
-          "description": "These beings are presented as part of the world's more abstract and unsettling enemy lineup."
+          "name": "Strawberry Fields Forever",
+          "role": "Exploration",
+          "description": "Connected to a hidden interaction or location in one of the story missions. Players following the treasure achievement route often unlock this in the same run."
         },
         {
-          "name": "Colossal Spiders",
-          "role": "Major Threat",
-          "description": "Spiders are one of the most immediately feared enemies in community discussions and are clearly a memorable danger."
+          "name": "98 Percent",
+          "role": "Completion",
+          "description": "Linked to the common player experience of reaching near-complete cleanup and getting stuck. Usually caused by a missed stain above eye level or behind furniture."
         },
         {
-          "name": "Bubblebear",
-          "role": "Named Creature",
-          "description": "Bubblebear is notable enough to have its own achievement, which makes it one of the clearest named creature encounters in the game."
+          "name": "Nightmare Survivor",
+          "role": "Difficulty",
+          "description": "Awarded for completing a mission on Nightmare difficulty. Requires mastering cleanup routing and resource management under stricter conditions."
         },
         {
-          "name": "Cute Vermin",
-          "role": "Interactable Creature",
-          "description": "Vermin are not only part of fusion progression, they can also be renamed, giving them a more personal role than standard enemies."
-        },
-        {
-          "name": "Blasphemous Creature",
-          "role": "Elite Threat",
-          "description": "The blasphemous creature is tied to a dedicated combat achievement, marking it as a significant enemy encounter."
+          "name": "Act 2 Complete",
+          "role": "Progression",
+          "description": "Unlocked after completing all Act 2 missions including the completion-heavy Amber Alert and its associated secrets."
         }
       ]
     },
-    "lucidBlocksMobilityGear": {
-      "title": "Lucid Blocks Mobility Gear",
-      "displayType": "itemCards",
-      "intro": "Movement upgrades are one of the biggest quality-of-life jumps in Lucid Blocks. Once you unlock your first traversal tools, exploration becomes faster, safer, and much more rewarding.",
+    "cscSecrets": {
+      "title": "Crime Scene Cleaner Secrets Guide",
+      "displayType": "accordion",
+      "intro": "Crime Scene Cleaner has hidden rooms, puzzle-triggered doors, and secret interactions across multiple missions. Many secrets overlap with collectibles, achievement routes, and hidden money spots.",
       "items": [
         {
-          "name": "Hookshot",
-          "type": "Traversal Tool",
-          "description": "The hookshot is one of the clearest movement milestones in the game and has its own dedicated achievement."
+          "name": "Hidden Rooms",
+          "type": "Secret Type",
+          "description": "Several missions include rooms that are not visible on first glance. These are accessed through specific triggers, item interactions, or by finding concealed doorways behind furniture or walls."
         },
         {
-          "name": "Glider Glove",
-          "type": "Air Mobility",
-          "description": "The glider glove opens up much smoother travel and is another major progression milestone with its own achievement."
+          "name": "Puzzle-Triggered Doors",
+          "type": "Secret Type",
+          "description": "Some areas require solving a specific environmental puzzle or finding an item before an alternate path opens. These are most common in the larger missions."
         },
         {
-          "name": "Bee Glider",
-          "type": "Traversal Tool",
-          "description": "Bee gliders are officially highlighted as part of the game's movement toolkit for covering space more efficiently."
+          "name": "Cassette Tape Locations",
+          "type": "Collectible Secret",
+          "description": "Cassette tapes and CDs are hidden throughout each mission and are easy to miss on a standard clear. Many are in rooms that require you to clean first before the item becomes visible."
         },
         {
-          "name": "Ball Wand",
-          "type": "Utility Gear",
-          "description": "Ball wands are one of the officially highlighted special tools and expand how you move through or interact with the world."
+          "name": "Evidence and Personal Effects",
+          "type": "Mission Interaction",
+          "description": "Some missions include personal effects or story-connected items that are not part of the main objective but contribute to the story and certain achievements."
         },
         {
-          "name": "Scuba Diving Gear",
-          "type": "Exploration Gear",
-          "description": "Scuba diving gear is officially listed as part of the core utility set for reaching areas that would otherwise be harder to explore."
-        },
-        {
-          "name": "Explosives",
-          "type": "Utility Damage",
-          "description": "Explosives are both officially highlighted and linked to an achievement milestone, making them part of the game's core utility progression."
+          "name": "Act 2 Hidden Content",
+          "type": "Expanded Secrets",
+          "description": "Act 2 missions like Amber Alert have more secrets, collectibles, and environmental interactions than Act 1. A dedicated secrets pass before leaving is recommended for full completion."
         }
       ],
       "unlockMilestones": [
-        "Command a hookshot",
-        "Fly with the glider glove",
-        "Brandish a projectile wand",
-        "Brandish an explosive"
+        "Find first hidden room in any mission",
+        "Discover a puzzle-triggered path",
+        "Collect all cassette tapes in one mission",
+        "Unlock Act 2 secrets and CDs in Amber Alert"
       ]
     },
-    "lucidBlocksFarmingAndGrowth": {
-      "title": "Lucid Blocks Farming and Growth",
-      "displayType": "mixedCards",
-      "intro": "Growth is part of real progression in Lucid Blocks. Farming is not only about planting and harvesting, but also about setting up repeatable material routes that keep your tools, weapons, and crafting options flowing.",
+    "cscCassetteTapes": {
+      "title": "Crime Scene Cleaner Cassette Tapes Guide",
+      "displayType": "table",
+      "intro": "Cassette tapes and music CDs are hidden collectibles scattered across Crime Scene Cleaner missions. They are easy to miss during a standard cleanup run and often appear in areas that require careful searching.",
       "sections": [
         {
-          "name": "Seed Progression",
-          "description": "Planting and fertilizing seeds is a real milestone in the game, and harvesting a fully-grown nut is part of the same growth path."
+          "name": "Act 1 Tape Locations",
+          "description": "Cassette tapes in Act 1 missions are usually placed in side rooms, on shelves, or in areas that become accessible after cleaning reveals the surrounding surface. Check each room before moving on."
         },
         {
-          "name": "Material Farming",
-          "description": "A practical early farming loop is creating Mercury Capsules, which spawn small slimes that drop Tendrils and goo for repeatable crafting materials."
+          "name": "Act 2 CD Locations",
+          "description": "Act 2 includes additional music disc collectibles, particularly in the Amber Alert mission. The Act 2 secrets and CDs guide shows detailed locations for all collectibles in the new missions."
         },
         {
-          "name": "Tool Sustain",
-          "description": "Resource farming becomes much stronger once you can consistently gather Osmium, glass shards, plants, and slime materials for follow-up crafts."
+          "name": "Nightmare Mode Collectibles",
+          "description": "Cassette tapes appear in the Nightmare Mode variants of missions as well. The locations remain similar but the increased cleanup challenge makes finding them harder."
         },
         {
-          "name": "Base Routine",
-          "description": "The best farming setup supports more than food. It should feed your storage, movement tools, weapon upgrades, and future fusion experiments."
+          "name": "Community Location Maps",
+          "description": "The Steam community and Reddit frequently share updated cassette tape location lists. Community guides are maintained per mission and updated when new content adds additional tapes."
         }
       ],
       "growthMilestones": [
-        "Fertilize a seed",
-        "Harvest a fully-grown nut",
-        "Create repeatable material loops",
-        "Turn farming into long-term progression"
+        "Find first cassette tape in any mission",
+        "Collect all tapes in a single Act 1 mission",
+        "Find all Act 2 CDs in Amber Alert",
+        "Complete the full collectibles set across all missions"
       ]
     },
-    "lucidBlocksBestEarlyUnlocks": {
-      "title": "Lucid Blocks Best Early Unlocks",
-      "displayType": "priorityCards",
-      "intro": "The strongest early unlocks are the ones that improve safety, storage, and movement. In Lucid Blocks, a few practical upgrades can make the entire rest of the game much smoother.",
+    "cscBodiesEvidence": {
+      "title": "Crime Scene Cleaner Bodies and Evidence Guide",
+      "displayType": "card-list",
+      "intro": "Body disposal and evidence collection are core objectives in Crime Scene Cleaner. Handling these efficiently opens movement lines, reveals hidden stains, and keeps mission completion on track.",
       "priorities": [
         {
-          "name": "Personal Qualia",
+          "name": "Dispose of Bodies First",
           "priority": "Essential",
-          "description": "As soon as you get access to your personal Qualia, your run becomes much more stable. It acts as a reliable hub for storage, building, and regrouping."
+          "description": "Body bags should be your first priority in any mission. Clearing bodies opens floor space, reveals hidden blood trails underneath, and makes the rest of the cleanup route faster."
         },
         {
-          "name": "Frost Pick",
+          "name": "Collect All Evidence",
           "priority": "Very High",
-          "description": "A fast and cheap early mining tool made from Osmium and Stick. It is one of the most useful upgrades for accelerating early resource collection."
+          "description": "Evidence items are tracked separately from general cleanup. Missing any piece affects your score and blocks certain completion achievements. Search each room thoroughly."
         },
         {
-          "name": "Cache Cube",
-          "priority": "Very High",
-          "description": "Storage pressure starts early, so getting your first dependable chest-style container is a major quality-of-life upgrade."
-        },
-        {
-          "name": "Hookshot",
+          "name": "Clear Trash and Debris",
           "priority": "High",
-          "description": "The hookshot is one of the clearest movement milestones in the game and quickly makes exploration faster and safer."
+          "description": "Trash and general debris must also be removed. Clear it alongside body disposal so you can access all floor areas and stains underneath."
         },
         {
-          "name": "Glider Glove",
+          "name": "Check for Hidden Evidence",
           "priority": "High",
-          "description": "The glider glove adds another major mobility boost and makes long-distance movement far more efficient."
+          "description": "Some evidence items are tucked behind furniture, in drawers, or in rooms that are only accessible after cleaning the primary area. Do not assume a room is complete after the first pass."
         },
         {
-          "name": "Projectile Wand or Bombs",
-          "priority": "High",
-          "description": "A ranged tool or explosive option gives you a safer answer to dangerous enemies and trial-style encounters."
+          "name": "Restore Personal Effects",
+          "priority": "Medium",
+          "description": "Some missions include personal items that need to be returned to their original placement. These are part of the mission completion requirements and affect the final score."
+        },
+        {
+          "name": "Track Room by Room",
+          "priority": "Medium",
+          "description": "Keep track of which rooms have been cleared and which still need bodies or evidence removed. A room-by-room approach prevents backtracking on larger multi-room missions."
         }
       ]
     },
-    "lucidBlocksAchievementTracker": {
-      "title": "Lucid Blocks Achievement Tracker",
-      "displayType": "achievementGrid",
-      "intro": "Lucid Blocks currently has 19 Steam achievements, and they naturally split into exploration, crafting, mobility, combat, and growth progression.",
+    "cscTrueCleaner": {
+      "title": "Crime Scene Cleaner True Cleaner Guide",
+      "displayType": "achievement-grid",
+      "intro": "Achieving a full clean rating in Crime Scene Cleaner means leaving nothing behind — no stains, no bodies, no evidence, no debris. This guide breaks down what the game checks in each category.",
       "groups": [
         {
-          "name": "Exploration",
+          "name": "Floors and Open Surfaces",
           "achievements": [
             {
-              "title": "Angel α",
-              "description": "Enter a qualia."
+              "title": "Blood Stains",
+              "description": "Clean all blood and organic stains from every floor section. Use Cleaner Sense to reveal stains in dark or hard-to-see areas."
             },
             {
-              "title": "Angel γ",
-              "description": "Discover a tiamana leyline."
-            },
-            {
-              "title": "Angel δ",
-              "description": "Overcome a tiamana challenge."
-            },
-            {
-              "title": "Angel ε",
-              "description": "Hidden achievement."
+              "title": "Dirt and Debris",
+              "description": "General dirt, mud, and organic debris must be fully removed. Check corners and under furniture for missed patches."
             }
           ]
         },
         {
-          "name": "Crafting and Summoning",
+          "name": "Walls, Ceilings, and Elevated Surfaces",
           "achievements": [
             {
-              "title": "Apotheosis α",
-              "description": "Fuse an item."
+              "title": "Splatter Above Eye Level",
+              "description": "Blood splatter reaches walls and ceilings in high-velocity scenes. Look up regularly and use the sponge for hard-to-reach vertical surfaces."
             },
             {
-              "title": "Apotheosis β",
-              "description": "Fuse a vermin."
-            },
-            {
-              "title": "Apotheosis γ",
-              "description": "Fuse a divine artifact."
-            },
-            {
-              "title": "Archangel β",
-              "description": "Summon your faith."
+              "title": "High Shelves and Fixtures",
+              "description": "Furniture tops and high shelves can collect contamination. Scan above eye level in every room before marking it complete."
             }
           ]
         },
         {
-          "name": "Mobility and Utility",
+          "name": "Furniture and Objects",
           "achievements": [
             {
-              "title": "Virtue α",
-              "description": "Fly with the glider glove."
+              "title": "Contaminated Furniture",
+              "description": "Upholstered furniture and decorative objects can hold stains. Use the sponge rather than the mop to avoid breaking fragile items."
             },
             {
-              "title": "Virtue β",
-              "description": "Command a hookshot."
-            },
-            {
-              "title": "Archangel α",
-              "description": "Brandish a projectile wand."
-            },
-            {
-              "title": "Archangel γ",
-              "description": "Brandish an explosive."
+              "title": "Displaced and Broken Items",
+              "description": "Restore furniture to its original position and replace broken items where required. Missing this category is a common reason for incomplete scores."
             }
           ]
         },
         {
-          "name": "Combat and Creatures",
+          "name": "Bodies, Evidence, and Trash",
           "achievements": [
             {
-              "title": "Bubblebear Massacre",
-              "description": "Defeat innocent bubblebears."
+              "title": "All Bodies Bagged",
+              "description": "Every body must be fully bagged and removed from the scene. A single missed body prevents a full completion rating."
             },
             {
-              "title": "Archangel δ",
-              "description": "Eliminate a blasphemous creature."
-            },
-            {
-              "title": "Angel β",
-              "description": "Die."
-            },
-            {
-              "title": "Dominion γ",
-              "description": "Rename a cute vermin."
-            }
-          ]
-        },
-        {
-          "name": "Growth and Farming",
-          "achievements": [
-            {
-              "title": "Dominion α",
-              "description": "Fertilize a seed."
-            },
-            {
-              "title": "Dominion β",
-              "description": "Harvest a fully-grown nut."
-            },
-            {
-              "title": "Dominion δ",
-              "description": "Hidden achievement."
+              "title": "Evidence and Personal Effects",
+              "description": "All evidence items and personal effects must be collected. Check rooms after cleaning since items can be hidden under removed stains."
             }
           ]
         }
       ]
     },
-    "lucidBlocksSingleplayerAndPlatformFAQ": {
-      "title": "Lucid Blocks Singleplayer and Platform FAQ",
+    "cscNightmareMode": {
+      "title": "Crime Scene Cleaner Nightmare Mode Guide",
       "displayType": "accordion",
-      "intro": "These are the core platform and access questions players keep asking before buying Lucid Blocks.",
+      "intro": "Nightmare Mode in Crime Scene Cleaner adds additional challenges to existing missions, requiring more precise cleanup and stricter completion standards.",
       "faqs": [
         {
-          "question": "Is Lucid Blocks singleplayer?",
-          "answer": "Yes. Lucid Blocks is a singleplayer game."
+          "question": "What is Nightmare Mode in Crime Scene Cleaner?",
+          "answer": "Nightmare Mode is a harder variant of Crime Scene Cleaner's main missions that introduces additional cleanup requirements, stricter scoring, and more complex mission conditions compared to the standard version."
         },
         {
-          "question": "Is multiplayer or co-op planned?",
-          "answer": "No. Multiplayer is not planned for release or future updates."
+          "question": "How do I unlock Nightmare Mode in Crime Scene Cleaner?",
+          "answer": "Nightmare Mode becomes available after completing the standard version of a mission. Progress through the main mission list first before attempting the Nightmare variant of any location."
         },
         {
-          "question": "Where can I play Lucid Blocks?",
-          "answer": "It is currently available on Steam for Windows."
+          "question": "Is the cleanup area the same in Crime Scene Cleaner Nightmare Mode?",
+          "answer": "The base layout is similar, but Nightmare Mode typically has more stains, additional cleanup targets, or environmental changes that increase the difficulty of achieving a full clear."
         },
         {
-          "question": "How much does Lucid Blocks cost?",
-          "answer": "$9.99 on Steam."
+          "question": "Are there exclusive Crime Scene Cleaner achievements for Nightmare Mode?",
+          "answer": "Yes. Several Crime Scene Cleaner achievements are tied to completing missions in Nightmare Mode. Check the achievements list for specific unlocks associated with Nightmare completion."
         },
         {
-          "question": "Does Lucid Blocks support controllers?",
-          "answer": "Yes, but controller play is not recommended because the menus are not designed around it."
-        },
-        {
-          "question": "Does Lucid Blocks work on Steam Deck?",
-          "answer": "Yes. Proton 9.0 or 9.0.4 is the commonly recommended setup for Steam Deck."
-        },
-        {
-          "question": "Does Lucid Blocks work on Linux?",
-          "answer": "Yes. Proton 9.0 is reported to work well for Linux and Steam Deck."
-        },
-        {
-          "question": "Will Mac or Android be supported?",
-          "answer": "They may be supported in the future, but they are not current launch platforms."
-        },
-        {
-          "question": "Does Lucid Blocks have translations?",
-          "answer": "No. There are currently no translations planned."
-        },
-        {
-          "question": "Will Lucid Blocks keep getting updates?",
-          "answer": "Yes. Some content updates are planned after release, but they are not intended to continue on an indefinite regular schedule."
+          "question": "What is the best strategy for Crime Scene Cleaner Nightmare Mode?",
+          "answer": "Master the standard version of a mission first and develop a reliable room-by-room route. Nightmare Mode rewards players who already have efficient cleanup habits from their regular playthroughs."
         }
       ]
     },
-    "lucidBlocksSteamDeckAndController": {
-      "title": "Lucid Blocks Steam Deck and Controller",
+    "cscAct2Walkthrough": {
+      "title": "Crime Scene Cleaner Act 2 Walkthrough",
       "displayType": "accordion",
-      "intro": "Lucid Blocks can run on Steam Deck, but the default setup may need adjustment. Keyboard and mouse remains the smoother option for menus and general play.",
+      "intro": "Act 2 expands Crime Scene Cleaner with new missions, more complex layouts, and additional secrets. Here is what players need to know about tackling the Act 2 content.",
       "faqs": [
         {
-          "question": "Does Lucid Blocks work on Steam Deck?",
-          "answer": "Yes. Proton 9.0 works well, and Proton 9.0.4 is a commonly shared fix for Steam Deck issues."
+          "question": "What new missions are in Crime Scene Cleaner Act 2?",
+          "answer": "Act 2 adds new main missions including Amber Alert, which is one of the most completion-heavy jobs in the game, with secrets, multiple CDs, and layered cleanup objectives."
         },
         {
-          "question": "What should I do if Steam Deck controls are not working?",
-          "answer": "Force compatibility and switch the game to Proton 9.0.4. The default configuration may not accept controller input correctly."
+          "question": "How does Crime Scene Cleaner Act 2 differ from Act 1?",
+          "answer": "Act 2 missions tend to be larger and more layered, with more collectibles, tougher cleanup requirements, and additional secrets compared to the Act 1 missions."
         },
         {
-          "question": "Does Lucid Blocks support controllers?",
-          "answer": "Yes, but controller play is not recommended because the game's menus are not designed around it."
+          "question": "What is the Amber Alert mission in Crime Scene Cleaner?",
+          "answer": "Amber Alert is the flagship Act 2 mission. It requires a full completion approach with room-by-room tracking, collectibles, and multiple objectives beyond standard cleanup."
         },
         {
-          "question": "Is Linux support possible?",
-          "answer": "Yes. Proton 9.0 is reported to work well for Linux and Steam Deck."
+          "question": "Are there new secrets and CDs in Crime Scene Cleaner Act 2?",
+          "answer": "Yes. Act 2 introduces new CD collectibles and secret interactions across its missions. The Amber Alert mission has a dedicated secrets and CDs guide for full completion."
         },
         {
-          "question": "What is the best input setup?",
-          "answer": "Keyboard and mouse is the smoothest option for menu navigation and general moment-to-moment play."
+          "question": "When was Crime Scene Cleaner Act 2 released?",
+          "answer": "Act 2 was released as a major content update to Crime Scene Cleaner on Steam. It expanded the game with new missions, a Nightmare Mode variant, and additional collectibles."
         }
       ]
     },
-    "lucidBlocksSettingsAndAccessibility": {
-      "title": "Lucid Blocks Settings and Accessibility",
+    "cscAct2Secrets": {
+      "title": "Crime Scene Cleaner Act 2 Secrets and CDs Guide",
       "displayType": "settingCards",
-      "intro": "Lucid Blocks already has a few practical settings and compatibility notes that matter immediately when players first launch the game.",
+      "intro": "Act 2 contains additional hidden collectibles, secret rooms, and music CDs across its missions. This guide focuses on what to find, where to look, and how to approach a full collectibles run.",
       "settings": [
         {
-          "name": "Display Settings",
-          "type": "Comfort Option",
-          "description": "Display Settings includes an option that lets players hide the on-screen hands."
+          "name": "Amber Alert Hidden Rooms",
+          "type": "Mission Secrets",
+          "description": "Amber Alert contains multiple hidden rooms accessed through environmental triggers. Check specific furniture, panels, and interactive objects throughout the location."
         },
         {
-          "name": "Graphics Compatibility",
-          "type": "System Requirement",
-          "description": "Vulkan support is required for the graphics to render properly. Systems without Vulkan can run into crashes and severe graphical glitches."
+          "name": "Amber Alert CD Locations",
+          "type": "Collectibles",
+          "description": "Music CDs in Amber Alert are placed in side rooms, behind unlocked doors, and in areas that become accessible after partial cleanup of the main area."
         },
         {
-          "name": "Input Preference",
-          "type": "Control Setup",
-          "description": "Controller support exists, but keyboard and mouse gives a smoother experience because menus are not built around controller use."
+          "name": "Act 2 Secret Interactions",
+          "type": "Story Items",
+          "description": "Certain story-connected objects and personal effects in Act 2 missions trigger additional story context or unlock secret interactions beyond the main cleanup objective."
         },
         {
-          "name": "Language Support",
-          "type": "Localization",
-          "description": "The current setup is English-only, and no translations are planned right now."
+          "name": "Nightmare Mode Secrets",
+          "type": "Difficulty Secrets",
+          "description": "Nightmare Mode variants of Act 2 missions contain the same secrets but are harder to access due to the increased cleanup requirements. Plan the secrets route as part of the overall mission strategy."
         }
       ]
     },
-    "lucidBlocksUpdatesAndPatchNotes": {
-      "title": "Lucid Blocks Updates and Patch Notes",
+    "cscDetergents": {
+      "title": "Crime Scene Cleaner Detergents Guide",
       "displayType": "timeline",
-      "intro": "Lucid Blocks is already receiving quick post-launch fixes and small usability updates.",
+      "intro": "Detergents in Crime Scene Cleaner improve how effectively your tools clean stains and surfaces. Choosing the right mix and managing your buckets properly makes a noticeable difference on larger missions.",
       "entries": [
         {
-          "title": "Update 2.8.2",
-          "type": "UI Update",
-          "description": "Renamed \"awaken\" to \"exit\" in the main menu."
+          "title": "Clean Detergent",
+          "type": "Basic Mix",
+          "description": "The standard detergent that improves general stain removal across most surfaces. A good starting option for early missions before more advanced options become available."
         },
         {
-          "title": "Small Patch for Start-Up Crashes",
-          "type": "Hotfix",
-          "description": "A dedicated patch was released for players whose game was crashing on launch."
+          "title": "Power Detergent",
+          "type": "Advanced Mix",
+          "description": "A stronger formula for tougher stains and larger surface areas. Best used with the mop on open floors where broad cleaning efficiency matters most."
         },
         {
-          "title": "Post-Launch Content Support",
-          "type": "Roadmap Note",
-          "description": "Some content updates are planned after release, but they are not intended to continue on an indefinite regular schedule."
+          "title": "Two-Bucket Strategy",
+          "type": "Pro Technique",
+          "description": "Run one bucket with detergent for cleaning buffs and a separate bucket with plain water for rinsing. This preserves your detergent longer and gives you more control over when to reset your cleaning tool."
+        },
+        {
+          "title": "Detergent Timing",
+          "type": "Management Tip",
+          "description": "Apply detergent before tackling the densest stain areas in each room. Reapplying mid-clean interrupts your rhythm and wastes mixing time on large missions."
         }
       ]
     },
-    "lucidBlocksCrashFixAndTroubleshooting": {
-      "title": "Lucid Blocks Crash Fix and Troubleshooting",
+    "cscSystemInfo": {
+      "title": "Crime Scene Cleaner System Requirements and Updates",
       "displayType": "steps",
-      "intro": "Most immediate launch and crash issues should be checked in a simple order: patch level, graphics support, platform compatibility, and logs.",
+      "intro": "Crime Scene Cleaner is available on Steam for PC, Xbox, and PS5. This module covers PC system requirements and the game's major update history.",
       "steps": [
         {
-          "title": "Install the Latest Crash Hotfix",
-          "description": "If the game is crashing on start, update first and test again with the latest start-up crash patch."
+          "title": "PC Minimum Requirements",
+          "description": "Crime Scene Cleaner requires a mid-range PC for stable performance. The game launched on Steam on August 14, 2024 and is available for Windows with controller and keyboard support."
         },
         {
-          "title": "Check Vulkan Support",
-          "description": "Lucid Blocks requires Vulkan support. Systems without Vulkan can suffer from crashes or major rendering problems."
+          "title": "PC Recommended Setup",
+          "description": "For the smoothest experience, a dedicated GPU with at least 8GB VRAM is recommended. The game runs at a stable frame rate on most modern PC hardware at recommended settings."
         },
         {
-          "title": "Use Proton 9.0.4 on Steam Deck",
-          "description": "If Steam Deck input or launch behavior is broken, force compatibility and switch to Proton 9.0.4."
+          "title": "Act 2 Update",
+          "description": "The Act 2 update added new missions including Amber Alert, expanded the story content, and introduced Nightmare Mode difficulty variants for existing maps."
         },
         {
-          "title": "Collect Crash Logs",
-          "description": "Open Windows Run, paste %APPDATA%, go to lucid blocks/logs, and gather the .txt files for troubleshooting."
+          "title": "Platform Updates",
+          "description": "Crime Scene Cleaner has received updates across Steam, Xbox, and PS5 including quality of life improvements, bug fixes, and localization updates for additional languages."
         },
         {
-          "title": "Report the Issue Properly",
-          "description": "Share the logs and device details through the official Discord bug-reports forum or on the Steam community page."
+          "title": "Reporting Issues",
+          "description": "For bugs or technical issues, the official Discord server and the Steam Community discussions page are the recommended channels for reporting problems and getting support."
         }
       ]
     }
@@ -748,31 +693,31 @@
   "faq": {
     "title": "Frequently Asked",
     "titleHighlight": "Questions",
-    "subtitle": "Everything you need to know about Lucid Blocks",
+    "subtitle": "Everything you need to know about Crime Scene Cleaner",
     "questions": [
       {
-        "question": "Is Lucid Blocks a singleplayer game?",
-        "answer": "Yes. Lucid Blocks is a singleplayer-only game with no multiplayer or co-op planned."
+        "question": "What platforms support Crime Scene Cleaner?",
+        "answer": "Crime Scene Cleaner is available on Steam for PC, Xbox, and PlayStation 5. All versions include the full campaign with Act 1 and Act 2 content."
       },
       {
-        "question": "What is the Apotheosis system in Lucid Blocks?",
-        "answer": "Apotheosis is Lucid Blocks' freeform fusion crafting system. Instead of following fixed recipes, you combine materials and discover your own crafting paths."
+        "question": "How many achievements does Crime Scene Cleaner have?",
+        "answer": "Crime Scene Cleaner has 80 Steam achievements covering mission completion, secrets, collectibles, tool upgrades, and difficulty challenges."
       },
       {
-        "question": "Where can I play Lucid Blocks?",
-        "answer": "Lucid Blocks is currently available on Steam for Windows. Linux and Steam Deck support is available through Proton 9.0."
+        "question": "Does Crime Scene Cleaner have Nightmare Mode?",
+        "answer": "Yes. Crime Scene Cleaner includes a Nightmare Mode that adds harder cleanup requirements and stricter scoring to existing missions."
       },
       {
-        "question": "How much does Lucid Blocks cost?",
-        "answer": "Lucid Blocks costs $9.99 on Steam."
+        "question": "What is the best mop upgrade in Crime Scene Cleaner?",
+        "answer": "Increased Resistance and Cleaning Speed are the most recommended mop upgrades in Crime Scene Cleaner. They reduce downtime from dirty tools and improve overall cleanup pace."
       },
       {
-        "question": "Does Lucid Blocks support controllers?",
-        "answer": "Yes, but controller play is not recommended because the menus are not designed around it. Keyboard and mouse is the smoother option."
+        "question": "How do I get a perfect score in Crime Scene Cleaner?",
+        "answer": "A perfect score in Crime Scene Cleaner requires cleaning all blood and stains, disposing of all bodies, collecting all evidence, and restoring displaced furniture."
       },
       {
-        "question": "Will Lucid Blocks receive updates?",
-        "answer": "Yes. Some content updates are planned after release, but they are not intended to continue on an indefinite regular schedule."
+        "question": "How many copies has Crime Scene Cleaner sold?",
+        "answer": "Crime Scene Cleaner has sold over 1 million copies. The game launched on Steam in August 2024 and has maintained a very positive rating from over 13,000 English reviews."
       }
     ]
   },
@@ -801,125 +746,165 @@
     "disclaimer": "Unofficial fan-made resource website."
   },
   "pages": {
-    "guides": {
-      "title": "Lucid Blocks Guides",
-      "description": "Complete gameplay guides from beginner basics to advanced Apotheosis strategies. Master survival and crafting.",
-      "metaTitle": "Lucid Blocks Guides - Beginner to Advanced Strategies",
-      "metaDescription": "Complete Lucid Blocks guides covering beginner tips, Apotheosis system, survival strategies, and expert tactics for mastering the surreal sandbox.",
-      "categoryLabel": "GAME GUIDES",
-      "whatIs": "What are Guides?",
-      "whatIsDescription": "Comprehensive guides covering gameplay mechanics, survival strategies, and the Apotheosis crafting system. Learn everything from first steps to advanced techniques.",
-      "why": "Why read guides?",
+    "maps": {
+      "title": "Crime Scene Cleaner Maps",
+      "description": "Complete map guides for every Crime Scene Cleaner location including flow, cleanup routes, hidden areas, and Nightmare variants.",
+      "metaTitle": "Crime Scene Cleaner Maps - Locations, Routes & Secrets",
+      "metaDescription": "Crime Scene Cleaner map guides covering cleanup routes, 100 percent clear strategies, hidden rooms, and mission-specific tips for every location.",
+      "categoryLabel": "MAP GUIDES",
+      "whatIs": "What are Maps?",
+      "whatIsDescription": "Detailed guides for every Crime Scene Cleaner mission location. Learn cleanup routes, hidden area locations, and strategies for achieving full clear ratings on each map.",
+      "why": "Why read map guides?",
       "whySteps": {
-        "step1Title": "Learn Core Mechanics",
-        "step1Description": "Understand the Apotheosis system and avoid common beginner mistakes",
-        "step2Title": "Fast Progression",
-        "step2Description": "Follow proven paths to survive and thrive in the surreal world",
-        "step3Title": "Master Strategies",
-        "step3Description": "Develop advanced tactics for exploration and crafting"
+        "step1Title": "Learn Each Layout",
+        "step1Description": "Understand the full room structure before starting your cleanup route",
+        "step2Title": "Find Hidden Areas",
+        "step2Description": "Discover secret rooms and puzzle-triggered locations in every mission",
+        "step3Title": "Achieve Full Clears",
+        "step3Description": "Use proven routes to reach 100 percent completion on every map"
       },
       "featured": "Featured & Essential",
-      "all": "All Guides"
+      "all": "All Maps"
     },
-    "crafting": {
-      "title": "Lucid Blocks Crafting",
-      "description": "Master the Apotheosis fusion system with essence mechanics, recipes, and crafting strategies for powerful items.",
-      "metaTitle": "Lucid Blocks Crafting - Apotheosis System & Recipes",
-      "metaDescription": "Master Lucid Blocks Apotheosis crafting system. Learn essence mechanics, fusion recipes, and strategies for creating powerful tools and weapons.",
-      "categoryLabel": "CRAFTING SYSTEM",
-      "whatIs": "What is Crafting?",
-      "whatIsDescription": "The Apotheosis system is a unique essence-driven fusion mechanic where you combine up to six items to discover new recipes. No fixed crafting menus—experimentation is key.",
-      "why": "Why master crafting?",
+    "tools": {
+      "title": "Crime Scene Cleaner Tools",
+      "description": "Complete tool guides for every Crime Scene Cleaner cleaning tool including mop, sponge, pressure washer, ozonator, and upgrade paths.",
+      "metaTitle": "Crime Scene Cleaner Tools - Mop, Sponge & Upgrade Guide",
+      "metaDescription": "Crime Scene Cleaner tool guides covering mop skills, sponge use, pressure washer tips, bucket management, and upgrade priorities for every tool.",
+      "categoryLabel": "TOOLS & UPGRADES",
+      "whatIs": "What are Tools?",
+      "whatIsDescription": "Guides to every Crime Scene Cleaner cleaning tool and upgrade path. Learn which tools to prioritize, how to use detergent buckets, and when to switch between mop, sponge, and pressure washer.",
+      "why": "Why read tool guides?",
       "whySteps": {
-        "step1Title": "Unlock Powerful Items",
-        "step1Description": "Discover essential tools, weapons, and mobility gear through fusion",
-        "step2Title": "Understand Essences",
-        "step2Description": "Learn how item essences combine to create predictable results",
-        "step3Title": "Optimize Resources",
-        "step3Description": "Use dilution mechanics to maximize output from cheap materials"
+        "step1Title": "Choose the Right Tool",
+        "step1Description": "Learn which tool works best for each surface type and situation",
+        "step2Title": "Optimize Upgrades",
+        "step2Description": "Spend upgrade points on skills that reduce friction on every mission",
+        "step3Title": "Master Detergents",
+        "step3Description": "Use the two-bucket strategy to hold detergent buffs longer"
       },
       "featured": "Featured & Essential",
-      "all": "All Crafting Guides"
+      "all": "All Tool Guides"
     },
-    "items": {
-      "title": "Lucid Blocks Items",
-      "description": "Detailed item guides covering tools, weapons, mobility gear, and storage solutions with crafting recipes and usage tips.",
-      "metaTitle": "Lucid Blocks Items - Tools, Weapons & Gear Guide",
-      "metaDescription": "Complete item database for Lucid Blocks including tools, weapons, mobility gear, and storage. Learn how to craft and use every item effectively.",
-      "categoryLabel": "ITEMS & EQUIPMENT",
-      "whatIs": "What are Items?",
-      "whatIsDescription": "Comprehensive guides for tools, weapons, mobility gear, and functional items. Learn crafting recipes, usage strategies, and optimal combinations.",
-      "why": "Why check item guides?",
+    "achievements": {
+      "title": "Crime Scene Cleaner Achievements",
+      "description": "Complete achievement guides for all 80 Crime Scene Cleaner Steam achievements including hidden unlocks, completion requirements, and efficient routes.",
+      "metaTitle": "Crime Scene Cleaner Achievements - All 80 Unlocks Guide",
+      "metaDescription": "Crime Scene Cleaner achievement guide covering all 80 Steam achievements, unlock conditions, hidden achievements, and efficient completion routes.",
+      "categoryLabel": "ACHIEVEMENTS",
+      "whatIs": "What are Achievements?",
+      "whatIsDescription": "Guides to all 80 Crime Scene Cleaner Steam achievements. Learn unlock conditions, combine multiple achievements in one run, and find the most efficient completion routes.",
+      "why": "Why read achievement guides?",
       "whySteps": {
-        "step1Title": "Learn Crafting Recipes",
-        "step1Description": "Discover how to craft essential tools and weapons using Apotheosis",
-        "step2Title": "Optimize Equipment",
-        "step2Description": "Choose the best items for your playstyle and progression stage",
-        "step3Title": "Improve Survival",
-        "step3Description": "Equip mobility gear and weapons to navigate the dangerous world"
+        "step1Title": "Know the Conditions",
+        "step1Description": "Understand exactly what triggers each achievement unlock",
+        "step2Title": "Combine Efficiently",
+        "step2Description": "Stack multiple achievement requirements into a single mission run",
+        "step3Title": "Find Hidden Unlocks",
+        "step3Description": "Discover secret achievements tied to exploration and specific actions"
       },
       "featured": "Featured & Essential",
-      "all": "All Items"
+      "all": "All Achievements"
     },
-    "biomes": {
-      "title": "Lucid Blocks Biomes",
-      "description": "Explore world regions, environmental features, resource locations, and survival tips for each biome.",
-      "metaTitle": "Lucid Blocks Biomes - World Regions & Exploration",
-      "metaDescription": "Explore Lucid Blocks biomes including Tiamana Leylines, Fog Meadow, and surreal regions. Find resources, avoid dangers, and navigate the infinite world.",
-      "categoryLabel": "WORLD REGIONS",
-      "whatIs": "What are Biomes?",
-      "whatIsDescription": "Guides to different world regions, environmental features, resource distribution, and danger zones. Learn what to expect and how to prepare for each area.",
-      "why": "Why explore biomes?",
+    "updates": {
+      "title": "Crime Scene Cleaner Updates",
+      "description": "Complete update history for Crime Scene Cleaner including Act 2, Nightmare Mode, patch notes, and new content additions.",
+      "metaTitle": "Crime Scene Cleaner Updates - Patch Notes & New Content",
+      "metaDescription": "Crime Scene Cleaner update history covering Act 2, Nightmare Mode, new missions, bug fixes, and platform-specific patches.",
+      "categoryLabel": "UPDATES & PATCHES",
+      "whatIs": "What are Updates?",
+      "whatIsDescription": "Complete update history for Crime Scene Cleaner across all platforms. Learn what changed in each major update including Act 2, Nightmare Mode, and quality of life improvements.",
+      "why": "Why read update guides?",
       "whySteps": {
-        "step1Title": "Find Resources",
-        "step1Description": "Locate rare materials and essences specific to each region",
-        "step2Title": "Avoid Dangers",
-        "step2Description": "Understand environmental hazards and hostile creatures",
-        "step3Title": "Plan Exploration",
-        "step3Description": "Prepare the right tools and gear for each biome type"
+        "step1Title": "Stay Current",
+        "step1Description": "Know what changed in the latest Crime Scene Cleaner patches",
+        "step2Title": "New Content",
+        "step2Description": "Discover new missions, modes, and features added in each update",
+        "step3Title": "Bug Fixes",
+        "step3Description": "Learn which issues were resolved and how to apply workarounds"
       },
       "featured": "Featured & Essential",
-      "all": "All Biomes"
+      "all": "All Updates"
     },
-    "building": {
-      "title": "Lucid Blocks Building",
-      "description": "Master Qualia personal dimensions, base building, storage management, and creative construction techniques.",
-      "metaTitle": "Lucid Blocks Building - Qualia & Base Construction",
-      "metaDescription": "Master Lucid Blocks building with Qualia personal dimensions, base construction, storage solutions, and creative building techniques.",
-      "categoryLabel": "BUILDING & BASES",
-      "whatIs": "What is Building?",
-      "whatIsDescription": "Guides to the Qualia personal dimension system, base construction, storage management, and creative building. Learn to create your safe haven in the surreal world.",
-      "why": "Why build bases?",
+    "story": {
+      "title": "Crime Scene Cleaner Story",
+      "description": "Complete story guides for Crime Scene Cleaner including main character background, mission narrative, family story arc, and ending analysis.",
+      "metaTitle": "Crime Scene Cleaner Story - Plot, Endings & Lore Guide",
+      "metaDescription": "Crime Scene Cleaner story guide covering the main character's background, family story arc, mission narratives, and multiple ending explanations.",
+      "categoryLabel": "STORY & LORE",
+      "whatIs": "What is the Story?",
+      "whatIsDescription": "Guides to the Crime Scene Cleaner narrative covering the cleaner's motivation, family storyline, and the events behind each crime scene. Learn the full story and how missions connect.",
+      "why": "Why read story guides?",
       "whySteps": {
-        "step1Title": "Create Safe Spaces",
-        "step1Description": "Establish secure bases for storage and crafting operations",
-        "step2Title": "Manage Resources",
-        "step2Description": "Organize materials efficiently with storage solutions",
-        "step3Title": "Unlock Qualia",
-        "step3Description": "Access personal pocket dimensions for ultimate convenience"
+        "step1Title": "Understand the Motivation",
+        "step1Description": "Learn why the cleaner takes on these dangerous jobs",
+        "step2Title": "Follow the Family Arc",
+        "step2Description": "Track the main character's family storyline across missions",
+        "step3Title": "Unlock All Endings",
+        "step3Description": "Discover the different endings and how to reach them"
       },
       "featured": "Featured & Essential",
-      "all": "All Building Guides"
+      "all": "All Story Guides"
     },
-    "support": {
-      "title": "Lucid Blocks Support",
-      "description": "Technical support, platform compatibility, performance optimization, and troubleshooting for common issues.",
-      "metaTitle": "Lucid Blocks Support - Technical Help & Fixes",
-      "metaDescription": "Get technical support for Lucid Blocks including Steam Deck setup, crash fixes, performance optimization, and platform compatibility guides.",
-      "categoryLabel": "TECHNICAL SUPPORT",
-      "whatIs": "What is Support?",
-      "whatIsDescription": "Technical guides covering platform compatibility, performance optimization, crash fixes, and common issues. Get help with Steam Deck, multiplayer questions, and settings.",
-      "why": "Why check support?",
+    "mixes": {
+      "title": "Crime Scene Cleaner Mixes",
+      "description": "Complete detergent and mix guides for Crime Scene Cleaner including best formulas, bucket strategy, and cleaning efficiency combinations.",
+      "metaTitle": "Crime Scene Cleaner Mixes - Best Detergent & Bucket Guide",
+      "metaDescription": "Crime Scene Cleaner detergent mix guide covering the best formulas, two-bucket strategy, cleaning efficiency tips, and advanced mix combinations.",
+      "categoryLabel": "DETERGENTS & MIXES",
+      "whatIs": "What are Mixes?",
+      "whatIsDescription": "Guides to Crime Scene Cleaner detergents and bucket mixing strategies. Learn the best formulas for different surfaces, how to use the two-bucket setup, and which mixes improve cleaning speed.",
+      "why": "Why read mix guides?",
       "whySteps": {
-        "step1Title": "Fix Technical Issues",
-        "step1Description": "Resolve crashes, performance problems, and compatibility issues",
-        "step2Title": "Optimize Performance",
-        "step2Description": "Configure settings for best experience on your platform",
-        "step3Title": "Platform Compatibility",
-        "step3Description": "Learn about Steam Deck, controller support, and system requirements"
+        "step1Title": "Choose the Right Formula",
+        "step1Description": "Match your detergent mix to the surface type and stain severity",
+        "step2Title": "Use the Two-Bucket Setup",
+        "step2Description": "Hold detergent buffs longer with a dedicated rinse bucket",
+        "step3Title": "Save Time and Money",
+        "step3Description": "Efficient mixes reduce how often you need to refill and reapply"
       },
       "featured": "Featured & Essential",
-      "all": "All Support Articles"
+      "all": "All Mix Guides"
+    },
+    "fixes": {
+      "title": "Crime Scene Cleaner Fixes",
+      "description": "Technical guides and bug fixes for Crime Scene Cleaner including the 98 percent issue, Xbox pickup problems, platform compatibility, and common errors.",
+      "metaTitle": "Crime Scene Cleaner Fixes - Bug Solutions & Technical Help",
+      "metaDescription": "Crime Scene Cleaner fix guide covering the 98 percent completion issue, Xbox item pickup problems, platform-specific bugs, and common technical errors.",
+      "categoryLabel": "BUGS & FIXES",
+      "whatIs": "What are Fixes?",
+      "whatIsDescription": "Technical support guides for Crime Scene Cleaner covering common bugs, platform-specific issues, and step-by-step solutions. Learn how to fix the 98 percent issue, pickup problems, and other known errors.",
+      "why": "Why read fix guides?",
+      "whySteps": {
+        "step1Title": "Solve the 98 Percent Issue",
+        "step1Description": "Find the missed spots that cause near-complete cleans to stall",
+        "step2Title": "Fix Platform Issues",
+        "step2Description": "Resolve Xbox and PS5 specific problems with the latest solutions",
+        "step3Title": "Report New Bugs",
+        "step3Description": "Find the right channels to report issues and get official support"
+      },
+      "featured": "Featured & Essential",
+      "all": "All Fix Guides"
+    },
+    "platforms": {
+      "title": "Crime Scene Cleaner Platforms",
+      "description": "Platform comparison guides for Crime Scene Cleaner across Steam, Xbox, and PS5 including version differences, features, and purchase information.",
+      "metaTitle": "Crime Scene Cleaner Platforms - Steam, Xbox & PS5 Guide",
+      "metaDescription": "Crime Scene Cleaner platform guide covering Steam, Xbox, and PS5 versions including supported languages, version differences, Game Pass availability, and purchase options.",
+      "categoryLabel": "PLATFORMS",
+      "whatIs": "What are Platforms?",
+      "whatIsDescription": "Guides to Crime Scene Cleaner across all supported platforms. Learn the differences between Steam, Xbox, and PS5 versions, available languages, and where to buy.",
+      "why": "Why read platform guides?",
+      "whySteps": {
+        "step1Title": "Choose Your Platform",
+        "step1Description": "Compare features across Steam, Xbox, and PS5 before buying",
+        "step2Title": "Check Language Support",
+        "step2Description": "Confirm your language is supported on your chosen platform",
+        "step3Title": "Find the Best Price",
+        "step3Description": "Learn about Game Pass availability and regional pricing options"
+      },
+      "featured": "Featured & Essential",
+      "all": "All Platform Guides"
     }
   }
 }
