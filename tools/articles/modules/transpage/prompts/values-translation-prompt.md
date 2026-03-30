@@ -12,7 +12,7 @@ CRITICAL RULES (MUST FOLLOW):
 9. Do NOT split one line into multiple lines
 10. Do NOT reorder lines based on content similarity
 
-Game context: This is for the game "{game_name}" - a Roblox JoJo-inspired RPG game.
+Game context: This is for the game "{game_name}" - Crime Scene Cleaner, a first-person crime scene cleaning simulator by President Studio on Steam, Xbox, and PS5.
 
 VERIFICATION CHECKLIST (Check before responding):
 - [ ] Output has EXACTLY {line_count} lines

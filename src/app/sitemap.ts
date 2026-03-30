@@ -14,26 +14,26 @@ const staticPagesConfig: Record<string, { priority: number; changeFrequency: 'mo
 
 // 内容类型优先级配置
 const contentTypePriority: Record<string, number> = {
-	'guides': 0.9,
-	'crafting': 0.9,
-	'biomes': 0.8,
-	'creatures': 0.8,
-	'items': 0.8,
-	'achievements': 0.7,
-	'lore': 0.7,
-	'support': 0.6,
+	'guide': 0.9,
+	'secrets': 0.9,
+	'nightmare': 0.8,
+	'act-2': 0.8,
+	'platform': 0.8,
+	'jobs': 0.7,
+	'puzzle': 0.7,
+	'media': 0.6,
 }
 
 // 内容更新频率配置
 const contentTypeChangeFrequency: Record<string, 'daily' | 'weekly' | 'monthly'> = {
-	'guides': 'weekly',
-	'crafting': 'weekly',
-	'biomes': 'weekly',
-	'creatures': 'weekly',
-	'items': 'weekly',
-	'achievements': 'monthly',
-	'lore': 'monthly',
-	'support': 'monthly',
+	'guide': 'weekly',
+	'secrets': 'weekly',
+	'nightmare': 'weekly',
+	'act-2': 'weekly',
+	'platform': 'monthly',
+	'jobs': 'monthly',
+	'puzzle': 'weekly',
+	'media': 'monthly',
 }
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {

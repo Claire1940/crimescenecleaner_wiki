@@ -1,13 +1,13 @@
 {
   "seo": {
     "home": {
-      "title": "Lucid Blocks Wiki - Téléchargement de la démo, Guide de coopération, Fabrication et Mods",
-      "description": "Centre de ressources complet pour Lucid Blocks ! Obtenez des informations sur le téléchargement de la démo, des guides pour débutants, des stratégies de coopération, des conseils de fabrication, des commandes, des mods et des liens communautaires pour le jeu de braquage furtif sur Steam.",
-      "keywords": "Lucid Blocks Wiki, Lucid Blocks, téléchargement de la démo, guide pour débutants, guide de coopération, fabrication, équipement, mods, BepInEx, jeu Steam, jeu furtif",
-      "ogTitle": "Lucid Blocks Wiki - Téléchargement de la démo, Guide de coopération, Fabrication et Mods",
-      "ogDescription": "Centre de ressources complet pour Lucid Blocks ! Obtenez des informations sur le téléchargement de la démo, des guides pour débutants, des stratégies de coopération, des conseils de fabrication et des mods pour le jeu de braquage furtif sur Steam.",
-      "twitterTitle": "Lucid Blocks Wiki - Téléchargement de la démo, Guide de coopération, Fabrication et Mods",
-      "twitterDescription": "Centre de ressources complet pour Lucid Blocks ! Obtenez des informations sur le téléchargement de la démo, des guides pour débutants, des stratégies de coopération et des conseils de fabrication."
+      "title": "Wiki Crime Scene Cleaner - Avis, Cartes & Succès",
+      "description": "Wiki Crime Scene Cleaner avec des guides pour les cartes, les succès, les mises à jour, les fins, les outils, les détergents et les infos de plateforme pour les joueurs Steam, Xbox et PS5.",
+      "keywords": "Crime Scene Cleaner, Steam, cartes, succès, mises à jour, fins, outils, détergents, PS5, Xbox",
+      "ogTitle": "Wiki Crime Scene Cleaner - Avis, Cartes & Succès",
+      "ogDescription": "Wiki Crime Scene Cleaner avec des guides pour les cartes, les succès, les mises à jour, les fins, les outils, les détergents et les infos de plateforme pour les joueurs Steam, Xbox et PS5.",
+      "twitterTitle": "Wiki Crime Scene Cleaner - Avis, Cartes & Succès",
+      "twitterDescription": "Wiki Crime Scene Cleaner avec des guides pour les cartes, les succès, les mises à jour, les fins, les outils, les détergents et les infos de plateforme pour les joueurs Steam, Xbox et PS5."
     }
   },
   "nav": {
@@ -35,755 +35,929 @@
     "readMore": "En savoir plus"
   },
   "hero": {
-    "badge": "Minuscules gnomes. Grandes maisons. Braquages furtifs entre amis.",
-    "title": "Lucid Blocks wiki",
-    "description": "Votre centre pour Lucid Blocks : comment fonctionnent les braquages, les tâches de Haut-Gnome, la fabrication et les améliorations, les ennemis, les commandes et les moyens les plus rapides de survivre à chaque partie.",
-    "getFreeCodesCTA": "Télécharger la démo",
-    "playOnSteamCTA": "Ajouter à la liste de souhaits sur Steam",
+    "badge": "Simulateur de nettoyage sanglant à la première personne",
+    "title": "Wiki Crime Scene Cleaner",
+    "description": "Nettoyez le sang, mettez les corps dans des sacs, éliminez les preuves, améliorez vos outils et découvrez l'histoire derrière chaque mission dans Crime Scene Cleaner sur Steam, Xbox et PS5.",
+    "getFreeCodesCTA": "Voir les dernières mises à jour",
+    "playOnSteamCTA": "Jouer sur Steam",
     "stats": {
       "stat1": {
-        "value": "15K",
-        "label": "Pic de CCU (Démo)"
+        "value": "14 août 2024",
+        "label": "Date de sortie"
       },
       "stat2": {
-        "value": "6",
-        "label": "Joueurs en coopération"
+        "value": "1 000 000+",
+        "label": "Exemplaires vendus"
       },
       "stat3": {
-        "value": "31/01/2026",
-        "label": "Sortie de la démo"
+        "value": "98 % de 13 272",
+        "label": "Évaluations en anglais"
       },
       "stat4": {
-        "value": "PC (Steam)",
-        "label": "Plateforme"
+        "value": "80",
+        "label": "Succès Steam"
       }
     }
   },
   "gameFeature": {
-    "title": "Gameplay de Lucid Blocks",
-    "description": "Regardez de minuscules gnomes réaliser de gros braquages dans des missions furtives chaotiques en coopération à 6 joueurs !"
+    "title": "Gameplay de Crime Scene Cleaner",
+    "description": "Nettoyez le sang, mettez les corps dans des sacs, éliminez les preuves et améliorez vos outils de nettoyage à travers de multiples scènes de crime dans ce simulateur de nettoyage gore à la première personne sur Steam, Xbox et PS5."
   },
   "tools": {
-    "title": "Lucid Blocks",
-    "titleHighlight": "Ressources",
-    "subtitle": "Tout ce dont vous avez besoin pour maîtriser les braquages et la furtivité en coopération",
+    "title": "Crime Scene Cleaner",
+    "titleHighlight": "Centre des guides",
+    "subtitle": "Tout ce que vous devez savoir sur le nettoyage, les améliorations et la maîtrise de Crime Scene Cleaner",
     "cards": [
       {
-        "icon": "Télécharger",
-        "title": "Téléchargement de la démo",
-        "description": "Obtenez la démo gratuite sur Steam"
-      },
-      {
         "icon": "BookOpen",
-        "title": "Guide du débutant",
-        "description": "Boucle de base et pièges courants"
+        "title": "Guide du débutant Crime Scene Cleaner",
+        "description": "Premières étapes, boucle de nettoyage et bases des outils principaux"
       },
       {
-        "icon": "Utilisateurs",
-        "title": "Guide de coopération",
-        "description": "Rôles à 6 joueurs et tactiques de sauvetage"
-      },
-      {
-        "icon": "ClipboardCheck",
-        "title": "Tâches et objectifs",
-        "description": "Ce que le Haut-Gnome attend de vous"
-      },
-      {
-        "icon": "Clavier",
-        "title": "Commandes et raccourcis clavier",
-        "description": "Touches par défaut et comment les modifier"
-      },
-      {
-        "icon": "Bouclier",
-        "title": "Paramètres de contenu",
-        "description": "Contenu pour adultes et options d'activation/désactivation"
-      },
-      {
-        "icon": "Marteau",
-        "title": "Fabrication et équipement",
-        "description": "Équipez-vous avec des matériaux volés"
-      },
-      {
-        "icon": "Package",
-        "title": "Butin et objets",
-        "description": "Quoi voler et conseils de transport"
-      },
-      {
-        "icon": "AlertTriangle",
-        "title": "Ennemis et dangers",
-        "description": "Menaces et comment les gérer"
-      },
-      {
-        "icon": "Oeil",
-        "title": "Furtivité et évasion",
-        "description": "Restez caché et extrayez-vous en toute sécurité"
-      },
-      {
-        "icon": "Accueil",
-        "title": "Améliorations de la maison",
-        "description": "Améliorez votre base d'île flottante"
-      },
-      {
-        "icon": "MessageCircle",
-        "title": "Communauté et Discord",
-        "description": "Liens officiels et recherche de groupe"
-      },
-      {
-        "icon": "Paramètres",
-        "title": "Mods et BepInEx",
-        "description": "Installer le framework et configurer les mods"
-      },
-      {
-        "icon": "Étoile",
-        "title": "Mods populaires",
-        "description": "Meilleures sélections et fonctionnalités de la communauté"
-      },
-      {
-        "icon": "Gamepad2",
-        "title": "Prise en charge de la manette",
-        "description": "Jeu complet à la manette avec curseur d'interface utilisateur"
+        "icon": "Map",
+        "title": "Solution complète Crime Scene Cleaner",
+        "description": "Missions clés de Bad Call à l'Acte 2 Amber Alert"
       },
       {
         "icon": "TrendingUp",
-        "title": "Nombre de joueurs et tendance",
-        "description": "Statistiques en direct et suivi des pics"
+        "title": "Guide des améliorations Crime Scene Cleaner",
+        "description": "Meilleures améliorations pour la serpillière, le seau et la vitesse de nettoyage"
+      },
+      {
+        "icon": "Hammer",
+        "title": "Guide des compétences de serpillière Crime Scene Cleaner",
+        "description": "Compétences de serpillière, synergie des détergents et configuration à deux seaux"
+      },
+      {
+        "icon": "DollarSign",
+        "title": "Guide de l'argent Crime Scene Cleaner",
+        "description": "Gagnez de l'argent plus rapidement grâce aux objets de valeur et aux cachettes"
+      },
+      {
+        "icon": "Target",
+        "title": "Guide du score parfait Crime Scene Cleaner",
+        "description": "Évitez les pénalités de score et terminez les cartes à 100 %"
+      },
+      {
+        "icon": "Trophy",
+        "title": "Guide des succès Crime Scene Cleaner",
+        "description": "Les 80 succès Steam et comment les débloquer"
+      },
+      {
+        "icon": "Eye",
+        "title": "Guide des secrets Crime Scene Cleaner",
+        "description": "Salles cachées, portes à énigmes et interactions secrètes"
+      },
+      {
+        "icon": "Music",
+        "title": "Guide des cassettes Crime Scene Cleaner",
+        "description": "Emplacements de toutes les cassettes et CD par mission"
+      },
+      {
+        "icon": "Package",
+        "title": "Guide des corps et des preuves Crime Scene Cleaner",
+        "description": "Stratégies d'élimination des corps et de collecte des preuves"
+      },
+      {
+        "icon": "ClipboardCheck",
+        "title": "Guide True Cleaner Crime Scene Cleaner",
+        "description": "Liste de contrôle pour l'évaluation de nettoyage complet par surface et catégorie"
+      },
+      {
+        "icon": "Shield",
+        "title": "Guide du mode Cauchemar Crime Scene Cleaner",
+        "description": "Comment aborder les missions en difficulté Cauchemar"
+      },
+      {
+        "icon": "Clock",
+        "title": "Solution de l'Acte 2 Crime Scene Cleaner",
+        "description": "Missions de l'Acte 2, contenu de l'histoire et nouveaux lieux"
+      },
+      {
+        "icon": "Star",
+        "title": "Guide des secrets et CD de l'Acte 2 Crime Scene Cleaner",
+        "description": "Tous les CD cachés et emplacements des salles secrètes de l'Acte 2"
+      },
+      {
+        "icon": "FlaskConical",
+        "title": "Guide des détergents Crime Scene Cleaner",
+        "description": "Meilleurs mélanges de détergents et conseils d'efficacité de nettoyage"
+      },
+      {
+        "icon": "Settings",
+        "title": "Configuration requise et mises à jour Crime Scene Cleaner",
+        "description": "Spécifications PC, informations sur les plateformes et historique des mises à jour"
       }
     ]
   },
   "modules": {
-    "demoDownload": {
-      "title": "Téléchargement de la démo de Lucid Blocks",
-      "subtitle": "Obtenez la démo gratuite sur Steam",
-      "downloadSize": "2,62 Gio",
-      "diskSize": "4,88 Gio",
-      "releaseDate": "30 janvier 2026",
-      "price": "Gratuit",
-      "platform": "PC (Steam) / Windows",
-      "engine": "Unity",
-      "primaryCTA": "Télécharger la démo",
-      "secondaryCTA": "Voir les informations techniques",
-      "installPath": "Steam\\steamapps\\common\\Lucid Blocks Demo",
-      "sections": [
-        {
-          "heading": "Où télécharger",
-          "items": [
-            "Ouvrez la page officielle du magasin Steam et utilisez la section \"Télécharger la démo\".",
-            "Si Steam vous demande de vous connecter, connectez-vous d'abord et réessayez."
-          ]
-        },
-        {
-          "heading": "Vérifications rapides d'installation et de lancement",
-          "items": [
-            "Emplacement d'installation par défaut : Dossier de la bibliothèque Steam → steamapps → common → (dossier du jeu).",
-            "Si le jeu ne se lance pas : vérifiez les fichiers du jeu dans Steam, puis redémarrez Steam."
-          ]
-        }
-      ]
-    },
-    "beginnerGuide": {
-      "title": "Guide du débutant de Lucid Blocks",
-      "subtitle": "Maîtrisez la boucle de base et évitez les erreurs courantes",
+    "cscBeginnerGuide": {
+      "title": "Guide du débutant Crime Scene Cleaner",
+      "displayType": "steps",
+      "intro": "Crime Scene Cleaner récompense les joueurs qui comprennent l'ordre des opérations avant de se lancer dans chaque mission. Apprenez la boucle de nettoyage, le choix des outils et les bonnes habitudes initiales qui font gagner du temps sur chaque mission.",
       "steps": [
         {
-          "number": 1,
-          "title": "Entrer dans la maison",
-          "description": "Descendez dans une maison humaine depuis votre base d'île flottante. Apparaissez à l'extérieur et faufilez-vous par des portes ou des fenêtres déverrouillées."
+          "title": "Scannez d'abord toute la scène",
+          "description": "Avant de toucher à quoi que ce soit, parcourez l'intégralité du lieu. Chaque mission dans Crime Scene Cleaner a une disposition de saleté différente, et scanner la scène en premier vous aide à repérer les traînées de sang cachées, les preuves et les obstacles avant de commencer le nettoyage."
         },
         {
-          "number": 2,
-          "title": "Effectuer des tâches",
-          "description": "Terminez les tâches du Haut-Gnome avant la fin du temps imparti. Vérifiez les objectifs via la touche Tab et donnez la priorité aux tâches risquées en premier."
+          "title": "Évacuez les corps et les déchets rapidement",
+          "description": "L'élimination des corps et le ramassage des déchets libèrent vos lignes de mouvement et révèlent les taches cachées et les preuves en dessous. Faire cela en premier réduit les allers-retours et vous aide à trouver des objets que vous auriez autrement manqués."
         },
         {
-          "number": 3,
-          "title": "Voler des objets",
-          "description": "Attrapez des objets de valeur et des matériaux pour la fabrication. Évitez de faire du bruit ou de vous faire repérer par le propriétaire."
+          "title": "Utilisez le bon outil pour chaque surface",
+          "description": "La serpillière s'occupe des taches de sang générales et des zones de sol dégagées. L'éponge est préférable pour les objets délicats, les tapis et les meubles. Le nettoyeur haute pression fonctionne bien sur les grandes surfaces mais peut causer des dégâts supplémentaires s'il est utilisé sans précaution près d'installations fragiles."
         },
         {
-          "number": 4,
-          "title": "S'échapper via une tornade",
-          "description": "Lorsque le minuteur se termine, une tornade apparaît dans la cour - atteignez-la pour vous extraire en toute sécurité. Commencez à bouger tôt !"
+          "title": "Gérez votre seau",
+          "description": "La serpillière et l'éponge se salissent avec le temps. Rincez-les avant qu'elles ne commencent à propager la contamination au lieu de l'éliminer. L'eau propre réinitialise votre outil, mais elle supprime également les bonus de détergent, alors planifiez vos rinçages avec soin."
         },
         {
-          "number": 5,
-          "title": "Améliorer et répéter",
-          "description": "Utilisez les récompenses et les matériaux pour fabriquer de l'équipement à la maison, puis commencez votre prochain braquage avec un meilleur équipement."
+          "title": "Faites un tour complet avant de partir",
+          "description": "La progression dans Crime Scene Cleaner est suivie par zone. Avant de terminer un travail, faites un dernier tour de chaque pièce, y compris les plafonds, les étagères hautes et le dessous des meubles. Les taches cachées et les objets oubliés sont la raison la plus courante des scores faibles."
+        },
+        {
+          "title": "Investissez d'abord dans les améliorations de base",
+          "description": "Améliorez la résistance de votre serpillière, la capacité de votre seau et votre vitesse de nettoyage avant de dépenser pour des outils spécialisés. Ces améliorations de base sont rentables sur chaque mission et réduisent les difficultés sur les cartes plus grandes et plus complexes."
         }
-      ],
-      "pitfalls": [
-        {
-          "title": "Se faire prendre",
-          "description": "Le propriétaire vous poursuivra. Restez caché, utilisez des distractions et brisez les lignes de vue pour vous échapper.",
-          "icon": "AlertTriangle"
-        },
-        {
-          "title": "Manque de temps",
-          "description": "Le minuteur de la tornade est strict. Commencez à vous diriger vers l'extraction tôt au lieu de trop piller.",
-          "icon": "Clock"
-        },
-        {
-          "title": "Ignorer ses coéquipiers",
-          "description": "Sauvez rapidement les alliés piégés dans les pièges du réfrigérateur/four - signalez immédiatement pour les sauvetages.",
-          "icon": "Utilisateurs"
-        }
-      ]
-    },
-    "coopGuide": {
-      "title": "Guide de coopération de Lucid Blocks",
-      "subtitle": "Coordonnez-vous avec jusqu'à 6 joueurs pour un chaos maximal",
-      "maxPlayers": 6,
-      "roles": [
-        {
-          "name": "Éclaireur",
-          "description": "Vérifiez les menaces, marquez les chemins sûrs et guidez les mouvements de l'équipe",
-          "icon": "Oeil"
-        },
-        {
-          "name": "Transporteur",
-          "description": "Concentrez-vous sur les objets lourds avec des améliorations de sac à dos et sécurisez la progression des tâches",
-          "icon": "Package"
-        },
-        {
-          "name": "Distraction",
-          "description": "Attirez le propriétaire/les animaux de compagnie loin de l'équipe pour créer des fenêtres sûres",
-          "icon": "Utilisateurs"
-        },
-        {
-          "name": "Sauveteur",
-          "description": "Libérez les coéquipiers piégés du réfrigérateur/four avant qu'ils ne meurent",
-          "icon": "Bouclier"
-        }
-      ],
-      "threats": [
-        "Propriétaire (vous poursuit et vous piège)",
-        "Chats et souris (itinéraires de patrouille)",
-        "Aspirateur robot (danger instantané)",
-        "Limite de temps (extraction par tornade)"
-      ],
-      "communication": "Utilisez le chat vocal (touche V) pour coordonner les tâches et les sauvetages. Annoncez : \"Repéré\", \"Itinéraire\", \"Besoin d'un sauvetage\", \"Extraire bientôt\"."
-    },
-    "tasksObjectives": {
-      "title": "Tâches et objectifs de Lucid Blocks",
-      "subtitle": "Ce que le Haut-Gnome veut : exemples de tâches",
-      "taskTypes": [
-        {
-          "type": "Voler des objets",
-          "examples": [
-            "Attrapez des objets spécifiques marqués par les objectifs du Haut-Gnome"
-          ]
-        },
-        {
-          "type": "Atteindre des lieux",
-          "examples": [
-            "Naviguez vers des zones spécifiées à l'intérieur de la maison"
-          ]
-        },
-        {
-          "type": "Faire des bêtises",
-          "examples": [
-            "Casser une télévision",
-            "Inonder des toilettes",
-            "Créer le chaos"
-          ]
-        }
-      ],
-      "efficiency": [
-        "Effectuez d'abord les tâches risquées pendant que l'équipe est ensemble",
-        "Attribuez un transporteur pour les objets de la tâche afin qu'ils ne soient pas perdus pendant les poursuites",
-        "Commencez à vous déplacer vers l'extraction avant la fin du temps imparti"
-      ]
-    },
-    "controlsKeybinds": {
-      "title": "Commandes et raccourcis clavier de Lucid Blocks",
-      "subtitle": "Commandes clavier par défaut (et où les modifier)",
-      "keybinds": [
-        {
-          "action": "Déplacer à gauche",
-          "key": "A"
-        },
-        {
-          "action": "Déplacer à droite",
-          "key": "D"
-        },
-        {
-          "action": "Avancer",
-          "key": "W"
-        },
-        {
-          "action": "Reculer",
-          "key": "S"
-        },
-        {
-          "action": "S'accroupir",
-          "key": "Ctrl gauche"
-        },
-        {
-          "action": "Attaquer",
-          "key": "Clic gauche"
-        },
-        {
-          "action": "Courir",
-          "key": "Maj gauche"
-        },
-        {
-          "action": "Déposer un objet",
-          "key": "G"
-        },
-        {
-          "action": "Interagir",
-          "key": "E"
-        },
-        {
-          "action": "Sauter",
-          "key": "Espace"
-        },
-        {
-          "action": "Appuyer pour parler",
-          "key": "V"
-        },
-        {
-          "action": "Pousser",
-          "key": "Clic droit"
-        },
-        {
-          "action": "Ragdoll",
-          "key": "Q"
-        },
-        {
-          "action": "Emplacement d'équipement 1",
-          "key": "1"
-        },
-        {
-          "action": "Emplacement d'équipement 2",
-          "key": "2"
-        },
-        {
-          "action": "Emplacement d'équipement 3",
-          "key": "3"
-        },
-        {
-          "action": "Emplacement d'équipement 4",
-          "key": "4"
-        },
-        {
-          "action": "Inventaire",
-          "key": "Tab"
-        }
-      ],
-      "changePath": "Depuis le menu titre : ouvrez PARAMÈTRES, puis vérifiez les paramètres du clavier. Utilisez le champ de recherche pour filtrer les lignes de raccourcis clavier."
-    },
-    "contentSettings": {
-      "title": "Paramètres de contenu de Lucid Blocks",
-      "subtitle": "Contenu pour adultes, activation/désactivation de la nudité et préférences Steam",
-      "descriptors": [
-        "Nudité ou contenu sexuel partiel",
-        "Contenu général pour adultes"
-      ],
-      "details": [
-        {
-          "heading": "Ce que les développeurs déclarent",
-          "items": [
-            "Un humain peut apparaître nu en faisant des activités comme se baigner.",
-            "La nudité est censurée et peut être complètement désactivée en option.",
-            "Les gnomes peuvent être démembrés et mourir de manière brutale."
-          ]
-        },
-        {
-          "heading": "Si Steam bloque la page de la communauté",
-          "items": [
-            "Steam peut masquer le hub de la communauté en fonction de vos préférences de contenu.",
-            "Utilisez \"Mettre à jour les préférences de contenu\" de Steam pour ajuster ce que vous autorisez Steam à afficher."
-          ]
-        }
-      ]
-    },
-    "craftingEquipment": {
-      "title": "Fabrication et équipement de Lucid Blocks",
-      "subtitle": "Équipez-vous : exemples de fabrication et ce que chaque outil fait",
-      "equipment": [
-        {
-          "item": "Sac à dos",
-          "benefit": "Augmente la capacité de l'inventaire pour plus de butin par course"
-        },
-        {
-          "item": "Gants de gnome",
-          "benefit": "Vous permet d'ouvrir des portes et d'interagir avec plus d'objets"
-        },
-        {
-          "item": "Chaussures à ressort",
-          "benefit": "Empêche les dégâts de chute lors des évasions depuis des hauteurs"
-        },
-        {
-          "item": "Arme",
-          "benefit": "Vous aide à combattre les menaces comme les souris lorsque vous êtes acculé"
-        }
-      ],
-      "sections": [
-        {
-          "heading": "Comment la fabrication se connecte au pillage",
-          "items": [
-            "Pendant une course, volez des objets et rapportez-les comme matériaux de fabrication.",
-            "Après l'extraction, les récompenses/matériaux soutiennent de nouvelles fabrications."
-          ]
-        },
-        {
-          "heading": "Amélioration de la base",
-          "items": [
-            "Fabriquez des meubles et améliorez votre maison sur l'île flottante (fonctionnalité du jeu complet)."
-          ]
-        }
-      ]
-    },
-    "lootItems": {
-      "title": "Butin et objets de Lucid Blocks",
-      "subtitle": "Quoi voler : types d'objets, risque et conseils de transport",
-      "categories": [
-        {
-          "type": "Objets de tâche",
-          "examples": [
-            "Objets requis par le Haut-Gnome pour les objectifs"
-          ]
-        },
-        {
-          "type": "Matériaux de fabrication",
-          "examples": [
-            "Objets ménagers réutilisés en équipement et améliorations de gnome"
-          ]
-        },
-        {
-          "type": "Cibles de méfait",
-          "examples": [
-            "Objets impliqués dans des tâches comme casser ou inonder"
-          ]
-        }
-      ],
-      "carryTips": [
-        "Donnez la priorité à la progression de la tâche, puis remplissez la capacité restante avec des matériaux de fabrication",
-        "Si des menaces sont à proximité, déplacez les objets par petits sauts sûrs plutôt que par de longs transports exposés",
-        "Planifiez l'itinéraire vers l'extraction dans la cour avant la fin du temps imparti"
-      ],
-      "riskLevels": [
-        {
-          "level": "Faible",
-          "description": "Près des entrées ou des coins sûrs"
-        },
-        {
-          "level": "Moyen",
-          "description": "Pièces plus profondes ou près des menaces errantes"
-        },
-        {
-          "level": "Élevé",
-          "description": "Près de la patrouille du propriétaire ou de l'aspirateur robot"
-        }
-      ]
-    },
-    "enemiesHazards": {
-      "title": "Ennemis et dangers de Lucid Blocks",
-      "subtitle": "Sachez ce qui peut vous attraper",
-      "threats": [
-        {
-          "name": "Le propriétaire",
-          "trigger": "Se faire repérer en cambriolant ou en effectuant des tâches",
-          "behavior": "Il vous poursuit et essaie de vous attraper",
-          "counter": "Restez furtif, brisez les lignes de vue et continuez à bouger en équipe"
-        },
-        {
-          "name": "Chats",
-          "trigger": "S'approcher trop près ou croiser leur chemin",
-          "behavior": "Ils deviennent une menace directe pendant que vous vous faufilez",
-          "counter": "Évitez leurs itinéraires et passez silencieusement"
-        },
-        {
-          "name": "Souris",
-          "trigger": "Entrer dans des zones où les souris errent",
-          "behavior": "Elles menacent les gnomes fragiles pendant les courses",
-          "counter": "Restez vigilant dans les espaces restreints et soyez prêt à vous retirer"
-        },
-        {
-          "name": "Aspirateur robot",
-          "trigger": "Être sur son chemin de nettoyage",
-          "behavior": "Il peut aspirer les gnomes",
-          "counter": "Écoutez-le, restez en dehors de son itinéraire et repositionnez-vous rapidement"
-        },
-        {
-          "name": "Piège du réfrigérateur / four",
-          "trigger": "Se faire attraper par le propriétaire",
-          "behavior": "Vous pouvez être enfermé à l'intérieur ; si les coéquipiers ne vous sauvent pas à temps, vous mourez",
-          "counter": "Signalez immédiatement ; les coéquipiers donnent la priorité à l'itinéraire de sauvetage"
-        },
-        {
-          "name": "Limite de temps",
-          "trigger": "Le minuteur de course atteint la limite",
-          "behavior": "Une tornade d'extraction apparaît dans la cour ; vous devez l'atteindre pour vous échapper",
-          "counter": "Arrêtez de trop piller, regroupez-vous et engagez-vous à l'extraction tôt"
-        }
-      ]
-    },
-    "stealthEscape": {
-      "title": "Conseils de furtivité et d'évasion de Lucid Blocks",
-      "subtitle": "Volez plus, mourez moins",
-      "do": [
-        "Restez furtif et mettez-vous à couvert avant d'interagir avec des objets",
-        "Utilisez le travail d'équipe : signalez les menaces et coordonnez les itinéraires",
-        "Sauvez rapidement les coéquipiers lorsque quelqu'un est piégé ou à terre",
-        "Réduisez vos pertes et dirigez-vous vers l'extraction lorsque le minuteur est serré"
-      ],
-      "dont": [
-        "Devenez gourmand lorsque l'extraction approche",
-        "Séparez-vous trop de l'équipe lorsque le propriétaire est actif",
-        "Ignorez les itinéraires de l'aspirateur robot ou les patrouilles d'animaux",
-        "Retardez les sauvetages lorsqu'un coéquipier est enfermé"
       ],
       "quickTips": [
-        {
-          "title": "La règle des 3 secondes",
-          "text": "Si vous ne pouvez pas expliquer votre prochain mouvement en 3 secondes, vous êtes sur le point de vous faire repérer."
-        },
-        {
-          "title": "Sauvetage d'abord",
-          "text": "Un sauvetage rapide maintient la course en vie ; le pillage peut attendre."
-        },
-        {
-          "title": "Discipline d'extraction",
-          "text": "Regroupez-vous tôt et engagez-vous dans la tornade avant que la panique ne commence."
-        }
+        "Le pourcentage de progression est suivi par zone, et non pour l'ensemble de la mission.",
+        "Une serpillière sale finit par étaler les taches au lieu de les éliminer.",
+        "Vérifiez les plafonds, les luminaires en hauteur et les surfaces des meubles — les éclaboussures de sang apparaissent partout.",
+        "Le rinçage du seau supprime les effets du détergent, alors planifiez l'utilisation de votre seau avant de rincer."
       ]
     },
-    "homeUpgrades": {
-      "title": "Améliorations de la maison de Lucid Blocks",
-      "subtitle": "Fabriquez, construisez, améliorez",
-      "branches": [
+    "cscWalkthrough": {
+      "title": "Guide de Crime Scene Cleaner",
+      "displayType": "cartes",
+      "intro": "Chaque mission de Crime Scene Cleaner possède sa propre configuration, ses priorités de nettoyage et ses secrets à découvrir. Utilisez ce hub pour comprendre à quoi vous attendre lors des missions clés et comment les aborder efficacement.",
+      "cards": [
         {
-          "branch": "Stockage",
-          "summary": "Transportez plus et rapportez plus",
-          "items": [
-            "Sac à dos (extension d'inventaire)"
-          ]
+          "name": "Bad Call",
+          "description": "La première mission principale et l'introduction la plus claire à la boucle complète de nettoyage. Concentrez-vous sur l'apprentissage des habitudes de nettoyage intégral, vérifiez soigneusement le grenier et l'arrière-boutique, et utilisez cette mission pour jeter les bases des cartes plus vastes."
         },
         {
-          "branch": "Utilité",
-          "summary": "Interagissez plus efficacement avec la maison",
-          "items": [
-            "Gants de gnome (vous permet d'ouvrir des portes et plus encore)"
-          ]
+          "name": "Trial by Blood",
+          "description": "Située au Miko's Spa and Wellness, cette mission teste votre capacité à alterner entre un nettoyage global et un travail de précision minutieux dans un intérieur décoratif complexe. Suivez les secrets et les cassettes à ramasser tant que les pièces sont encore fraîches."
         },
         {
-          "branch": "Mobilité",
-          "summary": "Déplacez-vous plus en sécurité dans les espaces verticaux",
-          "items": [
-            "Chaussures à ressort (réduisent les dégâts de chute)"
-          ]
+          "name": "Affair with Death",
+          "description": "La Villa à flanc de montagne est l'un des plus gros contrats du début, avec cinq corps et de nombreuses preuves. Planifiez votre itinéraire étage par étage au lieu d'improviser et vérifiez les pièces latérales verrouillées dans le cadre de votre circuit principal."
         },
         {
-          "branch": "Défense",
-          "summary": "Gérez les petites menaces si nécessaire",
-          "items": [
-            "Armes (pour les menaces comme les souris)"
-          ]
-        },
-        {
-          "branch": "Base d'attache",
-          "summary": "Fabriquez des meubles et améliorez votre maison sur l'île flottante",
-          "items": [
-            "Améliorations de meubles fonctionnels"
-          ]
+          "name": "Amber Alert",
+          "description": "Une mission de l'Acte 2 axée sur la complétion, avec des objets de collection, des secrets et de multiples objectifs de nettoyage. Abordez-la comme une mission à terminer à 100 % et suivez les objets de collection en parallèle des objectifs principaux."
         }
       ],
-      "priority": [
+      "milestones": [
+        "Apprendre la boucle de nettoyage dans Bad Call",
+        "Naviguer dans la configuration multi-pièces du Miko's Spa",
+        "Nettoyer la Villa à flanc de montagne avec un itinéraire étage par étage",
+        "Atteindre la complétion totale dans Amber Alert"
+      ]
+    },
+    "cscUpgradesGuide": {
+      "title": "Guide des améliorations de Crime Scene Cleaner",
+      "displayType": "tableau",
+      "intro": "Les meilleures améliorations dans Crime Scene Cleaner sont celles qui réduisent les frictions lors de chaque mission. Commencez par améliorer vos outils de base avant de dépenser dans des voies spécialisées qui ne sont utiles que dans des situations spécifiques.",
+      "items": [
         {
-          "rank": 1,
-          "title": "Stockage en premier",
-          "reason": "Plus de capacité de transport améliore le rendement de chaque course"
+          "name": "Améliorations de la serpillière de base",
+          "type": "Priorité élevée",
+          "description": "La serpillière est votre principal outil polyvalent et influe sur le nettoyage du sang sur presque toutes les cartes. Améliorer ses performances réduit le temps d'arrêt dû à l'encrassement de l'outil et constitue le meilleur investissement de départ."
         },
         {
-          "rank": 2,
-          "title": "Utilité ensuite",
-          "reason": "De meilleures interactions réduisent le temps passé dans les zones dangereuses"
+          "name": "Améliorations du seau",
+          "type": "Priorité élevée",
+          "description": "La gestion du seau est centrale car la serpillière et l'éponge dépendent toutes deux du rinçage. Une meilleure capacité et performance du seau réduit les allers-retours et facilite l'utilisation de détergent."
         },
         {
-          "rank": 3,
-          "title": "Mobilité pour la survie",
-          "reason": "La sécurité contre les chutes prévient les morts évitables lors de l'évasion"
+          "name": "Améliorations de l'éponge",
+          "type": "Priorité élevée",
+          "description": "L'éponge permet de traiter les objets fragiles, les tapis et les surfaces de meubles. Elle devient plus précieuse à mesure que la variété des missions augmente et que vous rencontrez des agencements intérieurs plus complexes."
+        },
+        {
+          "name": "Seau supplémentaire",
+          "type": "Priorité élevée",
+          "description": "La base de la stratégie à deux seaux. Utilisez un seau avec du détergent pour les bonus de nettoyage et un autre avec de l'eau claire pour le rinçage, ce qui permet de conserver les effets du détergent bien plus longtemps."
+        },
+        {
+          "name": "Vitesse de nettoyage",
+          "type": "Priorité élevée",
+          "description": "Les améliorations de vitesse influent sur le rythme de presque chaque mission et réduisent la perte de temps sur les gros travaux. C'est l'un des choix de compétences initiales les plus recommandés dans les guides de la communauté."
+        },
+        {
+          "name": "Voie du nettoyeur haute pression",
+          "type": "Priorité moyenne",
+          "description": "Excellent pour les grandes surfaces ouvertes mais plus situationnel que les améliorations de la serpillière et de l'éponge. À utiliser de préférence dans les zones où le risque de créer des salissures supplémentaires par éclaboussures est faible."
+        },
+        {
+          "name": "Utilité de l'ozonateur",
+          "type": "Priorité moyenne",
+          "description": "Affaiblit les taches à proximité et traite les pièces pendant que vous nettoyez ailleurs. Un outil de soutien utile pour les gros travaux, mais pas une priorité d'achat immédiate par rapport aux améliorations des outils de base."
+        },
+        {
+          "name": "Investissement en détergent",
+          "type": "Priorité basse",
+          "description": "Les détergents sont puissants mais peuvent attendre si vous utilisez la configuration à deux seaux. Concentrez-vous d'abord sur l'efficacité brute des outils de nettoyage et approfondissez l'usage des détergents une fois votre routine de base stabilisée."
         }
       ]
     },
-    "community": {
-      "title": "Communauté et Discord de Lucid Blocks",
-      "subtitle": "Trouvez des équipes, des mises à jour, des discussions",
-      "links": [
+    "cscMopSkills": {
+      "title": "Guide des compétences de la serpillière dans Crime Scene Cleaner",
+      "displayType": "card-list",
+      "intro": "La serpillière est le pilier de presque chaque session de nettoyage dans Crime Scene Cleaner. Une bonne configuration de serpillière réduit les interruptions pour le rinçage, élargit chaque passage de nettoyage et maintient l'efficacité de votre cycle tout au long des missions prolongées.",
+      "solutions": [
         {
-          "title": "Discord officiel",
-          "subtitle": "Annonces • Commentaires • LFG",
-          "url": "https://discord.com/invite/lucidblocks"
+          "name": "Résistance accrue",
+          "role": "Choix essentiel",
+          "description": "L'une des compétences de serpillière les plus remarquables car elle prolonge la durée d'efficacité de la serpillière avant qu'elle ne devienne trop sale pour nettoyer. Réduit directement les temps d'arrêt causés par les rinçages forcés."
         },
         {
-          "title": "X officiel (Twitter)",
-          "subtitle": "Mises à jour et publications des développeurs",
-          "url": "https://x.com/lucidblocks"
+          "name": "Portée accrue",
+          "role": "Efficacité",
+          "description": "Chaque passage de nettoyage couvre une plus grande surface au sol, ce qui s'accumule rapidement dans les intérieurs à aire ouverte avec des taches répétées sur de grandes surfaces."
         },
         {
-          "title": "Hub de la communauté Steam",
-          "subtitle": "Discussions • Captures d'écran • Guides",
-          "url": "https://steamcommunity.com/app/3495730"
+          "name": "Vitesse de nettoyage",
+          "role": "Nettoyage rapide",
+          "description": "Fréquemment recommandée car elle améliore le rythme de l'élimination des taches de routine dans presque toutes les missions. Idéal pour les joueurs cherchant à terminer les nettoyages complets plus rapidement."
         },
         {
-          "title": "Page du magasin Steam",
-          "subtitle": "Liste de souhaits • Démo • Description officielle",
-          "url": "https://store.steampowered.com/app/3495730/Lucid_Blocks/"
+          "name": "Détergents Clean et Power",
+          "role": "Synergie",
+          "description": "Le support des détergents améliore le traitement des taches et aide la serpillière à rester efficace plus longtemps. Utilisez un seau de détergent dédié pour conserver les bonus de nettoyage lors des sessions prolongées."
+        },
+        {
+          "name": "Pas prudents",
+          "role": "Sécurité",
+          "description": "Un choix pratique pour les joueurs souhaitant minimiser le travail accidentel, particulièrement dans les zones intérieures encombrées où les erreurs de trajectoire coûtent du temps de nettoyage supplémentaire."
+        },
+        {
+          "name": "Configuration à deux seaux",
+          "role": "Configuration Pro",
+          "description": "Un seau avec du détergent pour les bonus et un avec de l'eau claire pour le rinçage. L'optimisation liée à la serpillière la plus partagée pour maintenir un cycle de nettoyage plus performant au fil du temps."
+        }
+      ],
+      "managementTips": [
+        "Une serpillière sale finit par créer de nouvelles taches au lieu de les éliminer — rincez avant d'atteindre ce seuil.",
+        "Utilisez un seau de détergent et un seau d'eau pour conserver les bonus de nettoyage sans les perdre à chaque rinçage.",
+        "La portée accrue est particulièrement précieuse dans les zones de sol ouvertes où la couverture par passage est primordiale.",
+        "Privilégiez la configuration de la serpillière avant de vous engager dans les voies du nettoyeur haute pression ou de l'ozonateur."
+      ]
+    },
+    "cscMoneyGuide": {
+      "title": "Guide d'argent Crime Scene Cleaner",
+      "displayType": "card-list",
+      "intro": "Crime Scene Cleaner récompense les joueurs qui traitent chaque carte à la fois comme un contrat de nettoyage et un parcours de récupération. Les sessions les plus rentables proviennent d'une exploration complète de la scène, du pillage d'objets de valeur et de détours par des zones secrètes cachant des coffres-forts, des objets rares ou d'importantes réserves d'argent.",
+      "items": [
+        {
+          "title": "Nettoyez complètement la scène avant de partir",
+          "description": "Nettoyez le sang, enlevez les déchets, collectez les preuves et remettez en place les objets déplacés. Les parties avec un score parfait sont liées à une meilleure valeur d'achèvement de mission et à une progression à long terme.",
+          "tip": "Plusieurs succès de score parfait nécessitent de tout nettoyer, de ramasser chaque déchet, de restaurer les objets et de trouver tous les indices."
+        },
+        {
+          "title": "Utilisez souvent le Crime Sense et la vérification des indices",
+          "description": "Inspectez les pièces à la recherche de taches oubliées, de preuves cachées et de points d'interaction faciles à ignorer avant de sortir. Les preuves ou taches manquées peuvent réduire votre score, ralentissant ainsi une progression efficace.",
+          "tip": "Le guide du score parfait pour Bad Call divise le score en sections distinctes — une seule catégorie manquée peut gâcher la partie."
+        },
+        {
+          "title": "Volez des objets de valeur dès que l'itinéraire est sûr",
+          "description": "Ramassez l'argent, les objets de valeur et le butin spécial pendant les missions au lieu de les considérer comme de simples éléments de décor optionnels. Il existe un succès global pour avoir volé 50 000 $, confirmant que le vol est une source de revenus essentielle.",
+          "tip": "Le succès global 'Money, Money, Money' suit le montant total d'argent volé sur l'ensemble des parties."
+        },
+        {
+          "title": "Priorisez les pièces secrètes contenant du butin",
+          "description": "Empruntez des chemins secondaires menant à des pièces cachées, des coffres-forts et des zones de planque dissimulées. Plusieurs secrets mènent directement à des récompenses financières ou à des objets de valeur méritant d'être récupérés.",
+          "tip": "Italian Job cache la salle de jeu et le coffre-fort pour le succès 'Treasure', tandis qu'Affair With Death cache une réserve de billets au sous-sol pour 'Money For Nothing'."
+        },
+        {
+          "title": "Saisissez les objets uniques de grande valeur lors des parcours de succès",
+          "description": "Intégrez les objets de collection ou les objectifs secrets lors de vos nettoyages habituels au lieu de rejouer plus tard. Vous pouvez combiner la progression financière et celle des succès au cours d'une même mission.",
+          "tip": "Bad Call contient l'engrais miraculeux pour 'Strawberry Fields Forever', et plusieurs itinéraires secrets contiennent également des cassettes ou des clés d'accès qui rendent la partie plus efficace globalement."
+        },
+        {
+          "title": "Explorez d'abord, puis nettoyez en boucle",
+          "description": "Effectuez une reconnaissance rapide avant le nettoyage approfondi pour comprendre comment les corps, les indices, les pièces verrouillées et les passages secrets sont reliés. L'exploration réduit les allers-retours et aide à collecter le butin en un seul passage.",
+          "tip": "Les cartes les plus rentables récompensent les joueurs qui connaissent les entrées secrètes, les itinéraires sur les toits, les passages cachés et les enchaînements de casiers ou de coffres-forts avant de s'engager dans un nettoyage final."
         }
       ]
     },
-    "modsBepInEx": {
-      "title": "Configuration des mods et de BepInEx de Lucid Blocks",
-      "subtitle": "Installez les mods proprement",
+    "cscPerfectScore": {
+      "title": "Guide pour un score parfait dans Crime Scene Cleaner",
+      "displayType": "étape par étape",
+      "intro": "Les parties avec un score parfait reposent sur la discipline, pas sur la vitesse. Le jeu exige systématiquement un nettoyage total, la collecte de tous les indices et la remise en place correcte des objets avant de quitter une mission.",
+      "steps": [
+        {
+          "title": "Commencez par un tour de reconnaissance",
+          "description": "Avant le nettoyage en profondeur, parcourez toute la scène et identifiez les corps, les pièces clés, les zones d'indices, les portes secrètes et toutes les zones latérales verrouillées. Un passage de reconnaissance rapide évite les retours en arrière tardifs et réduit les objectifs cachés manqués."
+        },
+        {
+          "title": "Validez d'abord les trois piliers du score",
+          "description": "Traitez le nettoyage, les preuves et la manipulation des corps comme des catégories de score distinctes. Ne supposez pas qu'une catégorie parfaite compensera les autres — les conseils pour un score parfait de Bad Call structurent explicitement les missions autour de sections de score séparées."
+        },
+        {
+          "title": "Éliminez chaque tache visible et chaque déchet",
+          "description": "Effectuez un balayage pièce par pièce au lieu d'un nettoyage ponctuel aléatoire. Vérifiez les coins, les pièces annexes, les salles de bain et les passages derrière les planches cassables ou les conduits d'aération pour ne rien oublier de ce que le jeu suit."
+        },
+        {
+          "title": "Restaurez les objets et remettez la scène en état",
+          "description": "Remettez les objets déplacés à leur place d'origine et évitez de créer de nouveaux désordres pendant que vous travaillez. Les descriptions des succès pour une mission parfaite exigent systématiquement de remettre chaque objet à sa place."
+        },
+        {
+          "title": "Trouvez tous les indices avant la sortie finale",
+          "description": "Ne précipitez pas le déclenchement du dernier objectif. Vérifiez à nouveau les pièces liées aux indices, les passages secrets et les compartiments supplémentaires avant de terminer la mission — les succès de score parfait sur plusieurs cartes nécessitent de trouver tous les indices."
+        },
+        {
+          "title": "Terminez les extras spécifiques à la carte",
+          "description": "Certains niveaux cachent du contenu pertinent pour le score dans des zones latérales. Italian Job en est un exemple majeur car un nettoyage parfait inclut également l'appartement de la grand-mère. Les cartes avec des espaces détachés sont faciles à sous-nettoyer si l'on se contente du chemin principal."
+        },
+        {
+          "title": "Utilisez des cartes plus faciles pour pratiquer une exécution propre",
+          "description": "Toxic Love est largement considérée comme une carte indulgente pour l'exécution du nettoyage et l'itinéraire des succès secondaires. S'entraîner sur des configurations plus simples aide à prendre des habitudes avant les cartes plus difficiles de fin de jeu comme Modern Art ou Call In Dead."
+        },
+        {
+          "title": "Terminez par un dernier tour de vérification",
+          "description": "Vérifiez les salles de bain, les conduits, les placards cachés, les passages sur les toits et toute pièce déverrouillée par des clés, des cartes ou des interrupteurs avant de partir. Les oublis de dernière minute se trouvent généralement dans des espaces d'apparence facultative qui comptent pourtant pour la complétion totale."
+        }
+      ]
+    },
+    "cscAchievements": {
+      "title": "Guide des succès de Crime Scene Cleaner",
+      "displayType": "tableau",
+      "intro": "Crime Scene Cleaner propose un vaste ensemble de succès, mais les complétistes commencent généralement par les étapes de score parfait, les secrets liés à l'argent et les interactions cachées spécifiques aux cartes. L'itinéraire le plus rapide combine les objectifs de mission parfaite avec les succès de chemins secrets au cours d'une même partie.",
+      "items": [
+        {
+          "name": "Mauvais coup",
+          "requirement": "Terminer la mission Mauvais coup avec un score parfait",
+          "chapter": "Mauvais coup",
+          "rate": "74.5%"
+        },
+        {
+          "name": "L'épreuve du sang",
+          "requirement": "Terminer la mission L'épreuve du sang avec un score parfait",
+          "chapter": "L'épreuve du sang",
+          "rate": "70.4%"
+        },
+        {
+          "name": "De l'or au plafond",
+          "requirement": "Trouver et utiliser la carte V.I.P",
+          "chapter": "L'épreuve du sang",
+          "rate": "72.1%"
+        },
+        {
+          "name": "Avoir de la chance",
+          "requirement": "Trouver et ouvrir le coffre-fort caché",
+          "chapter": "Amour toxique",
+          "rate": "63.9%"
+        },
+        {
+          "name": "Trésor",
+          "requirement": "Accéder à la salle de jeu et ouvrir le coffre-fort",
+          "chapter": "Braquage à l'italienne",
+          "rate": "61.1%"
+        },
+        {
+          "name": "De l'argent pour rien",
+          "requirement": "Se débarrasser du papier sans valeur dans le sous-sol",
+          "chapter": "Liaison avec la mort",
+          "rate": "62.3%"
+        },
+        {
+          "name": "Champs de fraises pour toujours",
+          "requirement": "Voler l'engrais miraculeux",
+          "chapter": "Mauvais coup",
+          "rate": "49.7%"
+        },
+        {
+          "name": "Argent, argent, argent",
+          "requirement": "Voler un total de 50 000 $",
+          "chapter": "Tout le jeu",
+          "rate": "43.1%"
+        },
+        {
+          "name": "Une autre brique dans le mur",
+          "requirement": "Toucher la lampe et voir ce qu'il se passe",
+          "chapter": "Court-circuit",
+          "rate": "27.6%"
+        },
+        {
+          "name": "Regarder par ma porte arrière",
+          "requirement": "Trouver la pièce secrète de Zack",
+          "chapter": "Appel mortel",
+          "rate": "27.3%"
+        }
+      ]
+    },
+    "cscSecrets": {
+      "title": "Guide des secrets de Crime Scene Cleaner",
+      "displayType": "accordéon",
+      "intro": "La chasse aux secrets est importante car elle recoupe l'argent, les objets de collection et les succès. Plusieurs des meilleures récompenses secondaires du jeu sont cachées derrière des conduits d'aération, des passages sur les toits, des faux murs et des chaînes de cartes d'accès.",
+      "sections": [
+        {
+          "name": "Mauvais appel",
+          "summary": "3 cassettes et 3 secrets. Un excellent chapitre de début pour prendre l'habitude de chercher les secrets — enseigne l'accès aux toits, les clés cachées et les pièces optionnelles.",
+          "details": [
+            "Brisez les planches de la fenêtre barreaudée et traversez prudemment les planches pour atteindre le secret sur le toit.",
+            "Ramassez la première clé dans la pièce condamnée, puis combinez-la avec l'itinéraire de la deuxième clé pour ouvrir le secret de la zone des toilettes grillagée.",
+            "L'engrais miraculeux pour Strawberry Fields Forever est lié au cheminement des secrets de ce chapitre."
+          ]
+        },
+        {
+          "name": "Braquage à l'italienne",
+          "summary": "3 cassettes et 3 secrets. L'un des meilleurs chapitres pour un jeu axé sur l'argent.",
+          "details": [
+            "Prenez la clé dans le tiroir de la cuisine, ouvrez la trappe sous les cartons du bureau, puis piratez le coffre-fort mural dans la salle de jeu cachée.",
+            "Ouvrez la porte latérale, brisez les planches en bois et continuez à travers la zone cachée pour une autre branche secrète.",
+            "Utilisez une échelle ou des boîtes empilées pour passer par-dessus le mur de briques dans l'arrière-cour pour Rock and Roll All Nite."
+          ]
+        },
+        {
+          "name": "Liaison mortelle",
+          "summary": "3 cassettes et 3 secrets. Excellent chapitre pour combiner les secrets avec l'argent et les succès secondaires.",
+          "details": [
+            "Utilisez l'échelle près du terrain de basket ou montez les escaliers et suivez le bord jusqu'au secret côté arbre.",
+            "Rampez à travers le trou derrière les cartons pour atteindre la salle d'argent liquide cachée pour Money For Nothing.",
+            "Récupérez la clé des toilettes au premier étage et utilisez-la dans la buanderie du rez-de-chaussée."
+          ]
+        },
+        {
+          "name": "Court-circuit",
+          "summary": "2 cassettes et 2 secrets. Carte compacte avec des secrets d'interaction faciles à manquer.",
+          "details": [
+            "Interagissez avec l'applique murale inclinée au premier étage pour ouvrir la porte cachée et déverrouiller Another Brick in the Wall.",
+            "Vérifiez la petite porte à côté de la zone du réfrigérateur pour le deuxième espace secret.",
+            "C'est un chapitre court et une bonne carte à rejouer pour s'entraîner au cheminement des secrets."
+          ]
+        },
+        {
+          "name": "Art moderne",
+          "summary": "4 cassettes et 2 secrets. Chapitre riche en énigmes avec un design de secrets mémorable.",
+          "details": [
+            "Ouvrez les vitrines pour construire un escalier, interagissez avec la cassette dorée et révélez la pièce cachée à côté de la scène.",
+            "La résolution de la séquence des moniteurs ouvre la deuxième porte secrète dans la zone du labyrinthe.",
+            "Cette carte contient de nombreux objets cassables, ce qui la rend efficace pour cumuler la chasse aux secrets avec la progression liée à la destruction."
+          ]
+        },
+        {
+          "name": "Appel mortel",
+          "summary": "4 cassettes et 5 secrets. Le chapitre le plus dense en secrets de la campagne de base et l'une des meilleures cartes à rejouer pour les complétistes.",
+          "details": [
+            "Brisez la grille d'aération dans la salle d'alimentation électrique et rampez à l'intérieur pour le premier secret.",
+            "Grimpez sur la pile de cartons au rez-de-chaussée du hall, baissez-vous sous la poutre métallique et suivez le chemin caché vers un autre secret.",
+            "Grimpez sur les casiers et les tuyaux, entrez par effraction dans le conduit et pénétrez dans la chambre de Zack pour Lookin' Out My Back Door."
+          ]
+        }
+      ]
+    },
+    "cscCassetteTapes": {
+      "title": "Guide des cassettes de Crime Scene Cleaner",
+      "displayType": "tableau",
+      "eyebrow": "Objets de collection",
+      "subtitle": "Suivez les objets musicaux que les joueurs oublient le plus souvent lors de leurs visites ultérieures. Ce centre d'information fonctionne mieux lorsqu'il est regroupé par mission et accompagné de brèves notes d'itinéraire.",
+      "intro": "Crime Scene Cleaner cache des cassettes et des disques dans des pièces annexes, des récompenses d'énigmes et des recoins faciles à manquer. Une page d'objets de collection pratique ne doit pas seulement nommer l'objet, mais aussi indiquer au joueur dans quelle pièce il se trouve et quelle action permet de le débloquer.",
+      "items": [
+        {
+          "mission": "Appel compromettant",
+          "collectible": "Cieszyn's Venice",
+          "location": "Salle botanique derrière la porte en fer dans la cour",
+          "access": "Trouvez la première clé sur une boîte sous le balcon, récupérez la deuxième clé dans la salle de bain du couloir secret, puis ouvrez la salle botanique"
+        },
+        {
+          "mission": "Appel compromettant",
+          "collectible": "Epitaph of a Good Friend",
+          "location": "Étagère au sol sous l'ascenseur de l'appartement du dealer",
+          "access": "Brisez les planches pour atteindre le balcon, abaissez l'ascenseur, puis longez le mur jusqu'à l'étage inférieur"
+        },
+        {
+          "mission": "La fête est finie",
+          "collectible": "Over Again",
+          "location": "Salle de bain dans la cabane du côté droit",
+          "access": "Ramassage direct une fois la zone de la cabane ouverte"
+        },
+        {
+          "mission": "La fête est finie",
+          "collectible": "Voltage Resonance",
+          "location": "Meuble TV dans la maison de la fête",
+          "access": "Ramassage direct à l'intérieur de la maison principale"
+        },
+        {
+          "mission": "Art moderne",
+          "collectible": "Kokko Kann",
+          "location": "À côté de la radio bleue dans la Salle Rouge",
+          "access": "Ramassage direct lors du nettoyage de l'aile est"
+        },
+        {
+          "mission": "Art moderne",
+          "collectible": "Future Culture",
+          "location": "Sur la scène dans la salle des cassettes de l'aile ouest",
+          "access": "Ramassage direct dans la salle des cassettes"
+        },
+        {
+          "mission": "Art moderne",
+          "collectible": "Roma",
+          "location": "Sol du couloir de la Salle des Canards à côté de la boîte",
+          "access": "Trouvé après être monté de la Salle des Canards vers le couloir"
+        },
+        {
+          "mission": "Art moderne",
+          "collectible": "Economy of Pain",
+          "location": "Mannequin de récompense à l'extérieur de la salle TV secrète",
+          "access": "Résolvez l'énigme de la salle TV, entrez dans la pièce secrète, battez tous les ennemis avec le katana, puis récupérez la récompense à la sortie"
+        }
+      ]
+    },
+    "cscBodiesEvidence": {
+      "title": "Guide des corps et des preuves pour Crime Scene Cleaner",
+      "displayType": "liste de contrôle",
+      "eyebrow": "Parties à 100 %",
+      "subtitle": "Cette page aide les joueurs à terminer les parties qui bloquent entre 95 et 99 %. La meilleure version est une liste de contrôle de mission basée sur les totaux et les pièces ou objets les plus souvent oubliés.",
+      "intro": "Le point d'échec habituel dans Crime Scene Cleaner n'est pas la boucle de nettoyage principale, mais la dernière interaction manquante : un corps dans un couloir latéral, un indice caché sur une victime, ou un objet qui n'a pas été enregistré parce que le joueur a sauté l'interaction requise.",
+      "items": [
+        {
+          "mission": "Mauvais coup",
+          "checkpoints": [
+            "Total des corps : 3",
+            "Total des preuves : 9",
+            "Les corps se trouvent dans la cuisine, l'arrière-salle et le grenier",
+            "Les preuves apparaissent dans le salon, la salle du bonsaï, la cuisine, l'arrière-salle, le grenier n°1 et le grenier n°3"
+          ]
+        },
+        {
+          "mission": "Art moderne",
+          "checkpoints": [
+            "Les objectifs de l'exposition centrale incluent 2 preuves et 34 placements de meubles",
+            "La chambre noire contient 1 corps et un bouclier (preuve) sur la victime",
+            "La salle des canards contient 2 corps ainsi qu'un katana et une épée (preuves)",
+            "Le couloir de la salle des canards contient 1 corps et une note à l'intérieur de la boîte"
+          ]
+        },
+        {
+          "mission": "Court-circuit",
+          "checkpoints": [
+            "Les objectifs du rez-de-chaussée incluent 5 preuves et 21 placements de meubles",
+            "Les objectifs du premier étage incluent 6 preuves et 8 placements de meubles",
+            "Preuve de la chambre 1 : Téléphone sur la commode à côté du lit",
+            "Preuve de la chambre 2 : Enceinte connectée à côté de la commode près de l'armoire"
+          ]
+        },
+        {
+          "mission": "Recherche d'enceintes dans la maison hantée",
+          "checkpoints": [
+            "Si un objectif d'enceinte semble bloqué, arrêtez de chercher visuellement et suivez l'indice sonore",
+            "Certains joueurs ont signalé que la troisième enceinte peut ne pas s'enregistrer immédiatement",
+            "Les interactions avec l'ordinateur peuvent compter dans la progression de l'objectif, vérifiez donc les séquences effacées ou les appareils activés avant de recommencer"
+          ]
+        }
+      ]
+    },
+    "cscTrueCleaner": {
+      "title": "Guide True Cleaner pour Crime Scene Cleaner",
+      "displayType": "étape par étape",
+      "eyebrow": "Mode Défi",
+      "subtitle": "Le mode True Cleaner punit les itinéraires approximatifs plus sévèrement que les missions normales. Un bon guide doit combiner des habitudes universelles avec des exemples de missions montrant où la saleté cachée subsiste généralement.",
+      "intro": "Le moyen le plus rapide de stabiliser les parties en True Cleaner est de séparer la méthode de la connaissance de la carte. Établissez d'abord une routine de nettoyage reproductible, puis utilisez les schémas de saleté spécifiques aux missions uniquement là où le mode a tendance à faire perdre du temps : plafonds, intérieurs de portes, empreintes de pattes, empreintes de pas et pièces qui se salissent à nouveau.",
       "steps": [
         {
           "step": 1,
-          "title": "Installer BepInEx 5",
-          "text": "Téléchargez BepInEx 5 et extrayez-le dans le dossier racine du jeu."
+          "title": "Préparez deux seaux avant le grand nettoyage",
+          "description": "Utilisez un seau pour rincer la serpillière et un autre pour appliquer le détergent. C'est particulièrement utile en mode True Cleaner car les détergents sont limités."
         },
         {
           "step": 2,
-          "title": "Lancez une fois pour générer des dossiers",
-          "text": "Démarrez le jeu jusqu'au menu principal, puis fermez-le. Cela crée la structure de dossiers BepInEx."
+          "title": "Effectuez un balayage des corps et des objets avant le polissage final",
+          "description": "Une méthode éprouvée par la communauté consiste à laisser un corps près du camion, à nettoyer d'abord le reste de la mission et à éviter de terminer la mission après avoir accidentellement chargé ce corps trop tôt."
         },
         {
           "step": 3,
-          "title": "Installer des mods",
-          "text": "Placez les fichiers .dll des mods dans le dossier plugins."
+          "title": "Suivez les empreintes de pas, de pattes et de mains au lieu de scanner au hasard",
+          "description": "Dans Trial By Blood, des empreintes de pas sales mènent de l'entrée au vestiaire des hommes, et la zone de relaxation nécessite encore que la piscine soit vidée et frottée. Dans Short Circuit, la salle de télévision est à nouveau salie par le chat invisible, alors suivez les empreintes de pattes depuis la porte du foyer."
         },
         {
           "step": 4,
-          "title": "Vérifiez l'installation",
-          "text": "Relancez le jeu et confirmez que la fonctionnalité du mod est disponible (bascule de la caméra, curseur de l'interface utilisateur, etc.)."
-        }
-      ],
-      "paths": [
-        {
-          "label": "Installation Steam typique",
-          "path": "Steam\\steamapps\\common\\Lucid Blocks Demo\\"
+          "title": "Vérifiez systématiquement les surfaces verticales cachées",
+          "description": "Les joueurs oublient souvent la saleté sur les plafonds, autour des ventilateurs, à l'intérieur des portes, derrière les lits et autour des tas de décombres. Dans Trial By Blood, la saleté du sauna s'étend sur les bancs, les murs, le sol et l'intérieur de la porte du sauna."
         },
         {
-          "label": "Dossier Plugins",
-          "path": "Steam\\steamapps\\common\\Lucid Blocks Demo\\BepInEx\\plugins\\"
+          "step": 5,
+          "title": "Utilisez les compteurs de mission pour vérifier la partie avant de sortir",
+          "description": "Par exemple, Bad Call en True Cleaner nécessite 3 corps, 9 pièces à conviction et 20 restaurations de meubles. Vérifiez les compteurs d'objectifs pièce par pièce avant le dernier trajet vers le camion."
         }
-      ],
-      "multiplayerNote": "Pour les fonctionnalités de jeu en coopération modifiées, tout le monde doit installer BepInEx et les mêmes mods de gameplay."
+      ]
     },
-    "popularMods": {
-      "title": "Mods populaires de Lucid Blocks",
-      "subtitle": "Meilleures sélections de la communauté",
-      "mods": [
+    "cscNightmareMode": {
+      "title": "Guide du Mode Cauchemar de Crime Scene Cleaner",
+      "displayType": "accordéon",
+      "eyebrow": "Cauchemar",
+      "subtitle": "Le mode Cauchemar revisite les cartes familières en sessions de nettoyage s'apparentant davantage à des puzzles. La structure de page la plus utile est un accordéon mission par mission qui met en avant l'objectif spécial, l'objet de collection et les points critiques des pièces en priorité.",
+      "intro": "Le mode Cauchemar n'est plus seulement une rejouabilité plus difficile des mêmes cartes. Il ajoute des dispositions modifiées, des objectifs spéciaux et des itinéraires d'objets de collection qui comptent pour les joueurs complétistes.",
+      "sections": [
         {
-          "title": "Menu de spawn",
-          "tags": [
-            "Amusant",
-            "Outils",
-            "Hôte uniquement"
-          ],
-          "description": "Ajoute un menu de spawn d'objets avec un mode de vol.",
-          "controls": [
-            {
-              "key": "F",
-              "action": "Ouvrir le menu de spawn"
-            },
-            {
-              "key": "V",
-              "action": "Activer le vol"
-            }
-          ],
-          "note": "Hôte uniquement ; les autres n'ont pas besoin de l'installer pour rejoindre."
-        },
-        {
-          "title": "Vue à la troisième personne",
-          "tags": [
-            "Caméra",
-            "QoL"
-          ],
-          "description": "Ajoute une vue de caméra à la troisième personne.",
-          "controls": [
-            {
-              "key": "F7",
-              "action": "Basculer entre la première personne / la troisième personne"
-            }
+          "section": "Cauchemar du Musée d'Art Moderne",
+          "summary": "Un grand itinéraire à plusieurs ailes avec une navigation par portails, des meubles mal placés, un nettoyage de preuves et un objet de collection cassette/disque Onyx.",
+          "details": [
+            "Les objectifs incluent la recherche de meubles mal placés dans le Foyer, le Niveau Nuage, l'Exposition de Meubles, la Cafétéria, les Portes Magiques, le Passage Supérieur, l'Exposition de Musique, l'Exposition Ancienne, l'Exposition des Égouts et l'Exposition des Canards",
+            "La mission comprend un objectif dédié de cassette/disque pour l'objet de collection Onyx",
+            "L'acheminement des corps repose sur des points de repère de portails tels que la cafétéria, l'exposition ancienne, l'exposition de meubles, le passage supérieur et l'exposition des égouts"
           ]
         },
         {
-          "title": "Plus de chapeaux",
-          "tags": [
-            "Cosmétique"
-          ],
-          "description": "Ajoute des options de couleur de chapeau supplémentaires pour les gnomes.",
-          "colors": [
-            "Bleu",
-            "Vert",
-            "Orange",
-            "Violet",
-            "Noir",
-            "Rouge"
+          "section": "Cauchemar de La fête est finie",
+          "summary": "Une variante axée sur un rituel avec un objectif spécial distinct et une récupération de cassette/disque Quartz.",
+          "details": [
+            "Cette mission ajoute un objectif spécial : préparer le rituel",
+            "Le guide suit également l'emplacement exact de la cassette/du disque Quartz",
+            "Il est préférable de l'aborder comme un nettoyage structuré plutôt que comme un balayage libre"
           ]
         },
         {
-          "title": "DOOM à la télé",
-          "tags": [
-            "Amusant",
-            "Mini-jeu"
-          ],
-          "description": "Jouez à DOOM original sur un téléviseur dans le jeu, avec le son provenant du haut-parleur du téléviseur.",
-          "highlights": [
-            "Fonctionne en multijoueur afin que d'autres joueurs puissent regarder le même téléviseur",
-            "Inclut les données de l'épisode de DOOM en shareware (Épisode 1)"
+          "section": "Cauchemar de L'épreuve par le sang",
+          "summary": "Une carte de spa remaniée avec un suivi plus guidé des preuves et des personnes.",
+          "details": [
+            "Le flux de mission principal comprend 7 personnes à trouver",
+            "Le Solarium contient une preuve Attrape-rêves suspendue à la statue de Flamant rose",
+            "La salle VIP contient un autre déclencheur de preuve Attrape-rêves derrière une porte en bois activée par une pierre",
+            "Les cartes de casier telles que W018 peuvent être liées à l'itinéraire de la cassette/du disque Rubis"
+          ]
+        },
+        {
+          "section": "Pourquoi les pages Cauchemar sont importantes après l'Acte 2",
+          "summary": "Le support du mode Cauchemar continue de s'étendre parallèlement à la couverture des nouvelles missions post-lancement.",
+          "details": [
+            "Le hub du jeu a ajouté de nouveaux guides de mission pour l'Acte 2 en mars 2026",
+            "Les pages Cauchemar sont plus pertinentes lorsqu'elles se concentrent sur les objectifs modifiés, et pas seulement sur une formulation de difficulté accrue",
+            "Les collectionneurs en profitent davantage lorsque la page associe chaque mission cauchemar à son disque unique ou à sa mécanique spéciale"
           ]
         }
       ]
     },
-    "controllerSupport": {
-      "title": "Prise en charge de la manette de Lucid Blocks",
-      "subtitle": "Jeu complet à la manette",
-      "native": {
-        "title": "Paramètres dans le jeu",
-        "description": "Utilisez les menus de liaisons/paramètres du jeu pour ajuster les commandes."
-      },
-      "mod": {
-        "title": "Mod de prise en charge de la manette",
-        "description": "Ajoute une prise en charge complète de la manette/du contrôleur et un curseur d'interface utilisateur pour la navigation dans les menus."
-      },
-      "features": [
-        "Commandes de jeu complètes : mouvement, caméra, combat, interactions et capacités mappés à la manette",
-        "Navigation avec le curseur de l'interface utilisateur : un curseur de cercle blanc apparaît dans les menus ; appuyez sur A pour cliquer et faire glisser les curseurs",
-        "Navigation dans l'inventaire : maintenez Select enfoncé pour ouvrir l'inventaire ; utilisez le stick droit pour naviguer tout en le maintenant enfoncé",
-        "Menus déroulants : le stick droit fait défiler les recettes de fabrication, les paramètres et autres zones d'interface utilisateur déroulantes",
-        "Défilement de la barre d'accès rapide : la croix directionnelle gauche/droite fait défiler 4 emplacements de la barre d'accès rapide",
-        "Commutation d'entrée transparente : détecte automatiquement le clavier/la souris par rapport à la manette"
+    "cscAct2Walkthrough": {
+      "title": "Guide de l'Acte 2 de Crime Scene Cleaner",
+      "displayType": "missions-par-étapes",
+      "eyebrow": "Extension de l'histoire",
+      "intro": "L'Acte 2 ajoute quatre nouvelles missions d'histoire lancées le 26 mars 2026. Utilisez cet itinéraire mission par mission pour remplir les objectifs plus rapidement, suivre le contenu caché et éviter les retours en arrière dans chaque nouveau lieu.",
+      "missions": [
+        {
+          "step": 1,
+          "mission": "Alerte Amber",
+          "focus": "Mission d'ouverture de l'Acte 2",
+          "objectives": [
+            "Nettoyer la boîte de nuit principale et les zones de l'arrière-boutique",
+            "Retirer les corps et collecter les preuves",
+            "Vérifier la cuisine, les vestiaires et les espaces d'énigmes du fumoir"
+          ],
+          "notable_puzzles": [
+            "Énigme de l'ordre des barils près de la zone de l'ascenseur caché",
+            "Route secrète de la cible de fléchettes qui s'ouvre après une séquence de score précise",
+            "Passage secret du piédestal du buste"
+          ],
+          "collectibles_summary": "12 corps, 16 preuves, 3 salles secrètes, 4 CD",
+          "routing_tip": "Nettoyez d'abord les espaces d'objectifs visibles, puis passez la cuisine, les vestiaires et les sections de murs cachés avant le nettoyage final."
+        },
+        {
+          "step": 2,
+          "mission": "Retraite isolée",
+          "focus": "Mission de villa et de spa axée sur l'exploration",
+          "objectives": [
+            "Fouiller le spa, la cabane et l'intérieur du deuxième étage",
+            "Vérifier les chemins secondaires créés par des racines cassables et des tunnels cachés",
+            "Gérer les séquences secrètes basées sur des panneaux et des statues"
+          ],
+          "notable_puzzles": [
+            "Chemin caché derrière les racines dans la zone du spa",
+            "Combinaison du panneau du deuxième étage dans la salle futuriste",
+            "Séquence de placement des statues des trois singes"
+          ],
+          "collectibles_summary": "3 routes secrètes, 3 CD",
+          "routing_tip": "Terminez d'abord le côté spa, puis montez à l'étage et terminez les pièces du couloir avant de revenir pour le placement des statues."
+        },
+        {
+          "step": 3,
+          "mission": "Cercle d'amis",
+          "focus": "Nettoyage d'un manoir riche en énigmes",
+          "objectives": [
+            "Balayer le garage, l'intérieur de la villa, la cave et la terrasse",
+            "Ouvrir des passages cachés avec des déclencheurs de tableaux, de canards et de briques",
+            "Vérifier les espaces du premier étage et de la terrasse supérieure avant de sortir"
+          ],
+          "notable_puzzles": [
+            "Combinaison de trois tableaux",
+            "Séquence de destruction du canard noir pour le cercueil enchaîné",
+            "Déclencheur de brique cachée près du robinet de la cave à vin"
+          ],
+          "collectibles_summary": "4 CD, 2 salles secrètes",
+          "routing_tip": "Faites la chaîne d'indices du garage et du premier étage tôt, puis gardez la cave et la terrasse pour la fin afin que les vérifications d'objets de collection restent organisées."
+        },
+        {
+          "step": 4,
+          "mission": "Ville trop petite",
+          "focus": "Nettoyage de fin d'Acte 2 avec des secrets de conduits et de poignées",
+          "objectives": [
+            "Ouvrir les pièces latérales bloquées en déblayant les déchets et les obstacles",
+            "Vérifier la salle de fête, le bowling et la salle de maintenance",
+            "Utiliser la poignée amovible pour déverrouiller la dernière zone cachée"
+          ],
+          "notable_puzzles": [
+            "Route du conduit adjacent à la cuisine",
+            "Raccourci de la poignée de porte de la salle de maintenance",
+            "Chemin secret de la zone de bowling"
+          ],
+          "collectibles_summary": "4 CD, 1 salle cachée",
+          "routing_tip": "Traitez cette mission comme un passage de complétion zone par zone : cuisine d'abord, salle de fête ensuite, pistes de bowling en troisième, puis salle de maintenance en dernier."
+        }
       ]
     },
-    "playerCount": {
-      "title": "Nombre de joueurs et tendance de Lucid Blocks",
-      "subtitle": "Instantané de popularité en direct",
-      "stats": {
-        "now": {
-          "value": "6 047",
-          "label": "Joueurs en ce moment"
+    "cscAct2Secrets": {
+      "title": "Guide des secrets et des CD de l'Acte 2 de Crime Scene Cleaner",
+      "displayType": "mission-cards",
+      "eyebrow": "Objets de collection",
+      "intro": "Salles secrètes de l'Acte 2, CD à collectionner et déclencheurs d'énigmes à travers les quatre nouvelles missions. Trouvez rapidement les secrets de chaque mission grâce à cette référence de déclencheurs et d'emplacements.",
+      "items": [
+        {
+          "mission": "Alerte enlèvement",
+          "collectible_set": "4 CD et 3 routes secrètes",
+          "key_locations": [
+            "Zone de l'ascenseur de la cuisine",
+            "Fumoir avec cible de fléchettes",
+            "Chemin latéral des vestiaires",
+            "Salle à la colonne brisée derrière le tableau"
+          ],
+          "unlock_methods": [
+            "Disposez les barils marqués dans l'ordre requis",
+            "Utilisez la séquence de la cible de fléchettes pour que la dernière fléchette atterrisse sur le 1",
+            "Placez le buste sur le piédestal vide",
+            "Vérifiez le chemin caché derrière le tableau"
+          ]
         },
-        "peak24h": {
-          "value": "13 859",
-          "label": "Pic sur 24 heures"
+        {
+          "mission": "Retraite isolée",
+          "collectible_set": "3 CD et plusieurs routes secrètes",
+          "key_locations": [
+            "Zone du spa derrière les racines destructibles",
+            "Chemin latéral éclairé à la torche près de la grille",
+            "Salle du couloir du deuxième étage près du miroir",
+            "Panneau de la salle futuriste",
+            "Salle des statues de singes"
+          ],
+          "unlock_methods": [
+            "Placez une échelle et brisez les racines pour accéder au tunnel",
+            "Suivez la ligne de torches jusqu'à la zone de la cabane",
+            "Fouillez la salle du deuxième étage près du miroir",
+            "Entrez la combinaison du panneau dans la salle futuriste",
+            "Placez les trois statues de singes dans l'ordre requis"
+          ]
         },
-        "allTimePeak": {
-          "value": "15 272",
-          "label": "Pic de tous les temps"
+        {
+          "mission": "Cercle d'amis",
+          "collectible_set": "4 CD et 2 salles secrètes",
+          "key_locations": [
+            "Zone de l'armoire du garage",
+            "Hall de l'énigme des tableaux",
+            "Salle du cercueil enchaîné",
+            "Serre de la terrasse supérieure",
+            "Couloir à la porte rouge",
+            "Brique cachée de la cave à vin"
+          ],
+          "unlock_methods": [
+            "Prenez le premier CD dans l'armoire côté garage",
+            "Utilisez la solution des trois tableaux pour ouvrir une route cachée",
+            "Détruisez tous les canards en plastique noirs pour ouvrir le cercueil",
+            "Vérifiez la zone de la serre en terrasse pour le dernier CD",
+            "Utilisez la clé de la niche au-dessus de l'entrée du garage",
+            "Nettoyez la toile d'araignée et appuyez sur la brique cachée près du robinet"
+          ]
+        },
+        {
+          "mission": "Ville trop petite",
+          "collectible_set": "4 CD et 1 salle secrète",
+          "key_locations": [
+            "Sortie de la cuisine et chemin de ventilation",
+            "Objet au sol de la salle de fête",
+            "Zone de la table de bowling",
+            "Salle de maintenance derrière les boîtes empilées"
+          ],
+          "unlock_methods": [
+            "Dégagez la porte bloquée, sortez et brisez la grille",
+            "Ramassez le CD au sol dans la salle de fête",
+            "Prenez le CD sur la table dans la zone de bowling",
+            "Trouvez la poignée amovible, fixez-la à la porte de la salle de maintenance et entrez dans la salle secrète"
+          ]
         }
-      },
-      "milestones": [
+      ]
+    },
+    "cscDetergents": {
+      "title": "Guide des détergents de Crime Scene Cleaner",
+      "displayType": "tableau",
+      "eyebrow": "Outils de nettoyage",
+      "intro": "Une référence pratique sur les détergents pour des nettoyages plus rapides, moins d'entretien des seaux et des passages de serpillière plus propres. Découvrez l'utilité de chaque détergent et quand les utiliser.",
+      "items": [
         {
-          "date": "30 janvier 2026",
-          "title": "Démo sortie sur Steam",
-          "detail": "La démo publique est devenue disponible sur PC (Steam)."
+          "detergent": "Détergent de Résistance",
+          "main_effect": "Permet aux outils de nettoyer plus de surfaces avant de devoir être rincés",
+          "best_for": "Les longues sessions de nettoyage où la serpillière ou l'éponge se salit trop vite",
+          "usage_note": "Un excellent choix polyvalent pour réduire la fréquence de rinçage sur les grands niveaux"
         },
         {
-          "date": "8 février 2026",
-          "title": "Pic de tous les temps atteint",
-          "detail": "La démo a atteint son plus grand nombre de joueurs simultanés enregistré."
+          "detergent": "Détergent de Propreté",
+          "main_effect": "Prolonge la durée de l'eau du seau en ralentissant la vitesse à laquelle le rinçage la salit",
+          "best_for": "Les missions où l'entretien du seau est plus pénible que la ténacité des taches",
+          "usage_note": "Se marie bien avec un seau d'eau claire séparé dans une configuration à deux seaux"
+        },
+        {
+          "detergent": "Détergent de Puissance",
+          "main_effect": "Nettoie plus rapidement les taches de sang tenaces",
+          "best_for": "Les surfaces dures et les taches tenaces, particulièrement les traces de sang marquées sous lumière UV",
+          "usage_note": "Utile quand la vitesse prime, mais salit aussi les outils et l'eau plus rapidement"
+        },
+        {
+          "detergent": "Détergent de Zone",
+          "main_effect": "Nettoie une plus grande surface à chaque passage",
+          "best_for": "Les larges zones de taches de difficulté facile à moyenne",
+          "usage_note": "Idéal pour balayer efficacement une pièce plutôt que pour un nettoyage de précision"
+        },
+        {
+          "detergent": "Détergent Nettoyant",
+          "main_effect": "Effet hybride combinant Résistance et Propreté sous une forme plus légère",
+          "best_for": "Les configurations de seaux équilibrées et polyvalentes",
+          "usage_note": "Une bonne option de confort pour les joueurs qui veulent limiter les changements"
+        },
+        {
+          "detergent": "Détergent Pur",
+          "main_effect": "Effet hybride combinant Zone et Puissance sous une forme plus légère",
+          "best_for": "Le nettoyage de sang étendu où la surface et la pression comptent toutes deux",
+          "usage_note": "Utile pour couvrir des situations de taches mixtes avec une seule bouteille"
+        },
+        {
+          "detergent": "Méthode des deux seaux",
+          "main_effect": "Garder un seau d'eau avec détergent et un seau d'eau claire pour le rinçage",
+          "best_for": "Les missions longues et les joueurs cherchant à économiser le détergent",
+          "usage_note": "Trempez un outil propre dans le seau de détergent pour le bonus, rincez les outils sales dans le seau d'eau claire, puis réappliquez sans avoir à refaire constamment le mélange de détergent"
+        },
+        {
+          "detergent": "Règle d'économie de mission",
+          "main_effect": "Les détergents sont réinitialisés entre les missions",
+          "best_for": "Planifier s'il faut dépenser ou conserver les fournitures en cours de niveau",
+          "usage_note": "Si vous tombez à court pendant une mission, vous finissez avec ce qu'il reste ; les stocks se renouvellent au début d'une nouvelle mission"
+        }
+      ]
+    },
+    "cscSystemInfo": {
+      "title": "Configuration requise et mises à jour pour Crime Scene Cleaner",
+      "displayType": "chronologie",
+      "eyebrow": "Version et matériel",
+      "intro": "Spécifications PC, aperçu actuel des avis et points forts du contenu expliquant le retour des joueurs. Vérifiez si votre PC peut faire tourner le jeu ou si les récentes mises à jour justifient une réinstallation.",
+      "items": [
+        {
+          "date": "Version de lancement",
+          "title": "Configuration PC de base",
+          "details": [
+            "OS : Windows 10/11",
+            "Processeur minimum : i5-7500 ou similaire",
+            "Processeur recommandé : i5-10600 ou similaire",
+            "Mémoire : 16 Go de RAM",
+            "Carte graphique minimale : GTX 1060",
+            "Carte graphique recommandée : RTX 2070 SUPER",
+            "Espace disque : 35 Go d'espace disponible",
+            "Les chipsets graphiques intégrés ne sont pas pris en charge",
+            "La série Intel ARC pourrait ne pas être encore prise en charge"
+          ]
+        },
+        {
+          "date": "Aperçu actuel sur Steam",
+          "title": "État des avis",
+          "details": [
+            "Avis en anglais : Extrêmement positifs avec 13 272 avis",
+            "Total des avis toutes langues confondues : 28 233",
+            "Avis récents toutes langues confondues : 838 et Extrêmement positifs"
+          ]
+        },
+        {
+          "date": "Mise à jour Nightmare",
+          "title": "Ajout de modes de défi",
+          "details": [
+            "Ajout du mode Into the Nightmare",
+            "Ajout du mode True Cleaner sans indices ni assistance",
+            "Ajout de skins déblocables pour les outils et l'équipement de nettoyage"
+          ]
+        },
+        {
+          "date": "Mise à jour Communiti",
+          "title": "Cartes secondaires de la communauté",
+          "details": [
+            "Ajout d'Alter Ego",
+            "Ajout de Development Hell",
+            "Diversification du contenu secondaire en dehors de l'intrigue principale"
+          ]
+        },
+        {
+          "date": "26-03-2026",
+          "title": "Extension de l'histoire : Acte 2",
+          "details": [
+            "L'Acte 2 a été lancé le 26 mars 2026",
+            "Ajout du prochain chapitre majeur de l'histoire de Kovalsky",
+            "Création d'une nouvelle demande pour des guides de progression, des itinéraires secrets et des guides d'objets de collection"
+          ]
         }
       ]
     }
@@ -791,177 +965,218 @@
   "faq": {
     "title": "Foire aux",
     "titleHighlight": "Questions",
-    "subtitle": "Tout ce que vous devez savoir sur Lucid Blocks",
+    "subtitle": "Tout ce que vous devez savoir sur Crime Scene Cleaner",
     "questions": [
       {
-        "question": "Comment télécharger la démo de Lucid Blocks ?",
-        "answer": "Visitez la page du magasin Steam et cliquez sur \"Télécharger la démo\". La démo est gratuite et nécessite 2,62 Gio à télécharger, 4,88 Gio d'espace disque."
+        "question": "Quelles plateformes supportent Crime Scene Cleaner ?",
+        "answer": "Crime Scene Cleaner est disponible sur Steam pour PC, Xbox et PS5. Toutes les versions incluent la campagne complète avec le contenu de l'Acte 1 et de l'Acte 2."
       },
       {
-        "question": "Puis-je jouer à Lucid Blocks en solo ou ai-je besoin d'amis ?",
-        "answer": "Lucid Blocks prend en charge le jeu en solo et en coopération avec jusqu'à 6 joueurs. Le solo est plus difficile mais possible."
+        "question": "Combien de succès Crime Scene Cleaner possède-t-il ?",
+        "answer": "Crime Scene Cleaner possède 80 succès Steam couvrant l'achèvement des missions, les secrets, les objets de collection, les améliorations d'outils et les défis de difficulté."
       },
       {
-        "question": "Quelles sont les tâches du Haut-Gnome dans Lucid Blocks ?",
-        "answer": "Le Haut-Gnome est votre patron qui vous assigne des objectifs comme \"casser la télévision\", \"inonder les toilettes\" ou \"voler des objets spécifiques\". Effectuez-les pour obtenir des récompenses supplémentaires."
+        "question": "Est-ce que Crime Scene Cleaner propose un Mode Cauchemar ?",
+        "answer": "Oui. Crime Scene Cleaner inclut un Mode Cauchemar qui ajoute des exigences de nettoyage plus difficiles et un score plus strict aux missions existantes."
       },
       {
-        "question": "Comment installer des mods pour Lucid Blocks ?",
-        "answer": "Installez BepInEx 5, lancez le jeu une fois, puis placez les DLL des mods dans le dossier BepInEx/plugins/. Tous les joueurs ont besoin des mêmes mods pour le multijoueur."
+        "question": "Quelle est la meilleure amélioration de serpillière dans Crime Scene Cleaner ?",
+        "answer": "La résistance accrue et la vitesse de nettoyage sont les améliorations de serpillière les plus recommandées dans Crime Scene Cleaner. Elles réduisent les temps d'arrêt dus aux outils sales et améliorent le rythme global du nettoyage."
       },
       {
-        "question": "Lucid Blocks prend-il en charge les manettes ?",
-        "answer": "Oui ! Utilisez les paramètres du jeu pour la prise en charge de base de la manette, ou installez le Mod de manette de Nexus Mods pour une navigation complète dans l'interface utilisateur."
+        "question": "Comment obtenir un score parfait dans Crime Scene Cleaner ?",
+        "answer": "Un score parfait dans Crime Scene Cleaner nécessite de nettoyer tout le sang et toutes les taches, d'éliminer tous les corps, de collecter toutes les preuves et de remettre en place les meubles déplacés."
       },
       {
-        "question": "Quel est le nombre de joueurs pour Lucid Blocks ?",
-        "answer": "En février 2026, Lucid Blocks compte en moyenne plus de 6 000 joueurs simultanés, avec un pic de 15 272 le 8 février 2026."
+        "question": "Combien d'exemplaires de Crime Scene Cleaner ont été vendus ?",
+        "answer": "Crime Scene Cleaner s'est vendu à plus d'un million d'exemplaires. Le jeu a été lancé sur Steam en août 2024 et a maintenu une évaluation très positive de la part de plus de 13 000 avis en anglais."
       }
     ]
   },
   "cta": {
-    "title": "Prêt à commencer à braquer ?",
-    "description": "Rejoignez la communauté Lucid Blocks sur Discord pour des groupes de coopération, des mises à jour et des discussions sur les mods !",
+    "title": "Prêt à nettoyer des scènes de crime ?",
+    "description": "Rejoignez la communauté Crime Scene Cleaner sur Discord pour des guides, des mises à jour et des discussions !",
     "joinCommunity": "Rejoindre Discord",
-    "joinGame": "Obtenir la démo sur Steam"
+    "joinGame": "Jouer sur Steam"
   },
   "footer": {
-    "title": "Lucid Blocks Wiki",
-    "description": "Votre centre de ressources complet pour les braquages furtifs, les stratégies de coopération, les mods et les guides communautaires de Lucid Blocks.",
+    "title": "Wiki Crime Scene Cleaner",
+    "description": "Votre centre de ressources complet pour les cartes, outils, succès, l'histoire, les mixes, les correctifs et les guides de plateforme de Crime Scene Cleaner.",
     "resources": "Ressources",
     "community": "Communauté",
-    "legal": "Légal",
+    "legal": "Mentions légales",
     "discord": "Discord",
     "twitter": "X / Twitter",
+    "reddit": "Reddit",
     "steamCommunity": "Communauté Steam",
-    "steamStore": "Magasin Steam",
+    "steamStore": "Boutique Steam",
     "about": "À propos",
     "privacy": "Politique de confidentialité",
     "terms": "Conditions d'utilisation",
-    "copyrightNotice": "Droits d'auteur",
-    "copyright": "© 2026 Lucid Blocks Wiki. Non affilié aux développeurs de Lucid Blocks.",
-    "disclaimer": "Site web de ressources non officiel créé par des fans."
+    "copyrightNotice": "Copyright",
+    "copyright": "© 2026 Wiki Crime Scene Cleaner. Non affilié à President Studio.",
+    "disclaimer": "Site de ressources non officiel créé par des fans."
   },
   "pages": {
-    "guides": {
-      "title": "Guides Lucid Blocks",
-      "description": "Guides de jeu complets, des bases pour débutants aux stratégies avancées d'Apotheosis. Maîtrisez la survie et l'artisanat.",
-      "metaTitle": "Guides Lucid Blocks - Stratégies de débutant à avancé",
-      "metaDescription": "Guides complets de Lucid Blocks couvrant les conseils pour débutants, le système Apotheosis, les stratégies de survie et les tactiques d'experts pour maîtriser ce bac à sable surréaliste.",
-      "categoryLabel": "GUIDES DE JEU",
-      "whatIs": "Que sont les Guides ?",
-      "whatIsDescription": "Guides complets couvrant les mécaniques de jeu, les stratégies de survie et le système d'artisanat Apotheosis. Apprenez tout, des premiers pas aux techniques avancées.",
-      "why": "Pourquoi lire les guides ?",
+    "guide": {
+      "title": "Guide Crime Scene Cleaner",
+      "description": "Solution complète et guide des succès pour Crime Scene Cleaner, incluant la répartition par chapitre, le temps de jeu et les stratégies pour une complétion à 100 %.",
+      "metaTitle": "Guide Crime Scene Cleaner - Solution, chapitres et succès",
+      "metaDescription": "Guides Crime Scene Cleaner couvrant la solution complète, tous les chapitres, le guide des succès, le temps de jeu et les stratégies pour atteindre les 100 %.",
+      "categoryLabel": "GUIDES",
+      "whatIs": "Que sont les guides Crime Scene Cleaner ?",
+      "whatIsDescription": "Guides étape par étape pour Crime Scene Cleaner couvrant la solution complète, chaque chapitre et le déverrouillage des succès. Que vous soyez bloqué sur une mission spécifique ou que vous visiez les 100 %, ces guides couvrent tout.",
+      "why": "Pourquoi lire les guides Crime Scene Cleaner ?",
       "whySteps": {
-        "step1Title": "Apprendre les mécaniques de base",
-        "step1Description": "Comprenez le système Apotheosis et évitez les erreurs courantes de débutant",
-        "step2Title": "Progression rapide",
-        "step2Description": "Suivez des parcours éprouvés pour survivre et prospérer dans ce monde surréaliste",
-        "step3Title": "Maîtriser les stratégies",
-        "step3Description": "Développez des tactiques avancées pour l'exploration et l'artisanat"
+        "step1Title": "Terminer chaque chapitre",
+        "step1Description": "Suivez les solutions chapitre par chapitre pour progresser dans chaque mission de Crime Scene Cleaner",
+        "step2Title": "Déverrouiller tous les succès",
+        "step2Description": "Découvrez les conditions exactes pour chaque succès Steam dans Crime Scene Cleaner",
+        "step3Title": "Connaître votre temps de jeu",
+        "step3Description": "Découvrez combien de temps il faut pour finir Crime Scene Cleaner en fonction de votre style de jeu"
       },
-      "featured": "En vedette et essentiels",
+      "featured": "À la une et essentiels",
       "all": "Tous les guides"
     },
-    "crafting": {
-      "title": "Artisanat Lucid Blocks",
-      "description": "Maîtrisez le système de fusion Apotheosis avec les mécaniques d'essence, les recettes et les stratégies d'artisanat pour des objets puissants.",
-      "metaTitle": "Artisanat Lucid Blocks - Système Apotheosis et recettes",
-      "metaDescription": "Maîtrisez le système d'artisanat Apotheosis de Lucid Blocks. Apprenez les mécaniques d'essence, les recettes de fusion et les stratégies pour créer des outils et des armes puissants.",
-      "categoryLabel": "SYSTÈME D'ARTISANAT",
-      "whatIs": "Qu'est-ce que l'artisanat ?",
-      "whatIsDescription": "Le système Apotheosis est une mécanique de fusion unique basée sur l'essence où vous combinez jusqu'à six objets pour découvrir de nouvelles recettes. Pas de menus d'artisanat fixes : l'expérimentation est la clé.",
-      "why": "Pourquoi maîtriser l'artisanat ?",
+    "secrets": {
+      "title": "Secrets de Crime Scene Cleaner",
+      "description": "Tous les secrets cachés dans Crime Scene Cleaner, y compris les secrets du musée, du manoir hanté, du court-circuit et chaque easter egg spécifique aux lieux.",
+      "metaTitle": "Secrets de Crime Scene Cleaner - Objets cachés et easter eggs",
+      "metaDescription": "Trouvez chaque secret de Crime Scene Cleaner dans toutes les missions, y compris le musée, le manoir hanté, le niveau du court-circuit et toutes les autres zones cachées.",
+      "categoryLabel": "SECRETS",
+      "whatIs": "Que sont les secrets de Crime Scene Cleaner ?",
+      "whatIsDescription": "Objets cachés, easter eggs et découvertes optionnelles disséminés dans chaque mission de Crime Scene Cleaner. Du canard du musée aux pistes de preuves cachées, ces secrets récompensent l'exploration approfondie.",
+      "why": "Pourquoi chercher les secrets de Crime Scene Cleaner ?",
       "whySteps": {
-        "step1Title": "Débloquer des objets puissants",
-        "step1Description": "Découvrez des outils, des armes et des équipements de mobilité essentiels grâce à la fusion",
-        "step2Title": "Comprendre les essences",
-        "step2Description": "Apprenez comment les essences d'objets se combinent pour créer des résultats prévisibles",
-        "step3Title": "Optimiser les ressources",
-        "step3Description": "Utilisez les mécaniques de dilution pour maximiser le rendement à partir de matériaux bon marché"
+        "step1Title": "Découvrir des objets cachés",
+        "step1Description": "Trouvez des objets de collection et des objets interactifs cachés dans chaque mission de Crime Scene Cleaner",
+        "step2Title": "Déverrouiller des succès secrets",
+        "step2Description": "De nombreux secrets de Crime Scene Cleaner sont liés au déverrouillage de succès et à des moments de l'histoire",
+        "step3Title": "Explorer chaque recoin",
+        "step3Description": "Tirez le meilleur parti de chaque mission en découvrant des lieux que la plupart des joueurs manquent"
       },
-      "featured": "En vedette et essentiels",
-      "all": "Tous les guides d'artisanat"
+      "featured": "À la une et essentiels",
+      "all": "Tous les secrets"
     },
-    "items": {
-      "title": "Objets Lucid Blocks",
-      "description": "Guides détaillés sur les objets couvrant les outils, les armes, l'équipement de mobilité et les solutions de stockage avec recettes d'artisanat et conseils d'utilisation.",
-      "metaTitle": "Objets Lucid Blocks - Guide des outils, armes et équipements",
-      "metaDescription": "Base de données complète des objets pour Lucid Blocks, incluant les outils, les armes, l'équipement de mobilité et le stockage. Apprenez à fabriquer et utiliser chaque objet efficacement.",
-      "categoryLabel": "OBJETS ET ÉQUIPEMENT",
-      "whatIs": "Que sont les objets ?",
-      "whatIsDescription": "Guides complets pour les outils, les armes, l'équipement de mobilité et les objets fonctionnels. Apprenez les recettes d'artisanat, les stratégies d'utilisation et les combinaisons optimales.",
-      "why": "Pourquoi consulter les guides d'objets ?",
+    "nightmare": {
+      "title": "Mode Cauchemar de Crime Scene Cleaner",
+      "description": "Guides complets pour le mode Cauchemar de Crime Scene Cleaner, incluant les solutions pour chaque mission Cauchemar, les règles spéciales et les stratégies de complétion.",
+      "metaTitle": "Mode Cauchemar de Crime Scene Cleaner - Guide complet et solutions",
+      "metaDescription": "Guides du mode Cauchemar de Crime Scene Cleaner couvrant la solution, Affair with Death, Modern Art Nightmare, les règles spéciales et les stratégies pour chaque mission.",
+      "categoryLabel": "MODE CAUCHEMAR",
+      "whatIs": "Qu'est-ce que le mode Cauchemar de Crime Scene Cleaner ?",
+      "whatIsDescription": "Le mode Cauchemar est un paramètre de difficulté avancé dans Crime Scene Cleaner qui introduit de nouvelles règles, des exigences de nettoyage plus strictes et des défis uniques pour chaque mission. Ces guides couvrent chaque scénario Cauchemar en détail.",
+      "why": "Pourquoi jouer au mode Cauchemar de Crime Scene Cleaner ?",
       "whySteps": {
-        "step1Title": "Apprendre les recettes d'artisanat",
-        "step1Description": "Découvrez comment fabriquer des outils et des armes essentiels en utilisant Apotheosis",
-        "step2Title": "Optimiser l'équipement",
-        "step2Description": "Choisissez les meilleurs objets pour votre style de jeu et votre stade de progression",
-        "step3Title": "Améliorer la survie",
-        "step3Description": "Équipez-vous de matériel de mobilité et d'armes pour naviguer dans ce monde dangereux"
+        "step1Title": "Maîtriser des défis avancés",
+        "step1Description": "Le mode Cauchemar teste vos compétences dans Crime Scene Cleaner avec des exigences plus strictes et de nouveaux dangers",
+        "step2Title": "Gagner des récompenses exclusives",
+        "step2Description": "Terminer les missions Cauchemar de Crime Scene Cleaner déverrouille des succès et du contenu spécial",
+        "step3Title": "Apprendre des stratégies spécifiques",
+        "step3Description": "Chaque mission Cauchemar nécessite des approches différentes détaillées dans nos solutions"
       },
-      "featured": "En vedette et essentiels",
-      "all": "Tous les objets"
+      "featured": "À la une et essentiels",
+      "all": "Tous les guides Cauchemar"
     },
-    "biomes": {
-      "title": "Biomes Lucid Blocks",
-      "description": "Explorez les régions du monde, les caractéristiques environnementales, l'emplacement des ressources et les conseils de survie pour chaque biome.",
-      "metaTitle": "Biomes Lucid Blocks - Régions du monde et exploration",
-      "metaDescription": "Explorez les biomes de Lucid Blocks, y compris les Tiamana Leylines, Fog Meadow et les régions surréalistes. Trouvez des ressources, évitez les dangers et naviguez dans le monde infini.",
-      "categoryLabel": "RÉGIONS DU MONDE",
-      "whatIs": "Que sont les biomes ?",
-      "whatIsDescription": "Guides des différentes régions du monde, des caractéristiques environnementales, de la distribution des ressources et des zones de danger. Apprenez à quoi vous attendre et comment vous préparer pour chaque zone.",
-      "why": "Pourquoi explorer les biomes ?",
+    "act-2": {
+      "title": "Crime Scene Cleaner Acte 2",
+      "description": "Guide complet de l'Acte 2 de Crime Scene Cleaner, incluant les nouvelles missions, la feuille de route, les secrets de l'Acte 2 et les guides pour Town Too Small, Secluded Retreat, et plus encore.",
+      "metaTitle": "Crime Scene Cleaner Acte 2 - Nouvelles missions, secrets et feuille de route",
+      "metaDescription": "Guides de l'Acte 2 de Crime Scene Cleaner couvrant toutes les nouvelles missions, les secrets de Circle of Friends, Town Too Small, Secluded Retreat, Amber Alert et la feuille de route officielle.",
+      "categoryLabel": "ACTE 2",
+      "whatIs": "Qu'est-ce que l'Acte 2 de Crime Scene Cleaner ?",
+      "whatIsDescription": "L'Acte 2 est l'extension majeure de contenu pour Crime Scene Cleaner, introduisant de nouvelles missions, des chapitres d'histoire étendus et de nouveaux lieux. Ces guides couvrent chaque mission, secret et mise à jour de l'Acte 2 en détail.",
+      "why": "Pourquoi lire les guides de l'Acte 2 de Crime Scene Cleaner ?",
       "whySteps": {
-        "step1Title": "Trouver des ressources",
-        "step1Description": "Localisez des matériaux rares et des essences spécifiques à chaque région",
-        "step2Title": "Éviter les dangers",
-        "step2Description": "Comprenez les dangers environnementaux et les créatures hostiles",
-        "step3Title": "Planifier l'exploration",
-        "step3Description": "Préparez les bons outils et équipements pour chaque type de biome"
+        "step1Title": "Naviguer dans les nouvelles missions",
+        "step1Description": "Obtenez des guides étape par étape pour chaque mission et lieu de l'Acte 2 de Crime Scene Cleaner",
+        "step2Title": "Trouver les secrets de l'Acte 2",
+        "step2Description": "Découvrez les secrets cachés dans Circle of Friends, Secluded Retreat et d'autres missions de l'Acte 2",
+        "step3Title": "Rester à jour sur la feuille de route",
+        "step3Description": "Suivez la feuille de route des mises à jour de Crime Scene Cleaner pour savoir quel contenu arrive prochainement"
       },
-      "featured": "En vedette et essentiels",
-      "all": "Tous les biomes"
+      "featured": "À la une et essentiels",
+      "all": "Tous les guides Acte 2"
     },
-    "building": {
-      "title": "Construction Lucid Blocks",
-      "description": "Maîtrisez les dimensions personnelles Qualia, la construction de bases, la gestion du stockage et les techniques de construction créative.",
-      "metaTitle": "Construction Lucid Blocks - Qualia et construction de base",
-      "metaDescription": "Maîtrisez la construction dans Lucid Blocks avec les dimensions personnelles Qualia, la construction de bases, les solutions de stockage et les techniques de construction créative.",
-      "categoryLabel": "CONSTRUCTION ET BASES",
-      "whatIs": "Qu'est-ce que la construction ?",
-      "whatIsDescription": "Guides sur le système de dimension personnelle Qualia, la construction de bases, la gestion du stockage et la construction créative. Apprenez à créer votre havre de paix dans ce monde surréaliste.",
-      "why": "Pourquoi construire des bases ?",
+    "platform": {
+      "title": "Guide des plateformes Crime Scene Cleaner",
+      "description": "Guides des plateformes pour Crime Scene Cleaner couvrant Steam, Xbox, PS5 et Nintendo Switch, incluant les dates de sortie, les différences de version et les fonctionnalités.",
+      "metaTitle": "Guide des plateformes Crime Scene Cleaner - Steam, Xbox, PS5 & Switch",
+      "metaDescription": "Guides des plateformes Crime Scene Cleaner couvrant les versions Xbox, PS5, Switch et Steam, incluant les dates de sortie, les langues supportées et les différences spécifiques.",
+      "categoryLabel": "PLATEFORMES",
+      "whatIs": "Que sont les guides de plateformes Crime Scene Cleaner ?",
+      "whatIsDescription": "Informations détaillées sur Crime Scene Cleaner sur toutes les plateformes supportées, y compris Steam, Xbox, PS5 et Nintendo Switch. Découvrez les dates de sortie, les langues supportées et les différences clés entre les versions.",
+      "why": "Pourquoi lire les guides de plateformes Crime Scene Cleaner ?",
       "whySteps": {
-        "step1Title": "Créer des espaces sûrs",
-        "step1Description": "Établissez des bases sécurisées pour le stockage et les opérations d'artisanat",
-        "step2Title": "Gérer les ressources",
-        "step2Description": "Organisez les matériaux efficacement grâce aux solutions de stockage",
-        "step3Title": "Débloquer Qualia",
-        "step3Description": "Accédez à des dimensions de poche personnelles pour un confort ultime"
+        "step1Title": "Comparer les plateformes",
+        "step1Description": "Comprenez les différences entre Crime Scene Cleaner sur Steam, Xbox, PS5 et Switch",
+        "step2Title": "Vérifier les dates de sortie",
+        "step2Description": "Découvrez quand Crime Scene Cleaner a été lancé ou sera lancé sur chaque plateforme",
+        "step3Title": "Confirmer le support linguistique",
+        "step3Description": "Vérifiez que votre langue est supportée sur la plateforme Crime Scene Cleaner de votre choix"
       },
-      "featured": "En vedette et essentiels",
-      "all": "Tous les guides de construction"
+      "featured": "À la une et essentiels",
+      "all": "Tous les guides de plateformes"
     },
-    "support": {
-      "title": "Support Lucid Blocks",
-      "description": "Support technique, compatibilité des plateformes, optimisation des performances et dépannage des problèmes courants.",
-      "metaTitle": "Support Lucid Blocks - Aide technique et correctifs",
-      "metaDescription": "Obtenez un support technique pour Lucid Blocks, incluant la configuration du Steam Deck, les correctifs de crash, l'optimisation des performances et les guides de compatibilité des plateformes.",
-      "categoryLabel": "SUPPORT TECHNIQUE",
-      "whatIs": "Qu'est-ce que le support ?",
-      "whatIsDescription": "Guides techniques couvrant la compatibilité des plateformes, l'optimisation des performances, les correctifs de crash et les problèmes courants. Obtenez de l'aide pour le Steam Deck, les questions sur le multijoueur et les paramètres.",
-      "why": "Pourquoi consulter le support ?",
+    "jobs": {
+      "title": "Métiers de Crime Scene Cleaner",
+      "description": "Informations réelles sur les métiers de nettoyage de scènes de crime, incluant le salaire, combien gagnent les nettoyeurs et comment débuter dans la profession.",
+      "metaTitle": "Métiers de Crime Scene Cleaner - Salaire et guide de carrière",
+      "metaDescription": "Découvrez les vrais métiers de nettoyeur de scènes de crime, incluant le salaire moyen, les exigences du poste et la comparaison entre le jeu et la profession réelle.",
+      "categoryLabel": "MÉTIERS ET CARRIÈRES",
+      "whatIs": "Que sont les métiers de Crime Scene Cleaner ?",
+      "whatIsDescription": "Informations du monde réel sur la profession de nettoyage de scènes de crime inspirée par le jeu Crime Scene Cleaner. Découvrez les salaires, les exigences du poste et ce qu'il faut pour travailler dans ce domaine unique.",
+      "why": "Pourquoi s'informer sur les métiers de nettoyage de scènes de crime ?",
       "whySteps": {
-        "step1Title": "Résoudre les problèmes techniques",
-        "step1Description": "Résolvez les plantages, les problèmes de performance et les problèmes de compatibilité",
-        "step2Title": "Optimiser les performances",
-        "step2Description": "Configurez les paramètres pour la meilleure expérience sur votre plateforme",
-        "step3Title": "Compatibilité des plateformes",
-        "step3Description": "Apprenez-en plus sur le Steam Deck, le support des manettes et les configurations requises"
+        "step1Title": "Connaître les vrais salaires",
+        "step1Description": "Découvrez combien les nettoyeurs de scènes de crime gagnent réellement dans leur carrière professionnelle",
+        "step2Title": "Comprendre la profession",
+        "step2Description": "Découvrez ce que les emplois de nettoyage de scènes de crime impliquent et les compétences requises",
+        "step3Title": "Comparer le jeu et la réalité",
+        "step3Description": "Voyez comment le jeu Crime Scene Cleaner dépeint la profession réelle"
       },
-      "featured": "En vedette et essentiels",
-      "all": "Tous les articles de support"
+      "featured": "À la une et essentiels",
+      "all": "Tous les guides de métiers"
+    },
+    "puzzle": {
+      "title": "Guide des énigmes de Crime Scene Cleaner",
+      "description": "Solutions pour chaque énigme de Crime Scene Cleaner, incluant l'énigme du canard du musée, l'énigme de la TV du musée, la carte VIP et les meilleures combinaisons de détergents.",
+      "metaTitle": "Guide des énigmes de Crime Scene Cleaner - Musée, carte VIP et détergents",
+      "metaDescription": "Solutions des énigmes de Crime Scene Cleaner couvrant le canard du musée, la TV du musée, l'emplacement de la carte VIP et le meilleur combo de détergents pour chaque situation.",
+      "categoryLabel": "ÉNIGMES",
+      "whatIs": "Que sont les énigmes de Crime Scene Cleaner ?",
+      "whatIsDescription": "Énigmes interactives et défis cachés disséminés dans les missions de Crime Scene Cleaner. Du canard du musée au mystère de la carte VIP, ces guides fournissent des solutions étape par étape pour chaque puzzle du jeu.",
+      "why": "Pourquoi lire les guides d'énigmes de Crime Scene Cleaner ?",
+      "whySteps": {
+        "step1Title": "Résoudre les énigmes du musée",
+        "step1Description": "Obtenez les solutions pour l'énigme du canard, de la TV et d'autres défis du musée dans Crime Scene Cleaner",
+        "step2Title": "Trouver la carte VIP",
+        "step2Description": "Découvrez où trouver et comment utiliser la carte VIP dans Crime Scene Cleaner",
+        "step3Title": "Maîtriser les combos de détergents",
+        "step3Description": "Apprenez les meilleures combinaisons de détergents pour une efficacité de nettoyage maximale dans Crime Scene Cleaner"
+      },
+      "featured": "À la une et essentiels",
+      "all": "Tous les guides d'énigmes"
+    },
+    "media": {
+      "title": "Médias de Crime Scene Cleaner",
+      "description": "Couverture médiatique de Crime Scene Cleaner incluant l'OST officielle, les crédits des acteurs de doublage, les moments forts de la communauté Reddit et les discussions de fans.",
+      "metaTitle": "Médias de Crime Scene Cleaner - OST, acteurs et communauté",
+      "metaDescription": "Guides médias de Crime Scene Cleaner couvrant la bande originale officielle, les informations sur les acteurs de doublage, la communauté Reddit et les discussions notables des fans.",
+      "categoryLabel": "MÉDIAS",
+      "whatIs": "Que sont les médias de Crime Scene Cleaner ?",
+      "whatIsDescription": "Couverture de Crime Scene Cleaner à travers les bandes sonores, le doublage et les plateformes communautaires. Explorez l'OST officielle, découvrez les acteurs de doublage et trouvez les meilleures discussions sur Reddit.",
+      "why": "Pourquoi explorer les médias de Crime Scene Cleaner ?",
+      "whySteps": {
+        "step1Title": "Découvrir la bande originale",
+        "step1Description": "Explorez l'OST de Crime Scene Cleaner et trouvez les morceaux qui définissent l'atmosphère du jeu",
+        "step2Title": "En savoir plus sur les acteurs",
+        "step2Description": "Découvrez qui prête sa voix aux personnages de Crime Scene Cleaner",
+        "step3Title": "Rejoindre la communauté",
+        "step3Description": "Connectez-vous avec d'autres joueurs de Crime Scene Cleaner via Reddit et les discussions communautaires"
+      },
+      "featured": "À la une et essentiels",
+      "all": "Tous les médias"
     }
   }
 }

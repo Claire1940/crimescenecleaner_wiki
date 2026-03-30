@@ -8,5 +8,1175 @@
     "jobs": "Zawód",
     "puzzle": "Zagadki",
     "media": "Media"
+  },
+  "seo": {
+    "home": {
+      "title": "Crime Scene Cleaner Wiki - Recenzje, Mapy i Osiągnięcia",
+      "description": "Wiki Crime Scene Cleaner z poradnikami do map, osiągnięć, aktualizacji, zakończeń, narzędzi, detergentów oraz informacjami o platformach dla graczy Steam, Xbox i PS5.",
+      "keywords": "Crime Scene Cleaner, Steam, mapy, osiągnięcia, aktualizacje, zakończenia, narzędzia, detergenty, PS5, Xbox",
+      "ogTitle": "Crime Scene Cleaner Wiki - Recenzje, Mapy i Osiągnięcia",
+      "ogDescription": "Wiki Crime Scene Cleaner z poradnikami do map, osiągnięć, aktualizacji, zakończeń, narzędzi, detergentów oraz informacjami o platformach dla graczy Steam, Xbox i PS5.",
+      "twitterTitle": "Crime Scene Cleaner Wiki - Recenzje, Mapy i Osiągnięcia",
+      "twitterDescription": "Wiki Crime Scene Cleaner z poradnikami do map, osiągnięć, aktualizacji, zakończeń, narzędzi, detergentów oraz informacjami o platformach dla graczy Steam, Xbox i PS5."
+    }
+  },
+  "common": {
+    "home": "Strona główna",
+    "more": "Więcej",
+    "playNow": "Graj na Steam",
+    "switchLanguage": "Zmień język",
+    "switchTheme": "Zmień motyw",
+    "lightMode": "Tryb jasny",
+    "darkMode": "Tryb ciemny",
+    "notFound": "Nie znaleziono strony",
+    "notFoundDescription": "Strona, której szukasz, nie istnieje.",
+    "backToHome": "Powrót do strony głównej",
+    "relatedArticles": "Powiązane artykuły",
+    "readMore": "Czytaj więcej"
+  },
+  "hero": {
+    "badge": "Krwawy symulator sprzątania z perspektywy pierwszej osoby",
+    "title": "Crime Scene Cleaner Wiki",
+    "description": "Sprzątaj krew, pakuj ciała do worków, usuwaj dowody, ulepszaj swoje narzędzia i odkrywaj historię kryjącą się za każdą misją w Crime Scene Cleaner na Steam, Xbox i PS5.",
+    "getFreeCodesCTA": "Zobacz najnowsze aktualizacje",
+    "playOnSteamCTA": "Graj na Steam",
+    "stats": {
+      "stat1": {
+        "value": "14 sierpnia 2024",
+        "label": "Data premiery"
+      },
+      "stat2": {
+        "value": "1000000+",
+        "label": "Sprzedane egzemplarze"
+      },
+      "stat3": {
+        "value": "98% z 13272",
+        "label": "Angielskie recenzje"
+      },
+      "stat4": {
+        "value": "80",
+        "label": "Osiągnięcia Steam"
+      }
+    }
+  },
+  "gameFeature": {
+    "title": "Rozgrywka w Crime Scene Cleaner",
+    "description": "Zmywaj krew, pakuj ciała do worków, usuwaj dowody i ulepszaj swoje narzędzia do sprzątania w wielu miejscach zbrodni w tym krwawym symulatorze sprzątania z perspektywy pierwszej osoby na Steam, Xbox i PS5."
+  },
+  "tools": {
+    "title": "Crime Scene Cleaner",
+    "titleHighlight": "Centrum Poradników",
+    "subtitle": "Wszystko, co musisz wiedzieć o sprzątaniu, ulepszaniu i mistrzowskim opanowaniu Crime Scene Cleaner",
+    "cards": [
+      {
+        "icon": "BookOpen",
+        "title": "Poradnik dla początkujących w Crime Scene Cleaner",
+        "description": "Pierwsze kroki, pętla sprzątania i podstawy narzędzi"
+      },
+      {
+        "icon": "Map",
+        "title": "Solucja Crime Scene Cleaner",
+        "description": "Kluczowe misje od Bad Call do Amber Alert w Akcie 2"
+      },
+      {
+        "icon": "TrendingUp",
+        "title": "Poradnik ulepszeń w Crime Scene Cleaner",
+        "description": "Najlepsze ulepszenia mopa, wiadra i szybkości sprzątania"
+      },
+      {
+        "icon": "Hammer",
+        "title": "Poradnik umiejętności mopa w Crime Scene Cleaner",
+        "description": "Umiejętności mopa, synergia detergentów i konfiguracja z dwoma wiadrami"
+      },
+      {
+        "icon": "DollarSign",
+        "title": "Poradnik zarabiania w Crime Scene Cleaner",
+        "description": "Zarabiaj szybciej dzięki kosztownościom i ukrytym miejscom"
+      },
+      {
+        "icon": "Target",
+        "title": "Poradnik perfekcyjnego wyniku w Crime Scene Cleaner",
+        "description": "Unikaj kar punktowych i czyść mapy na 100 procent"
+      },
+      {
+        "icon": "Trophy",
+        "title": "Poradnik osiągnięć w Crime Scene Cleaner",
+        "description": "Wszystkie 80 osiągnięć Steam i jak je odblokować"
+      },
+      {
+        "icon": "Eye",
+        "title": "Poradnik sekretów w Crime Scene Cleaner",
+        "description": "Ukryte pokoje, drzwi z zagadkami i sekretne interakcje"
+      },
+      {
+        "icon": "Music",
+        "title": "Poradnik kaset magnetofonowych w Crime Scene Cleaner",
+        "description": "Lokalizacje wszystkich kaset i płyt CD według misji"
+      },
+      {
+        "icon": "Package",
+        "title": "Poradnik dotyczący ciał i dowodów w Crime Scene Cleaner",
+        "description": "Strategie pozbywania się ciał i zbierania dowodów"
+      },
+      {
+        "icon": "ClipboardCheck",
+        "title": "Poradnik True Cleaner w Crime Scene Cleaner",
+        "description": "Lista kontrolna pełnej oceny czystości według powierzchni i kategorii"
+      },
+      {
+        "icon": "Shield",
+        "title": "Poradnik trybu Nightmare w Crime Scene Cleaner",
+        "description": "Jak podejść do misji na poziomie trudności Nightmare"
+      },
+      {
+        "icon": "Clock",
+        "title": "Solucja Aktu 2 w Crime Scene Cleaner",
+        "description": "Misje Aktu 2, zawartość fabularna i nowe lokacje"
+      },
+      {
+        "icon": "Star",
+        "title": "Poradnik sekretów i płyt CD w Akcie 2 Crime Scene Cleaner",
+        "description": "Wszystkie ukryte płyty CD i lokalizacje sekretnych pokojów w Akcie 2"
+      },
+      {
+        "icon": "FlaskConical",
+        "title": "Poradnik detergentów w Crime Scene Cleaner",
+        "description": "Najlepsze mieszanki detergentów i wskazówki dotyczące wydajności sprzątania"
+      },
+      {
+        "icon": "Settings",
+        "title": "Wymagania systemowe i aktualizacje Crime Scene Cleaner",
+        "description": "Specyfikacja PC, informacje o platformach i historia aktualizacji"
+      }
+    ]
+  },
+  "modules": {
+    "cscBeginnerGuide": {
+      "title": "Poradnik dla początkujących w Crime Scene Cleaner",
+      "displayType": "steps",
+      "intro": "Crime Scene Cleaner nagradza graczy, którzy rozumieją kolejność działań przed przystąpieniem do każdego zlecenia. Poznaj pętlę sprzątania, wybór narzędzi i wczesne nawyki, które oszczędzają czas w każdej misji.",
+      "steps": [
+        {
+          "title": "Najpierw przeskanuj całą scenę",
+          "description": "Zanim czegokolwiek dotkniesz, przejdź się po całej lokacji. Każda misja w Crime Scene Cleaner ma inny układ bałaganu, a wcześniejsze przeskanowanie sceny pomaga dostrzec ukryte ślady krwi, dowody i przeszkody przed rozpoczęciem sprzątania."
+        },
+        {
+          "title": "Wcześnie usuń ciała i śmieci",
+          "description": "Pozbycie się ciał i zebranie śmieci otwiera ścieżki poruszania się oraz ujawnia ukryte plamy i dowody pod spodem. Zrobienie tego w pierwszej kolejności ogranicza wracanie do tych samych miejsc i pomaga znaleźć przedmioty, które inaczej można by przeoczyć."
+        },
+        {
+          "title": "Używaj odpowiedniego narzędzia do każdej powierzchni",
+          "description": "Mop służy do ogólnych plam krwi i otwartych powierzchni podłogowych. Gąbka jest lepsza do delikatnych przedmiotów, dywanów i mebli. Myjka ciśnieniowa sprawdza się na dużych powierzchniach, ale może spowodować dodatkowy bałagan, jeśli jest używana nieostrożnie w pobliżu kruchych elementów."
+        },
+        {
+          "title": "Zarządzaj swoim wiadrem",
+          "description": "Zarówno mop, jak i gąbka brudzą się z czasem. Płucz je, zanim zaczną roznosić zanieczyszczenia zamiast je usuwać. Świeża woda resetuje narzędzie, ale usuwa również wzmocnienia z detergentów, więc planuj płukanie z rozwagą."
+        },
+        {
+          "title": "Zrób pełny przegląd przed wyjściem",
+          "description": "Postęp w Crime Scene Cleaner jest śledzony dla każdego obszaru z osobna. Przed zakończeniem zlecenia przejdź się po każdym pomieszczeniu, sprawdzając sufity, wysokie półki i spody mebli. Ukryte plamy i pominięte przedmioty to najczęstsza przyczyna niższych wyników."
+        },
+        {
+          "title": "Najpierw zainwestuj w kluczowe ulepszenia",
+          "description": "Ulepsz wytrzymałość mopa, pojemność wiadra i prędkość sprzątania, zanim wydasz pieniądze na niszowe narzędzia. Te podstawowe ulepszenia procentują w każdej misji i ułatwiają pracę na większych, bardziej złożonych mapach."
+        }
+      ],
+      "quickTips": [
+        "Procent ukończenia jest śledzony dla każdego obszaru, a nie dla całej misji ogółem.",
+        "Brudny mop z czasem zaczyna rozmazywać plamy zamiast je usuwać.",
+        "Sprawdzaj sufity, wysoko położone elementy i powierzchnie mebli — odpryski krwi pojawiają się wszędzie.",
+        "Płukanie wiadra usuwa efekty detergentów, więc zaplanuj użycie wiadra przed płukaniem."
+      ]
+    },
+    "cscWalkthrough": {
+      "title": "Poradnik do Crime Scene Cleaner",
+      "displayType": "karty",
+      "intro": "Każda misja w Crime Scene Cleaner ma swój własny układ, priorytety sprzątania i sekrety do odkrycia. Skorzystaj z tego centrum, aby dowiedzieć się, czego spodziewać się po kluczowych misjach i jak podejść do nich efektywnie.",
+      "cards": [
+        {
+          "name": "Bad Call",
+          "description": "Pierwsza główna misja i najbardziej przejrzyste wprowadzenie do pełnej pętli sprzątania. Skup się na nauce nawyków dokładnego czyszczenia, uważnie sprawdź strych oraz zaplecze i wykorzystaj tę misję do zbudowania fundamentów pod większe mapy."
+        },
+        {
+          "name": "Trial by Blood",
+          "description": "Akcja toczy się w Miko's Spa and Wellness; ta misja sprawdza, jak dobrze radzisz sobie z przełączaniem się między ogólnym sprzątaniem a precyzyjną pracą nad detalami w bardziej wielowarstwowym, dekoracyjnym wnętrzu. Śledź sekrety i zbieraj kasety, póki pomieszczenia są jeszcze świeże."
+        },
+        {
+          "name": "Affair with Death",
+          "description": "Mountainside Villa to jedno z większych wczesnych zleceń z pięcioma ciałami i mnóstwem dowodów. Planuj trasę piętro po piętrze zamiast improwizować i sprawdzaj zamknięte boczne pokoje w ramach głównego obchodu."
+        },
+        {
+          "name": "Amber Alert",
+          "description": "Misja z Aktu 2 nastawiona na pełne ukończenie, zawierająca przedmioty kolekcjonerskie, sekrety i wiele celów sprzątania. Podejdź do niej jak do misji na 100% i śledź znajdźki równolegle z głównymi celami."
+        }
+      ],
+      "milestones": [
+        "Naucz się pętli sprzątania w Bad Call",
+        "Opanuj poruszanie się po wielopokojowym układzie Miko's Spa",
+        "Ukończ Mountainside Villa, planując trasę piętro po piętrze",
+        "Osiągnij pełne ukończenie w Amber Alert"
+      ]
+    },
+    "cscUpgradesGuide": {
+      "title": "Poradnik ulepszeń w Crime Scene Cleaner",
+      "displayType": "tabela",
+      "intro": "Najlepsze ulepszenia w Crime Scene Cleaner to te, które ułatwiają każdą misję. Zacznij od ulepszeń podstawowych narzędzi, zanim zainwestujesz w niszowe ścieżki, które przydają się tylko w określonych sytuacjach.",
+      "items": [
+        {
+          "name": "Podstawowe ulepszenia mopa",
+          "type": "Wysoki priorytet",
+          "description": "Mop to Twoje główne, uniwersalne narzędzie, które służy do usuwania krwi na niemal każdej mapie. Poprawa wydajności mopa skraca czas przestoju związanego z brudnym narzędziem i jest najlepszą inwestycją na początku gry."
+        },
+        {
+          "name": "Ulepszenia wiadra",
+          "type": "Wysoki priorytet",
+          "description": "Zarządzanie wiadrem jest kluczowe, ponieważ zarówno mopy, jak i gąbki wymagają płukania. Większa pojemność i wydajność wiadra ogranicza konieczność wymiany wody i ułatwia korzystanie z detergentów."
+        },
+        {
+          "name": "Ulepszenia gąbki",
+          "type": "Wysoki priorytet",
+          "description": "Gąbka służy do czyszczenia delikatnych przedmiotów, dywanów i powierzchni mebli. Staje się bardziej wartościowa wraz ze wzrostem różnorodności misji i napotykaniem bardziej złożonych układów wnętrz."
+        },
+        {
+          "name": "Dodatkowe wiadro",
+          "type": "Wysoki priorytet",
+          "description": "Podstawa strategii dwóch wiader. Używaj jednego wiadra z detergentem dla wzmocnienia czyszczenia, a drugiego z czystą wodą do płukania, co pozwala znacznie dłużej utrzymać efekty detergentu."
+        },
+        {
+          "name": "Prędkość sprzątania",
+          "type": "Wysoki priorytet",
+          "description": "Ulepszenia prędkości wpływają na tempo niemal każdej misji i ograniczają stratę czasu przy większych zleceniach. Jest to jedna z najczęściej polecanych umiejętności na start w poradnikach społeczności."
+        },
+        {
+          "name": "Ścieżka myjki ciśnieniowej",
+          "type": "Średni priorytet",
+          "description": "Doskonała do dużych, otwartych powierzchni, ale bardziej sytuacyjna niż ulepszenia mopa i gąbki. Najlepiej sprawdza się w miejscach, gdzie ryzyko powstania dodatkowego bałaganu przez rozpryski jest niskie."
+        },
+        {
+          "name": "Użyteczność ozonatora",
+          "type": "Średni priorytet",
+          "description": "Osłabia pobliskie plamy i „zmiękcza” pomieszczenia, podczas gdy Ty sprzątasz gdzie indziej. Przydatne narzędzie pomocnicze przy większych zleceniach, ale nie jest priorytetem zakupu w porównaniu do ulepszeń podstawowych narzędzi."
+        },
+        {
+          "name": "Inwestycja w detergenty",
+          "type": "Niższy priorytet",
+          "description": "Detergenty są skuteczne, ale można z nimi poczekać, jeśli korzystasz z systemu dwóch wiader. Najpierw skup się na wydajności samych narzędzi czyszczących, a detergenty rozwijaj, gdy opanujesz podstawowy cykl pracy."
+        }
+      ]
+    },
+    "cscMopSkills": {
+      "title": "Crime Scene Cleaner – Poradnik umiejętności mopa",
+      "displayType": "lista-kart",
+      "intro": "Mop jest podstawą niemal każdego sprzątania w Crime Scene Cleaner. Solidna konfiguracja mopa zmniejsza częstotliwość płukania, zwiększa zasięg każdego pociągnięcia i pozwala zachować wydajność podczas długich misji.",
+      "solutions": [
+        {
+          "name": "Zwiększona odporność",
+          "role": "Kluczowy wybór",
+          "description": "Jedna z wyróżniających się umiejętności mopa, ponieważ wydłuża czas jego skuteczności przed zabrudzeniem. Bezpośrednio skraca przestój spowodowany koniecznością płukania."
+        },
+        {
+          "name": "Zwiększony zasięg",
+          "role": "Wydajność",
+          "description": "Każde pociągnięcie mopa obejmuje większą powierzchnię podłogi, co ma ogromne znaczenie w otwartych wnętrzach z licznymi plamami na dużych powierzchniach."
+        },
+        {
+          "name": "Szybkość czyszczenia",
+          "role": "Szybkie sprzątanie",
+          "description": "Często polecana umiejętność, ponieważ przyspiesza rutynowe usuwanie plam w niemal każdej misji. Idealna dla graczy dążących do jak najszybszego ukończenia zadania."
+        },
+        {
+          "name": "Detergenty czyszczące i wzmacniające",
+          "role": "Synergia",
+          "description": "Wsparcie detergentów ułatwia usuwanie plam i pomaga mopowi zachować skuteczność na dłużej. Używaj z dedykowanym wiadrem z detergentem, aby utrzymać wzmocnienia podczas długich sesji."
+        },
+        {
+          "name": "Ostrożne kroki",
+          "role": "Bezpieczeństwo",
+          "description": "Praktyczny wybór dla graczy chcących uniknąć przypadkowego nanoszenia brudu, szczególnie w zagraconych pomieszczeniach, gdzie błędy w poruszaniu się oznaczają dodatkowy czas na sprzątanie."
+        },
+        {
+          "name": "Zestaw dwóch wiader",
+          "role": "Konfiguracja profesjonalna",
+          "description": "Jedno wiadro z detergentem dla wzmocnień, a drugie z czystą wodą do płukania. Najpopularniejsza optymalizacja pracy mopem, pozwalająca na utrzymanie wysokiej wydajności przez dłuższy czas."
+        }
+      ],
+      "managementTips": [
+        "Brudny mop w końcu zacznie tworzyć nowe plamy zamiast je usuwać – wypłucz go, zanim do tego dojdzie.",
+        "Używaj jednego wiadra z detergentem i jednego z wodą, aby zachować wzmocnienia czyszczenia bez tracenia ich przy każdym płukaniu.",
+        "Zwiększony zasięg jest szczególnie cenny na otwartych przestrzeniach, gdzie liczy się powierzchnia objęta jednym pociągnięciem.",
+        "Najpierw rozwiń umiejętności mopa, zanim zainwestujesz w myjkę ciśnieniową lub ozonator."
+      ]
+    },
+    "cscMoneyGuide": {
+      "title": "Poradnik zarabiania w Crime Scene Cleaner",
+      "displayType": "card-list",
+      "intro": "Crime Scene Cleaner nagradza graczy, którzy traktują każdą mapę zarówno jako zlecenie sprzątania, jak i trasę poszukiwacza skarbów. Największe zyski przynosi pełna eksploracja miejsca zdarzenia, zbieranie kosztowności oraz zaglądanie do sekretnych obszarów, w których ukryte są sejfy, rzadkie przedmioty lub duże skrytki z gotówką.",
+      "items": [
+        {
+          "title": "Wyczyść całkowicie miejsce zdarzenia przed wyjściem",
+          "description": "Zmywaj krew, usuwaj śmieci, zbieraj dowody i odstawiaj na miejsce przestawione przedmioty. Wyniki z perfekcyjną oceną przekładają się na lepszą wartość ukończenia misji i długofalowy postęp.",
+          "tip": "Wiele osiągnięć za perfekcyjny wynik wymaga wyczyszczenia wszystkiego, zebrania każdego śmiecia, przywrócenia obiektów na miejsce i znalezienia wszystkich poszlak."
+        },
+        {
+          "title": "Często używaj Zmysłu Przestępczego i sprawdzaj poszlaki",
+          "description": "Przed wyjściem przeszukuj pomieszczenia pod kątem pominiętych plam, ukrytych dowodów i łatwych do przeoczenia punktów interakcji. Pominięte dowody lub plamy mogą obniżyć wynik, spowalniając efektywny postęp.",
+          "tip": "Wskazówki dotyczące perfekcyjnego wyniku w Bad Call dzielą punktację na oddzielne sekcje — jedna pominięta kategoria może zepsuć całe podejście."
+        },
+        {
+          "title": "Kradnij kosztowności, gdy tylko trasa jest bezpieczna",
+          "description": "Zbieraj gotówkę, kosztowności i specjalne łupy podczas misji, zamiast traktować je jako opcjonalne dodatki. Istnieje globalne osiągnięcie za kradzież 50 000 $, co potwierdza, że kradzież jest kluczową ścieżką dochodu.",
+          "tip": "Globalne osiągnięcie 'Money, Money, Money' śledzi całkowitą kwotę skradzionej gotówki we wszystkich podejściach."
+        },
+        {
+          "title": "Priorytetyzuj sekretne pokoje z łupem",
+          "description": "Wybieraj boczne ścieżki prowadzące do ukrytych pomieszczeń, sejfów i zakamuflowanych schowków. Kilka sekretów prowadzi bezpośrednio do nagród pieniężnych lub cennych przedmiotów wartych ponownego odwiedzenia.",
+          "tip": "Italian Job skrywa pokój hazardowy i sejf powiązany z osiągnięciem 'Treasure', podczas gdy Affair With Death ukrywa skrytkę z gotówką w piwnicy potrzebną do 'Money For Nothing'."
+        },
+        {
+          "title": "Zbieraj cenne, jednorazowe przedmioty podczas tras pod osiągnięcia",
+          "description": "Łącz zbieranie przedmiotów kolekcjonerskich lub celów opcjonalnych z normalnym sprzątaniem, zamiast powtarzać misje później. Możesz łączyć postępy w zarabianiu pieniędzy z postępami w zdobywaniu osiągnięć podczas tej samej misji.",
+          "tip": "Bad Call zawiera cudowny nawóz do osiągnięcia 'Strawberry Fields Forever', a kilka sekretnych tras zawiera również kasety lub klucze dostępu, które zwiększają ogólną efektywność przejścia."
+        },
+        {
+          "title": "Najpierw eksploruj, potem sprzątaj w pętli",
+          "description": "Zrób szybki rekonesans przed dokładnym sprzątaniem, aby zrozumieć, gdzie znajdują się ciała, poszlaki, zamknięte pokoje i jak łączą się sekretne ścieżki. Eksploracja ogranicza wracanie do tych samych miejsc i pomaga zebrać łupy za jednym razem.",
+          "tip": "Najbardziej efektywne mapy nagradzają graczy, którzy znają sekretne wejścia, trasy po dachach, ukryte przejścia oraz łańcuchy szafek lub sejfów przed przystąpieniem do końcowego sprzątania."
+        }
+      ]
+    },
+    "cscPerfectScore": {
+      "title": "Poradnik do Crime Scene Cleaner: Jak uzyskać wynik idealny",
+      "displayType": "krok po kroku",
+      "intro": "Przejścia na wynik idealny opierają się na dyscyplinie, a nie na szybkości. Gra wielokrotnie wymaga całkowitego sprzątnięcia, zebrania wszystkich poszlak i właściwego przywrócenia obiektów przed opuszczeniem misji.",
+      "steps": [
+        {
+          "title": "Zacznij od obchodu zwiadowczego",
+          "description": "Przed gruntownym sprzątaniem przejdź przez całą scenę i zidentyfikuj ciała, kluczowe pomieszczenia, miejsca z poszlakami, tajne drzwi oraz wszelkie zamknięte obszary boczne. Szybki rekonesans zapobiega późniejszemu wracaniu i zmniejsza ryzyko pominięcia ukrytych celów."
+        },
+        {
+          "title": "Najpierw zajmij się trzema filarami punktacji",
+          "description": "Traktuj sprzątanie, dowody i zajmowanie się ciałami jako oddzielne kategorie punktowe. Nie zakładaj, że jedna idealna kategoria zrekompensuje inne – wytyczne dotyczące wyniku idealnego w Bad Call wyraźnie dzielą misje na osobne sekcje punktacji."
+        },
+        {
+          "title": "Usuń każdą widoczną plamę i każdy śmieć",
+          "description": "Zamiast wyrywkowego sprzątania, sprawdzaj pomieszczenie po pomieszczeniu. Przeszukaj kąty, pokoje boczne, łazienki oraz przejścia za deskami do rozbicia lub wentylacją, aby wyłapać wszystko, co śledzi gra."
+        },
+        {
+          "title": "Przywróć obiekty i napraw stan sceny",
+          "description": "Odłóż przemieszczone przedmioty na ich pierwotne miejsce i unikaj robienia nowego bałaganu podczas pracy. Opisy osiągnięć za idealne ukończenie misji konsekwentnie wymagają odłożenia każdego obiektu tam, gdzie jego miejsce."
+        },
+        {
+          "title": "Znajdź wszystkie poszlaki przed ostatecznym wyjściem",
+          "description": "Nie spiesz się z aktywacją ostatniego celu. Przed zakończeniem misji ponownie sprawdź pomieszczenia związane z poszlakami, ukryte przejścia i dodatkowe schowki – osiągnięcia za wynik idealny na wielu mapach wymagają znalezienia wszystkich poszlak."
+        },
+        {
+          "title": "Ukończ dodatki specyficzne dla mapy",
+          "description": "Niektóre poziomy ukrywają zawartość istotną dla wyniku w obszarach bocznych. Italian Job jest głównym przykładem, ponieważ idealne sprzątanie obejmuje również Mieszkanie Babci. Mapy z oddzielnymi przestrzeniami łatwo jest niedokładnie posprzątać, skupiając się tylko na głównej ścieżce."
+        },
+        {
+          "title": "Wykorzystaj łatwiejsze mapy do ćwiczenia precyzji",
+          "description": "Toxic Love jest powszechnie uważana za wyrozumiałą mapę do ćwiczenia czystej egzekucji i planowania osiągnięć pobocznych. Praktyka na prostszych układach pomaga wyrobić nawyki przed trudniejszymi mapami z późniejszej fazy gry, takimi jak Modern Art czy Call In Dead."
+        },
+        {
+          "title": "Zakończ końcowym obchodem weryfikacyjnym",
+          "description": "Przed wyjściem sprawdź łazienki, wentylację, ukryte szafki, ścieżki na dachu i wszelkie pomieszczenia odblokowane kluczami, kartami lub przełącznikami. Przeoczenia pod koniec misji zdarzają się zazwyczaj w miejscach wyglądających na opcjonalne, które jednak wliczają się do pełnego ukończenia."
+        }
+      ]
+    },
+    "cscAchievements": {
+      "title": "Poradnik osiągnięć Crime Scene Cleaner",
+      "displayType": "tabela",
+      "intro": "Crime Scene Cleaner oferuje rozbudowany zestaw osiągnięć, ale gracze dążący do ukończenia gry na 100% zazwyczaj zaczynają od kamieni milowych związanych z perfekcyjnym wynikiem, sekretów finansowych oraz ukrytych interakcji na konkretnych mapach. Najszybsza droga łączy cele perfekcyjnego ukończenia misji z osiągnięciami za sekretne ścieżki podczas tego samego podejścia.",
+      "items": [
+        {
+          "name": "Zły telefon",
+          "requirement": "Ukończ misję Zły telefon z perfekcyjnym wynikiem",
+          "chapter": "Zły telefon",
+          "rate": "74,5%"
+        },
+        {
+          "name": "Próba krwi",
+          "requirement": "Ukończ misję Próba krwi z perfekcyjnym wynikiem",
+          "chapter": "Próba krwi",
+          "rate": "70,4%"
+        },
+        {
+          "name": "Złoto na suficie",
+          "requirement": "Znajdź i użyj karty V.I.P",
+          "chapter": "Próba krwi",
+          "rate": "72,1%"
+        },
+        {
+          "name": "Mieć szczęście",
+          "requirement": "Znajdź i otwórz ukryty sejf",
+          "chapter": "Toksyczna miłość",
+          "rate": "63,9%"
+        },
+        {
+          "name": "Skarb",
+          "requirement": "Dostań się do pokoju hazardowego i otwórz sejf",
+          "chapter": "Włoska robota",
+          "rate": "61,1%"
+        },
+        {
+          "name": "Pieniądze za nic",
+          "requirement": "Pozbądź się bezwartościowego papieru z piwnicy",
+          "chapter": "Romans ze śmiercią",
+          "rate": "62,3%"
+        },
+        {
+          "name": "Truskawkowe pola na zawsze",
+          "requirement": "Ukradnij cudowny nawóz",
+          "chapter": "Zły telefon",
+          "rate": "49,7%"
+        },
+        {
+          "name": "Pieniądze, pieniądze, pieniądze",
+          "requirement": "Ukradnij łącznie 50 000 $",
+          "chapter": "Cała gra",
+          "rate": "43,1%"
+        },
+        {
+          "name": "Kolejna cegła w murze",
+          "requirement": "Dotknij lampy i zobacz, co się stanie",
+          "chapter": "Krótkie spięcie",
+          "rate": "27,6%"
+        },
+        {
+          "name": "Zaglądając przez tylne drzwi",
+          "requirement": "Znajdź sekretny pokój Zacka",
+          "chapter": "Zgłoszenie zgonu",
+          "rate": "27,3%"
+        }
+      ]
+    },
+    "cscSecrets": {
+      "title": "Poradnik sekretów Crime Scene Cleaner",
+      "displayType": "accordion",
+      "intro": "Poszukiwanie sekretów jest istotne, ponieważ wiąże się z pieniędzmi, przedmiotami kolekcjonerskimi i osiągnięciami. Kilka najlepszych nagród pobocznych w grze ukryto za wentylacją, ścieżkami na dachach, fałszywymi ścianami i sekwencjami kart dostępu.",
+      "sections": [
+        {
+          "name": "Zły telefon",
+          "summary": "3 taśmy i 3 sekrety. Mocny wczesny rozdział do budowania nawyków szukania sekretów — uczy dostępu do dachów, ukrytych kluczy i opcjonalnych pomieszczeń.",
+          "details": [
+            "Wyłam deski w zabarykadowanym oknie i ostrożnie przejdź po kładkach, aby dotrzeć do sekretu na dachu.",
+            "Podnieś pierwszy klucz w zabarykadowanym pokoju, a następnie połącz go z trasą drugiego klucza, aby otworzyć sekret w odgrodzonej strefie łazienkowej.",
+            "Cudowny nawóz do osiągnięcia Strawberry Fields Forever jest powiązany z trasą sekretów w tym rozdziale."
+          ]
+        },
+        {
+          "name": "Włoska robota",
+          "summary": "3 taśmy i 3 sekrety. Jeden z najlepszych rozdziałów na rozgrywkę nastawioną na zarabianie pieniędzy dzięki sekretom.",
+          "details": [
+            "Zabierz klucz z szuflady w kuchni, otwórz właz pod pudełkami w biurze, a następnie włamać się do sejfu ściennego w ukrytym pokoju hazardowym.",
+            "Otwórz boczne drzwi, wyłam drewniane deski i idź dalej przez ukryty obszar do kolejnej odnogi sekretu.",
+            "Użyj drabiny lub ułożonych pudełek, aby przejść przez ceglany mur na podwórku w celu zdobycia Rock and Roll All Nite."
+          ]
+        },
+        {
+          "name": "Romans ze śmiercią",
+          "summary": "3 taśmy i 3 sekrety. Doskonały rozdział do łączenia sekretów z pieniędzmi i osiągnięciami pobocznymi.",
+          "details": [
+            "Użyj drabiny przy boisku do koszykówki lub wejdź po schodach i idź wzdłuż krawędzi do sekretu przy drzewie.",
+            "Przeczołgaj się przez dziurę za pudełkami, aby dotrzeć do ukrytego pokoju z gotówką dla osiągnięcia Money For Nothing.",
+            "Zabierz klucz do toalety na pierwszym piętrze i użyj go w pralni na parterze."
+          ]
+        },
+        {
+          "name": "Krótkie spięcie",
+          "summary": "2 taśmy i 2 sekrety. Kompaktowa mapa z łatwymi do pominięcia sekretami interaktywnymi.",
+          "details": [
+            "Wejdź w interakcję z przechyloną lampą ścienną na pierwszym piętrze, aby otworzyć ukryte drzwi i odblokować Another Brick in the Wall.",
+            "Sprawdź małe drzwiczki obok strefy z lodówką, aby znaleźć drugą ukrytą przestrzeń.",
+            "To krótki rozdział i dobra mapa do powtarzania w celu ćwiczenia sprawnego przechodzenia tras sekretów."
+          ]
+        },
+        {
+          "name": "Sztuka nowoczesna",
+          "summary": "4 taśmy i 2 sekrety. Rozdział pełen zagadek z zapadającym w pamięć projektem sekretów.",
+          "details": [
+            "Otwórz szklane gabloty, aby zbudować schody, wejdź w interakcję ze złotą kasetą i odkryj ukryty pokój obok sceny.",
+            "Rozwiązanie sekwencji monitorów otwiera drugie ukryte drzwi w obszarze labiryntu.",
+            "Ta mapa zawiera wiele obiektów, które można zniszczyć, co czyni ją efektywną do łączenia polowania na sekrety z postępem w niszczeniu przedmiotów."
+          ]
+        },
+        {
+          "name": "Zwolnienie lekarskie",
+          "summary": "4 taśmy i 5 sekretów. Rozdział z największym zagęszczeniem sekretów w podstawowej kampanii i jedna z najlepszych map do powtarzania dla osób chcących ukończyć grę w 100%.",
+          "details": [
+            "Wyłam kratkę wentylacyjną w pomieszczeniu zasilania i przeczołgaj się przez nią, aby znaleźć pierwszy sekret.",
+            "Wespnij się na stos pudełek na parterze w holu, schyl się pod metalową belką i idź ukrytą ścieżką do kolejnego sekretu.",
+            "Wespnij się po szafkach i rurach, włamać się do wentylacji i wejdź do pokoju Zacka, aby zdobyć Lookin' Out My Back Door."
+          ]
+        }
+      ]
+    },
+    "cscCassetteTapes": {
+      "title": "Poradnik do kaset magnetofonowych w Crime Scene Cleaner",
+      "displayType": "table",
+      "eyebrow": "Znajdźki",
+      "subtitle": "Śledź muzyczne znajdźki, które gracze najczęściej pomijają podczas ponownych wizyt. To zestawienie najlepiej sprawdza się przy pogrupowaniu według misji i uzupełnieniu o krótkie notatki dotyczące trasy.",
+      "intro": "Crime Scene Cleaner ukrywa kasety magnetofonowe i płyty w bocznych pomieszczeniach, nagrodach za zagadki oraz łatwych do pominięcia zakamarkach. Praktyczna strona o znajdźkach powinna nie tylko podawać nazwę przedmiotu, ale także informować gracza, w którym pokoju się on znajduje i jakie działanie go odblokowuje.",
+      "items": [
+        {
+          "mission": "Zły telefon",
+          "collectible": "Cieszyn's Venice",
+          "location": "Pokój botaniczny za żelaznymi drzwiami na dziedzińcu",
+          "access": "Znajdź pierwszy klucz na skrzyni pod balkonem, weź drugi klucz z łazienki w sekretnym korytarzu, a następnie otwórz pokój botaniczny"
+        },
+        {
+          "mission": "Zły telefon",
+          "collectible": "Epitaph of a Good Friend",
+          "location": "Półka na piętrze poniżej windy w apartamencie dealera",
+          "access": "Rozbij deski, aby dostać się na balkon, opuść windę, a następnie przesuń się wzdłuż ściany na niższe piętro"
+        },
+        {
+          "mission": "Po imprezie",
+          "collectible": "Over Again",
+          "location": "Łazienka w domku po prawej stronie",
+          "access": "Bezpośrednie podniesienie po otwarciu obszaru domków"
+        },
+        {
+          "mission": "Po imprezie",
+          "collectible": "Voltage Resonance",
+          "location": "Stolik pod telewizor w domu imprezowym",
+          "access": "Bezpośrednie podniesienie wewnątrz głównego domu imprezowego"
+        },
+        {
+          "mission": "Sztuka nowoczesna",
+          "collectible": "Kokko Kann",
+          "location": "Obok niebieskiego radia w Czerwonym Pokoju",
+          "access": "Bezpośrednie podniesienie podczas sprzątania Wschodniego Skrzydła"
+        },
+        {
+          "mission": "Sztuka nowoczesna",
+          "collectible": "Future Culture",
+          "location": "Na scenie w pokoju z kasetami w Zachodnim Skrzydle",
+          "access": "Bezpośrednie podniesienie w pokoju z kasetami"
+        },
+        {
+          "mission": "Sztuka nowoczesna",
+          "collectible": "Roma",
+          "location": "Podłoga w korytarzu przy Pokoju z Kaczkami, obok pudełka",
+          "access": "Znalezione po wyjściu z Pokoju z Kaczkami do korytarza"
+        },
+        {
+          "mission": "Sztuka nowoczesna",
+          "collectible": "Economy of Pain",
+          "location": "Manekin z nagrodą przed sekretnym pokojem telewizyjnym",
+          "access": "Rozwiąż zagadkę w pokoju telewizyjnym, wejdź do sekretnego pokoju, pokonaj wszystkich wrogów kataną, a następnie odbierz nagrodę przy wyjściu"
+        }
+      ]
+    },
+    "cscBodiesEvidence": {
+      "title": "Poradnik dotyczący ciał i dowodów w Crime Scene Cleaner",
+      "displayType": "lista kontrolna",
+      "eyebrow": "Przejścia na 100 procent",
+      "subtitle": "Ta strona pomaga graczom ukończyć misje, które zatrzymały się na poziomie 95–99 procent. Najlepszą wersją jest lista kontrolna misji oparta na sumach oraz najczęściej pomijanych pomieszczeniach lub obiektach.",
+      "intro": "Typowym powodem niepowodzenia w Crime Scene Cleaner nie jest główna pętla sprzątania, lecz ostatnia brakująca interakcja: jedno ciało w bocznym korytarzu, jeden dowód ukryty przy ofierze lub jeden obiekt, który nie został zaliczony, ponieważ gracz pominął wymaganą interakcję.",
+      "items": [
+        {
+          "mission": "Zły telefon",
+          "checkpoints": [
+            "Łączna liczba ciał: 3",
+            "Łączna liczba dowodów: 9",
+            "Ciała znajdują się w kuchni, na zapleczu i na poddaszu",
+            "Dowody znajdują się w salonie, pokoju bonsai, kuchni, na zapleczu, na poddaszu nr 1 i na poddaszu nr 3"
+          ]
+        },
+        {
+          "mission": "Sztuka nowoczesna",
+          "checkpoints": [
+            "Cele na Wystawie Głównej obejmują 2 dowody i ustawienie 34 mebli",
+            "W ciemni znajduje się 1 ciało oraz dowód w postaci tarczy na ofierze",
+            "W pokoju z kaczkami znajdują się 2 ciała oraz dowody: katana i miecz",
+            "W korytarzu przy pokoju z kaczkami znajduje się 1 ciało i notatka wewnątrz pudełka"
+          ]
+        },
+        {
+          "mission": "Krótkie spięcie",
+          "checkpoints": [
+            "Cele na parterze obejmują 5 dowodów i ustawienie 21 mebli",
+            "Cele na pierwszym piętrze obejmują 6 dowodów i ustawienie 8 mebli",
+            "Dowód w sypialni nr 1: telefon na komodzie obok łóżka",
+            "Dowód w sypialni nr 2: inteligentny głośnik obok komody przy szafie"
+          ]
+        },
+        {
+          "mission": "Poszukiwanie głośników w nawiedzonym domu",
+          "checkpoints": [
+            "Jeśli cel związany z głośnikami wydaje się zablokowany, przestań szukać wzrokiem i kieruj się dźwiękiem",
+            "Niektórzy gracze zgłaszali, że trzeci głośnik może nie zostać zaliczony natychmiast",
+            "Interakcje z komputerem mogą liczyć się do postępu celu, więc przed ponownym uruchomieniem sprawdź wymazane nagrania lub aktywowane urządzenia"
+          ]
+        }
+      ]
+    },
+    "cscTrueCleaner": {
+      "title": "Poradnik True Cleaner do gry Crime Scene Cleaner",
+      "displayType": "krok po kroku",
+      "eyebrow": "Tryb wyzwania",
+      "subtitle": "True Cleaner karze za niechlujne planowanie tras bardziej niż zwykłe misje. Dobry poradnik powinien łączyć uniwersalne nawyki z przykładami z misji, które pokazują, gdzie zazwyczaj zostaje ukryty brud.",
+      "intro": "Najszybszym sposobem na ustabilizowanie podejść w trybie True Cleaner jest oddzielenie metody od znajomości mapy. Najpierw wypracuj powtarzalną rutynę sprzątania, a następnie korzystaj ze wzorców brudu specyficznych dla misji tylko tam, gdzie ten tryb sprzyja marnowaniu czasu: na sufitach, we wnętrzach drzwi, na odciskach łap, śladach stóp oraz w pomieszczeniach, które ponownie się brudzą.",
+      "steps": [
+        {
+          "step": 1,
+          "title": "Przygotuj dwa wiadra przed długim sprzątaniem",
+          "description": "Używaj jednego wiadra do płukania mopa, a drugiego do nakładania detergentu. Jest to szczególnie przydatne w trybie True Cleaner, ponieważ detergenty są ograniczone."
+        },
+        {
+          "step": 2,
+          "title": "Zrób przegląd ciał i obiektów przed końcowym polerowaniem",
+          "description": "Sprawdzoną przez społeczność metodą jest pozostawienie jednego ciała w pobliżu ciężarówki, wyczyszczenie najpierw reszty misji i uniknięcie zakończenia misji przez przypadkowe załadowanie tego ciała zbyt wcześnie."
+        },
+        {
+          "step": 3,
+          "title": "Podążaj za śladami stóp, łap i dłoni zamiast skanować na oślep",
+          "description": "W Trial By Blood brudne ślady stóp prowadzą od wejścia do męskiej szatni, a w strefie relaksu wciąż trzeba opróżnić i wyszorować basen. W Short Circuit pokój telewizyjny zostaje ponownie zabrudzony przez niewidzialnego kota, więc podążaj za odciskami łap od drzwi w foyer."
+        },
+        {
+          "step": 4,
+          "title": "Zawsze sprawdzaj ukryte powierzchnie pionowe",
+          "description": "Gracze często pomijają brud na sufitach, wokół wentylatorów, po wewnętrznej stronie drzwi, za łóżkami i wokół stosów gratów. W Trial By Blood brud w saunie rozprzestrzenia się na ławki, ściany, podłogę i wewnętrzną stronę drzwi sauny."
+        },
+        {
+          "step": 5,
+          "title": "Używaj liczników misji, aby zweryfikować postępy przed wyjściem",
+          "description": "Na przykład w Bad Call w trybie True Cleaner wymagane są 3 ciała, 9 dowodów i 20 odrestaurowanych mebli. Przed końcowym kursem do ciężarówki sprawdź liczniki celów pomieszczenie po pomieszczeniu."
+        }
+      ]
+    },
+    "cscNightmareMode": {
+      "title": "Poradnik do trybu Nightmare w Crime Scene Cleaner",
+      "displayType": "accordion",
+      "eyebrow": "Nightmare",
+      "subtitle": "Tryb Nightmare zmienia znane mapy w sesje sprzątania przypominające bardziej zagadki. Najbardziej użyteczną strukturą strony jest akordeon misja po misji, który w pierwszej kolejności przedstawia cele specjalne, przedmioty kolekcjonerskie i kluczowe punkty w pomieszczeniach.",
+      "intro": "Tryb Nightmare to już nie tylko trudniejsza powtórka tych samych map. Dodaje on zmienione układy, cele specjalne i trasy zbierania przedmiotów kolekcjonerskich, które są istotne dla graczy dążących do ukończenia gry w 100%.",
+      "sections": [
+        {
+          "section": "Modern Art Museum Nightmare",
+          "summary": "Rozbudowana trasa przez wiele skrzydeł z nawigacją portalową, przestawionymi meblami, usuwaniem dowodów i kasetą/dyskiem Onyx do zebrania.",
+          "details": [
+            "Cele obejmują odnalezienie przestawionych mebli w Foyer, na Poziomie Chmur, Wystawie Mebli, w Stołówce, przy Magicznych Drzwiach, w Górnym Przejściu, na Wystawie Muzycznej, Wystawie Starożytnej, Wystawie Ścieków i Wystawie Kaczek",
+            "Misja zawiera dedykowany cel dotyczący kasety/dysku dla przedmiotu kolekcjonerskiego Onyx",
+            "Trasa przenoszenia ciał opiera się na punktach orientacyjnych przy portalach, takich jak stołówka, wystawa starożytna, wystawa mebli, górne przejście i wystawa ścieków"
+          ]
+        },
+        {
+          "section": "Party's Over Nightmare",
+          "summary": "Wariant skupiony na rytuale z osobnym celem specjalnym i kasetą/dyskiem Quartz do podniesienia.",
+          "details": [
+            "Ta misja dodaje cel specjalny: przygotowanie rytuału",
+            "Poradnik śledzi również dokładną lokalizację kasety/dysku Quartz",
+            "Najlepiej podejść do niej jak do ustrukturyzowanego sprzątania, a nie chaotycznego przeczesywania terenu"
+          ]
+        },
+        {
+          "section": "Trial By Blood Nightmare",
+          "summary": "Przerobiona mapa spa z bardziej ukierunkowanym śledzeniem dowodów i osób.",
+          "details": [
+            "Kluczowy przebieg misji obejmuje odnalezienie 7 osób",
+            "W Solarium znajduje się dowód w postaci Łapacza Snów wiszącego na posągu Flaminga",
+            "W pokoju VIP znajduje się kolejny wyzwalacz dowodu – Łapacz Snów za drewnianymi drzwiami aktywowanymi kamieniem",
+            "Karty do szafek, takie jak W018, mogą wiązać się z trasą po kasetę/dysk Ruby"
+          ]
+        },
+        {
+          "section": "Dlaczego strony Nightmare są ważne po Akcie 2",
+          "summary": "Wsparcie dla trybu Nightmare stale się rozwija wraz z nowymi opisami misji po premierze.",
+          "details": [
+            "W centrum gry dodano nowe opisy misji z Aktu 2 w marcu 2026 roku",
+            "Strony Nightmare są najskuteczniejsze, gdy skupiają się na zmienionych celach, a nie tylko na sformułowaniach dotyczących wyższego poziomu trudności",
+            "Kolekcjonerzy zyskują najwięcej, gdy strona łączy każdą misję Nightmare z jej unikalnym dyskiem lub specjalną mechaniką"
+          ]
+        }
+      ]
+    },
+    "cscAct2Walkthrough": {
+      "title": "Poradnik do Aktu 2 Crime Scene Cleaner",
+      "displayType": "step-missions",
+      "eyebrow": "Rozszerzenie fabularne",
+      "intro": "Akt 2 dodaje cztery nowe misje fabularne, które zadebiutowały 26 marca 2026 roku. Skorzystaj z tego opisu przejścia misja po misji, aby szybciej realizować cele, śledzić ukrytą zawartość i unikać wracania do tych samych miejsc w każdej nowej lokalizacji.",
+      "missions": [
+        {
+          "step": 1,
+          "mission": "Amber Alert",
+          "focus": "Misja otwierająca Akt 2",
+          "objectives": [
+            "Posprzątaj główny klub nocny i obszary zaplecza",
+            "Usuń ciała i zbierz dowody",
+            "Sprawdź kuchnię, szatnię i palarnię pod kątem zagadek"
+          ],
+          "notable_puzzles": [
+            "Zagadka z kolejnością beczek w pobliżu ukrytej windy",
+            "Sekretna ścieżka przy tarczy do darta, która otwiera się po uzyskaniu określonej sekwencji punktów",
+            "Tajemne przejście przy cokole z popiersiem"
+          ],
+          "collectibles_summary": "12 ciał, 16 dowodów, 3 ukryte pokoje, 4 płyty CD",
+          "routing_tip": "Najpierw wyczyść widoczne obszary celów, a następnie przeszukaj kuchnię, szatnie i ukryte sekcje ścian przed końcowym sprzątaniem."
+        },
+        {
+          "step": 2,
+          "mission": "Secluded Retreat",
+          "focus": "Misja w willi i spa nastawiona na eksplorację",
+          "objectives": [
+            "Przeszukaj spa, domek i wnętrze drugiego piętra",
+            "Sprawdź boczne ścieżki utworzone przez zniszczalne korzenie i ukryte tunele",
+            "Rozwiąż sekwencje sekretów oparte na panelach i posągach"
+          ],
+          "notable_puzzles": [
+            "Ukryta ścieżka za korzeniami w obszarze spa",
+            "Kombinacja panelu na drugim piętrze w futurystycznym pokoju",
+            "Sekwencja ustawienia posągów trzech małp"
+          ],
+          "collectibles_summary": "3 ukryte ścieżki, 3 płyty CD",
+          "routing_tip": "Najpierw ukończ sekcję spa, a następnie udaj się na górę i wyczyść pokoje w korytarzu przed powrotem do ustawiania posągów."
+        },
+        {
+          "step": 3,
+          "mission": "Circle of Friends",
+          "focus": "Sprzątanie rezydencji pełnej zagadek",
+          "objectives": [
+            "Przeszukaj garaż, wnętrze willi, piwnicę i taras",
+            "Otwórz ukryte przejścia za pomocą obrazów, kaczki i interaktywnych cegieł",
+            "Sprawdź parter i górny taras przed wyjściem"
+          ],
+          "notable_puzzles": [
+            "Kombinacja trzech obrazów",
+            "Sekwencja niszczenia czarnych kaczek dla łańcuchowej trumny",
+            "Ukryty przełącznik w cegle obok kranu w piwniczce z winem"
+          ],
+          "collectibles_summary": "4 płyty CD, 2 ukryte pokoje",
+          "routing_tip": "Wcześniej zajmij się garażem i wskazówkami na parterze, a piwnicę i taras zostaw na koniec, aby zachować porządek w zbieraniu przedmiotów."
+        },
+        {
+          "step": 4,
+          "mission": "Town Too Small",
+          "focus": "Sprzątanie w późnym etapie Aktu 2 z sekretami w wentylacji i klamkach",
+          "objectives": [
+            "Otwórz zablokowane pokoje boczne, usuwając śmieci i przeszkody",
+            "Sprawdź salę imprezową, kręgielnię i pomieszczenie gospodarcze",
+            "Użyj luźnej klamki, aby odblokować ostatni ukryty obszar"
+          ],
+          "notable_puzzles": [
+            "Trasa w wentylacji obok kuchni",
+            "Skrót z klamką do drzwi w pomieszczeniu gospodarczym",
+            "Ukryta ścieżka w obszarze kręgielni"
+          ],
+          "collectibles_summary": "4 płyty CD, 1 ukryty pokój",
+          "routing_tip": "Potraktuj tę misję jako przechodzenie strefa po strefie: najpierw kuchnia, potem sala imprezowa, następnie tory kręglarskie, a na końcu pomieszczenie gospodarcze."
+        }
+      ]
+    },
+    "cscAct2Secrets": {
+      "title": "Poradnik do sekretów i płyt CD w Akcie 2 Crime Scene Cleaner",
+      "displayType": "mission-cards",
+      "eyebrow": "Znajdźki",
+      "intro": "Ukryte pokoje, płyty CD do zebrania i aktywatory zagadek we wszystkich czterech nowych misjach Aktu 2. Znajdź sekrety każdej misji szybko dzięki temu zestawieniu lokalizacji i metod odblokowania.",
+      "items": [
+        {
+          "mission": "Amber Alert",
+          "collectible_set": "4 płyty CD i 3 sekretne ścieżki",
+          "key_locations": [
+            "Obszar windy w kuchni",
+            "Palarnia z tarczą do darta",
+            "Boczna ścieżka w szatni",
+            "Pokój ze złamaną kolumną za obrazem"
+          ],
+          "unlock_methods": [
+            "Ustaw oznaczone beczki w wymaganej kolejności",
+            "Użyj sekwencji na tarczy darta, aby ostatnia rzutka trafiła w 1",
+            "Umieść popiersie na pustym cokole",
+            "Sprawdź ukrytą ścieżkę za obrazem"
+          ]
+        },
+        {
+          "mission": "Secluded Retreat",
+          "collectible_set": "3 płyty CD i wiele ukrytych ścieżek",
+          "key_locations": [
+            "Obszar spa za korzeniami, które można zniszczyć",
+            "Oświetlona pochodniami boczna ścieżka przy bramie",
+            "Pokój przy korytarzu na drugim piętrze obok lustra",
+            "Panel w futurystycznym pokoju",
+            "Pokój z posągami małp"
+          ],
+          "unlock_methods": [
+            "Postaw drabinę i zniszcz korzenie, aby dostać się do tunelu",
+            "Idź wzdłuż linii pochodni do obszaru chatki",
+            "Przeszukaj pokój na drugim piętrze obok lustra",
+            "Wprowadź kombinację na panelu w futurystycznym pokoju",
+            "Ustaw trzy posągi małp w wymaganej kolejności"
+          ]
+        },
+        {
+          "mission": "Circle of Friends",
+          "collectible_set": "4 płyty CD i 2 ukryte pokoje",
+          "key_locations": [
+            "Obszar szafek w garażu",
+            "Hol z zagadką z obrazami",
+            "Pokój z zakutą w łańcuchy trumną",
+            "Szklarnia na górnym tarasie",
+            "Korytarz z czerwonymi drzwiami",
+            "Ukryta cegła w piwniczce z winem"
+          ],
+          "unlock_methods": [
+            "Zabierz pierwszą płytę CD z szafki obok garażu",
+            "Użyj rozwiązania z trzema obrazami, aby otworzyć ukrytą ścieżkę",
+            "Zniszcz wszystkie czarne gumowe kaczuszki, aby otworzyć trumnę",
+            "Sprawdź obszar szklarni na tarasie, aby znaleźć ostatnią płytę CD",
+            "Użyj klucza z wnęki nad wejściem do garażu",
+            "Wyczyść pajęczynę i naciśnij ukrytą cegłę obok kranu"
+          ]
+        },
+        {
+          "mission": "Town Too Small",
+          "collectible_set": "4 płyty CD i 1 ukryty pokój",
+          "key_locations": [
+            "Wyjście z kuchni i trasa przez wentylację",
+            "Znajdźka na podłodze w sali imprezowej",
+            "Obszar stolików w kręgielni",
+            "Pomieszczenie gospodarcze za ułożonymi w stos pudełkami"
+          ],
+          "unlock_methods": [
+            "Oczyść zablokowane drzwi, wyjdź na zewnątrz i zniszcz kratkę",
+            "Podnieś płytę CD z podłogi w sali imprezowej",
+            "Zabierz płytę CD ze stolika w kręgielni",
+            "Znajdź luźną klamkę, przymocuj ją do drzwi pomieszczenia gospodarczego i wejdź do ukrytego pokoju"
+          ]
+        }
+      ]
+    },
+    "cscDetergents": {
+      "title": "Przewodnik po detergentach w Crime Scene Cleaner",
+      "displayType": "tabela",
+      "eyebrow": "Narzędzia do sprzątania",
+      "intro": "Praktyczny poradnik dotyczący detergentów, pozwalający na szybsze sprzątanie, rzadszą obsługę wiadra i czystsze cykle mycia mopem. Dowiedz się, co robi każdy detergent i kiedy warto go używać.",
+      "items": [
+        {
+          "detergent": "Detergent odporności",
+          "main_effect": "Pozwala narzędziom wyczyścić więcej powierzchni przed koniecznością wypłukania",
+          "best_for": "Długie cykle sprzątania, w których mop lub gąbka brudzą się zbyt szybko",
+          "usage_note": "Świetny, uniwersalny wybór do ograniczania częstotliwości płukania na większych etapach"
+        },
+        {
+          "detergent": "Detergent czystości",
+          "main_effect": "Sprawia, że woda w wiadrze starcza na dłużej, spowalniając tempo jej brudzenia podczas płukania",
+          "best_for": "Misje, w których obsługa wiadra jest bardziej uciążliwa niż trudność plam",
+          "usage_note": "Dobrze współgra z osobnym wiadrem z czystą wodą w systemie dwóch wiader"
+        },
+        {
+          "detergent": "Detergent mocy",
+          "main_effect": "Szybciej czyści trudniejsze plamy krwi",
+          "best_for": "Twarde powierzchnie i uporczywe zabrudzenia, szczególnie intensywne czerwone plamy widoczne w świetle UV",
+          "usage_note": "Przydatny, gdy liczy się czas, ale szybciej brudzi narzędzia i wodę"
+        },
+        {
+          "detergent": "Detergent obszarowy",
+          "main_effect": "Czyści większą powierzchnię przy każdym pociągnięciu",
+          "best_for": "Rozległe obszary z plamami o niskim lub średnim stopniu trudności",
+          "usage_note": "Najlepiej sprawdza się przy szybkim omiataniu pomieszczeń, a nie przy precyzyjnym czyszczeniu"
+        },
+        {
+          "detergent": "Detergent czyszczący",
+          "main_effect": "Efekt hybrydowy łączący Odporność i Czystość w słabszej formie",
+          "best_for": "Zrównoważone, uniwersalne konfiguracje wiadra",
+          "usage_note": "Wygodna opcja dla graczy, którzy chcą rzadziej zmieniać wyposażenie"
+        },
+        {
+          "detergent": "Detergent czysty",
+          "main_effect": "Efekt hybrydowy łączący Obszar i Moc w słabszej formie",
+          "best_for": "Szerokie czyszczenie krwi, gdzie liczy się zarówno zasięg, jak i siła",
+          "usage_note": "Przydatny, gdy chcesz, aby jedna butelka wystarczyła na różne rodzaje plam"
+        },
+        {
+          "detergent": "Metoda dwóch wiader",
+          "main_effect": "Używanie jednego wiadra z wodą z detergentem, a drugiego z czystą wodą do płukania",
+          "best_for": "Długie misje i gracze starający się oszczędzać detergent",
+          "usage_note": "Zanurz czyste narzędzie w wiadrze z detergentem, aby uzyskać wzmocnienie, płucz brudne narzędzia w wiadrze z czystą wodą, a następnie ponownie nałóż detergent bez konieczności ciągłego przygotowywania nowej mieszanki"
+        },
+        {
+          "detergent": "Zasada ekonomii misji",
+          "main_effect": "Detergenty odnawiają się między misjami",
+          "best_for": "Planowanie, czy zużyć, czy oszczędzać zapasy w trakcie poziomu",
+          "usage_note": "Jeśli zapasy skończą się w trakcie misji, musisz dokończyć ją z tym, co zostało; zapasy odnowią się dopiero po rozpoczęciu nowej misji"
+        }
+      ]
+    },
+    "cscSystemInfo": {
+      "title": "Wymagania systemowe i aktualizacje Crime Scene Cleaner",
+      "displayType": "oś czasu",
+      "eyebrow": "Wersja i sprzęt",
+      "intro": "Specyfikacja PC, aktualny przegląd recenzji oraz najważniejsze nowości, które sprawiają, że gracze wracają do gry. Sprawdź, czy Twój komputer udźwignie ten tytuł i czy ostatnie aktualizacje zachęcają do ponownej instalacji.",
+      "items": [
+        {
+          "date": "Wersja premierowa",
+          "title": "Podstawowe wymagania PC",
+          "details": [
+            "OS: Windows 10/11",
+            "Minimalny procesor: i5-7500 lub podobny",
+            "Zalecany procesor: i5-10600 lub podobny",
+            "Pamięć: 16 GB RAM",
+            "Minimalna karta graficzna: GTX 1060",
+            "Zalecana karta graficzna: RTX 2070 SUPER",
+            "Miejsce na dysku: 35 GB wolnego miejsca",
+            "Zintegrowane karty graficzne nie są obsługiwane",
+            "Seria Intel ARC może nie być jeszcze obsługiwana"
+          ]
+        },
+        {
+          "date": "Aktualny stan na Steam",
+          "title": "Status recenzji",
+          "details": [
+            "Recenzje w języku angielskim: Przytłaczająco pozytywne (13 272 recenzje)",
+            "Łączna liczba recenzji we wszystkich językach: 28 233",
+            "Ostatnie recenzje we wszystkich językach: 838 i Przytłaczająco pozytywne"
+          ]
+        },
+        {
+          "date": "Aktualizacja Nightmare",
+          "title": "Dodano tryby wyzwań",
+          "details": [
+            "Dodano tryb Into the Nightmare",
+            "Dodano tryb True Cleaner's Mode bez podpowiedzi i ułatwień",
+            "Dodano skórki do odblokowania dla narzędzi i sprzętu czyszczącego"
+          ]
+        },
+        {
+          "date": "Aktualizacja Communiti",
+          "title": "Poboczne mapy społeczności",
+          "details": [
+            "Dodano Alter Ego",
+            "Dodano Development Hell",
+            "Rozszerzono różnorodność zawartości pobocznej poza głównym wątkiem fabularnym"
+          ]
+        },
+        {
+          "date": "2026-03-26",
+          "title": "Rozszerzenie fabularne: Akt 2",
+          "details": [
+            "Akt 2 zadebiutował 26 marca 2026 r.",
+            "Dodano kolejny ważny rozdział historii Kovalsky'ego",
+            "Stworzono zapotrzebowanie na nowe poradniki, sekretne ścieżki i przewodniki po znajdźkach"
+          ]
+        }
+      ]
+    }
+  },
+  "faq": {
+    "title": "Najczęściej zadawane",
+    "titleHighlight": "Pytania",
+    "subtitle": "Wszystko, co musisz wiedzieć o Crime Scene Cleaner",
+    "questions": [
+      {
+        "question": "Na jakich platformach dostępny jest Crime Scene Cleaner?",
+        "answer": "Crime Scene Cleaner jest dostępny na Steam na PC, Xbox oraz PlayStation 5. Wszystkie wersje zawierają pełną kampanię z zawartością Aktu 1 i Aktu 2."
+      },
+      {
+        "question": "Ile osiągnięć posiada Crime Scene Cleaner?",
+        "answer": "Crime Scene Cleaner posiada 80 osiągnięć Steam, obejmujących ukończenie misji, sekrety, przedmioty kolekcjonerskie, ulepszenia narzędzi oraz wyzwania związane z poziomem trudności."
+      },
+      {
+        "question": "Czy Crime Scene Cleaner posiada Nightmare Mode?",
+        "answer": "Tak. Crime Scene Cleaner zawiera Nightmare Mode, który dodaje trudniejsze wymagania dotyczące sprzątania i surowszą punktację do istniejących misji."
+      },
+      {
+        "question": "Jakie jest najlepsze ulepszenie mopa w Crime Scene Cleaner?",
+        "answer": "Zwiększona wytrzymałość i prędkość czyszczenia to najbardziej polecane ulepszenia mopa w Crime Scene Cleaner. Skracają one czas przestoju spowodowany brudnymi narzędziami i poprawiają ogólne tempo sprzątania."
+      },
+      {
+        "question": "Jak uzyskać perfekcyjny wynik w Crime Scene Cleaner?",
+        "answer": "Perfekcyjny wynik w Crime Scene Cleaner wymaga wyczyszczenia całej krwi i plam, pozbycia się wszystkich ciał, zebrania wszystkich dowodów oraz przywrócenia przestawionych mebli."
+      },
+      {
+        "question": "Ile kopii Crime Scene Cleaner zostało sprzedanych?",
+        "answer": "Crime Scene Cleaner sprzedał się w liczbie ponad 1 miliona egzemplarzy. Gra zadebiutowała na Steam w sierpniu 2024 roku i utrzymuje bardzo pozytywne oceny od ponad 13 000 angielskich recenzji."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Gotowy na sprzątanie w Crime Scene Cleaner?",
+    "description": "Dołącz do społeczności Crime Scene Cleaner na Discordzie, aby uzyskać dostęp do poradników, aktualizacji i dyskusji!",
+    "joinCommunity": "Dołącz do Discorda",
+    "joinGame": "Graj na Steam"
+  },
+  "footer": {
+    "title": "Crime Scene Cleaner Wiki",
+    "description": "Twoje kompletne centrum zasobów dla map, narzędzi, osiągnięć, fabuły, miksów, poprawek i przewodników po platformach w Crime Scene Cleaner.",
+    "resources": "Zasoby",
+    "community": "Społeczność",
+    "legal": "Informacje prawne",
+    "discord": "Discord",
+    "twitter": "X / Twitter",
+    "reddit": "Reddit",
+    "steamCommunity": "Społeczność Steam",
+    "steamStore": "Sklep Steam",
+    "about": "O nas",
+    "privacy": "Polityka prywatności",
+    "terms": "Regulamin",
+    "copyrightNotice": "Prawa autorskie",
+    "copyright": "© 2026 Crime Scene Cleaner Wiki. Niezwiązane z President Studio.",
+    "disclaimer": "Nieoficjalna strona z zasobami stworzona przez fanów."
+  },
+  "pages": {
+    "guide": {
+      "title": "Poradnik Crime Scene Cleaner",
+      "description": "Kompletna solucja i poradnik osiągnięć dla Crime Scene Cleaner, zawierający podział na rozdziały, czas przejścia oraz strategie ukończenia gry w 100 procentach.",
+      "metaTitle": "Poradnik Crime Scene Cleaner - Solucja, Rozdziały i Osiągnięcia",
+      "metaDescription": "Poradniki do Crime Scene Cleaner obejmujące pełną solucję, wszystkie rozdziały, przewodnik po osiągnięciach, czas przejścia i strategie na 100 procent ukończenia.",
+      "categoryLabel": "PORADNIKI",
+      "whatIs": "Czym są poradniki do Crime Scene Cleaner?",
+      "whatIsDescription": "Przewodniki krok po kroku do Crime Scene Cleaner obejmujące pełną solucję, każdy rozdział i odblokowywanie osiągnięć. Niezależnie od tego, czy utknąłeś w konkretnej misji, czy dążysz do 100 procent, te poradniki opisują wszystko.",
+      "why": "Dlaczego warto czytać poradniki do Crime Scene Cleaner?",
+      "whySteps": {
+        "step1Title": "Ukończ każdy rozdział",
+        "step1Description": "Podążaj za solucjami rozdział po rozdziale, aby przejść przez każdą misję w Crime Scene Cleaner",
+        "step2Title": "Odblokuj wszystkie osiągnięcia",
+        "step2Description": "Poznaj dokładne warunki zdobycia każdego osiągnięcia Steam w Crime Scene Cleaner",
+        "step3Title": "Poznaj czas rozgrywki",
+        "step3Description": "Dowiedz się, ile czasu zajmuje przejście Crime Scene Cleaner w zależności od Twojego stylu gry"
+      },
+      "featured": "Wyróżnione i kluczowe",
+      "all": "Wszystkie poradniki"
+    },
+    "secrets": {
+      "title": "Sekrety Crime Scene Cleaner",
+      "description": "Wszystkie ukryte sekrety w Crime Scene Cleaner, w tym sekrety muzeum, nawiedzonej posiadłości, poziomu Short Circuit oraz każdy easter egg specyficzny dla danej lokalizacji.",
+      "metaTitle": "Sekrety Crime Scene Cleaner - Wszystkie ukryte przedmioty i Easter Eggi",
+      "metaDescription": "Znajdź każdy sekret w Crime Scene Cleaner we wszystkich misjach, w tym w muzeum, nawiedzonej posiadłości, poziomie Short Circuit oraz we wszystkich innych ukrytych obszarach.",
+      "categoryLabel": "SEKRETY",
+      "whatIs": "Czym są sekrety w Crime Scene Cleaner?",
+      "whatIsDescription": "Ukryte przedmioty, easter eggi i opcjonalne odkrycia rozproszone w każdej misji Crime Scene Cleaner. Od kaczki w muzeum po ukryte ślady dowodów – te sekrety nagradzają dokładną eksplorację.",
+      "why": "Dlaczego warto szukać sekretów w Crime Scene Cleaner?",
+      "whySteps": {
+        "step1Title": "Odkryj ukryte przedmioty",
+        "step1Description": "Znajdź znajdźki i interaktywne obiekty ukryte w każdej misji Crime Scene Cleaner",
+        "step2Title": "Odblokuj ukryte osiągnięcia",
+        "step2Description": "Wiele sekretów w Crime Scene Cleaner jest powiązanych z odblokowywaniem osiągnięć i momentami fabularnymi",
+        "step3Title": "Zbadaj każdy kąt",
+        "step3Description": "Wyciśnij jak najwięcej z każdej misji, odkrywając miejsca, które większość graczy pomija"
+      },
+      "featured": "Wyróżnione i kluczowe",
+      "all": "Wszystkie sekrety"
+    },
+    "nightmare": {
+      "title": "Tryb Koszmaru w Crime Scene Cleaner",
+      "description": "Kompletne poradniki do trybu Nightmare Mode w Crime Scene Cleaner, w tym solucje dla każdej misji koszmaru, specjalne zasady i strategie ukończenia.",
+      "metaTitle": "Crime Scene Cleaner Nightmare Mode - Pełny poradnik i solucje",
+      "metaDescription": "Poradniki do trybu Nightmare Mode w Crime Scene Cleaner obejmujące solucję, Affair with Death, Modern Art Nightmare, specjalne zasady i strategie dla każdej misji.",
+      "categoryLabel": "TRYB KOSZMARU",
+      "whatIs": "Czym jest Nightmare Mode w Crime Scene Cleaner?",
+      "whatIsDescription": "Nightmare Mode to zaawansowany poziom trudności w Crime Scene Cleaner, który wprowadza nowe zasady, trudniejsze wymagania dotyczące sprzątania i unikalne wyzwania dla każdej misji. Te poradniki szczegółowo opisują każdy scenariusz koszmaru.",
+      "why": "Dlaczego warto grać w Crime Scene Cleaner w trybie Nightmare Mode?",
+      "whySteps": {
+        "step1Title": "Opanuj zaawansowane wyzwania",
+        "step1Description": "Tryb Nightmare Mode testuje Twoje umiejętności w Crime Scene Cleaner dzięki surowszym wymaganiom i nowym zagrożeniom",
+        "step2Title": "Zdobądź ekskluzywne nagrody",
+        "step2Description": "Ukończenie misji Nightmare Mode w Crime Scene Cleaner odblokowuje osiągnięcia i specjalną zawartość",
+        "step3Title": "Poznaj strategie dla konkretnych misji",
+        "step3Description": "Każda misja w trybie koszmaru wymaga innego podejścia, które opisujemy w naszych szczegółowych solucjach"
+      },
+      "featured": "Wyróżnione i kluczowe",
+      "all": "Wszystkie poradniki Nightmare"
+    },
+    "act-2": {
+      "title": "Crime Scene Cleaner Akt 2",
+      "description": "Kompletny przewodnik po Akcie 2 Crime Scene Cleaner, w tym nowe misje, roadmapa, sekrety Aktu 2 oraz poradniki do Town Too Small, Secluded Retreat i innych.",
+      "metaTitle": "Crime Scene Cleaner Akt 2 - Nowe misje, sekrety i roadmapa",
+      "metaDescription": "Poradniki do Aktu 2 Crime Scene Cleaner obejmujące wszystkie nowe misje, sekrety Circle of Friends, Town Too Small, Secluded Retreat, Amber Alert oraz oficjalną mapę rozwoju.",
+      "categoryLabel": "AKT 2",
+      "whatIs": "Czym jest Akt 2 w Crime Scene Cleaner?",
+      "whatIsDescription": "Akt 2 to główne rozszerzenie zawartości dla Crime Scene Cleaner, wprowadzające nowe misje, rozbudowane rozdziały fabularne i świeże lokalizacje. Te poradniki szczegółowo opisują każdą misję, sekret i aktualizację Aktu 2.",
+      "why": "Dlaczego warto czytać poradniki do Aktu 2 Crime Scene Cleaner?",
+      "whySteps": {
+        "step1Title": "Przejdź nowe misje",
+        "step1Description": "Otrzymaj przewodniki krok po kroku dla każdej misji i lokalizacji w Akcie 2 Crime Scene Cleaner",
+        "step2Title": "Znajdź sekrety Aktu 2",
+        "step2Description": "Odkryj ukryte sekrety w Circle of Friends, Secluded Retreat i innych misjach Aktu 2",
+        "step3Title": "Bądź na bieżąco z roadmapą",
+        "step3Description": "Śledź mapę rozwoju aktualizacji Crime Scene Cleaner, aby wiedzieć, jaka zawartość pojawi się wkrótce"
+      },
+      "featured": "Wyróżnione i kluczowe",
+      "all": "Wszystkie poradniki do Aktu 2"
+    },
+    "platform": {
+      "title": "Przewodnik po platformach Crime Scene Cleaner",
+      "description": "Przewodniki po platformach dla Crime Scene Cleaner obejmujące Steam, Xbox, PS5 oraz Nintendo Switch, w tym daty premier, różnice między wersjami i funkcje.",
+      "metaTitle": "Przewodnik po platformach Crime Scene Cleaner - Steam, Xbox, PS5 i Switch",
+      "metaDescription": "Przewodniki po platformach Crime Scene Cleaner obejmujące wersje na Xbox, PS5, Switch i Steam, w tym daty premier, obsługiwane języki i różnice między platformami.",
+      "categoryLabel": "PLATFORMY",
+      "whatIs": "Czym są przewodniki po platformach Crime Scene Cleaner?",
+      "whatIsDescription": "Szczegółowe informacje o Crime Scene Cleaner na wszystkich obsługiwanych platformach, w tym Steam, Xbox, PS5 i Nintendo Switch. Poznaj daty premier, obsługiwane języki i kluczowe różnice między wersjami.",
+      "why": "Dlaczego warto czytać przewodniki po platformach Crime Scene Cleaner?",
+      "whySteps": {
+        "step1Title": "Porównaj platformy",
+        "step1Description": "Zrozum różnice między Crime Scene Cleaner na Steam, Xbox, PS5 i Switch",
+        "step2Title": "Sprawdź daty premier",
+        "step2Description": "Dowiedz się, kiedy Crime Scene Cleaner zadebiutował lub zadebiutuje na każdej platformie",
+        "step3Title": "Potwierdź obsługę języków",
+        "step3Description": "Sprawdź, czy Twój język jest obsługiwany na wybranej platformie Crime Scene Cleaner"
+      },
+      "featured": "Wyróżnione i kluczowe",
+      "all": "Wszystkie przewodniki po platformach"
+    },
+    "jobs": {
+      "title": "Praca jako Crime Scene Cleaner",
+      "description": "Informacje z prawdziwego świata o pracy przy sprzątaniu miejsc zbrodni, w tym wynagrodzenie, ile zarabiają osoby sprzątające miejsca zbrodni i jak zacząć karierę w tym zawodzie.",
+      "metaTitle": "Praca jako Crime Scene Cleaner - Zarobki i przewodnik po karierze",
+      "metaDescription": "Dowiedz się o prawdziwej pracy sprzątacza miejsc zbrodni, w tym o średnich zarobkach, wymaganiach zawodowych i o tym, jak gra wypada w porównaniu z rzeczywistym zawodem.",
+      "categoryLabel": "PRACA I KARIERA",
+      "whatIs": "Czym jest praca Crime Scene Cleaner?",
+      "whatIsDescription": "Informacje z rzeczywistego świata o profesji sprzątania miejsc zbrodni, zainspirowane grą Crime Scene Cleaner. Dowiedz się o zarobkach, wymaganiach zawodowych i o tym, czego potrzeba, aby pracować w tej unikalnej dziedzinie.",
+      "why": "Dlaczego warto czytać o pracy przy sprzątaniu miejsc zbrodni?",
+      "whySteps": {
+        "step1Title": "Poznaj realne zarobki",
+        "step1Description": "Dowiedz się, ile naprawdę zarabiają osoby sprzątające miejsca zbrodni w rzeczywistych karierach",
+        "step2Title": "Zrozum ten zawód",
+        "step2Description": "Odkryj, na czym polega praca przy sprzątaniu miejsc zbrodni i jakich umiejętności wymaga",
+        "step3Title": "Porównaj grę z rzeczywistością",
+        "step3Description": "Zobacz, jak gra Crime Scene Cleaner przedstawia ten faktyczny zawód"
+      },
+      "featured": "Wyróżnione i kluczowe",
+      "all": "Wszystkie przewodniki o pracy"
+    },
+    "puzzle": {
+      "title": "Przewodnik po zagadkach Crime Scene Cleaner",
+      "description": "Rozwiązania każdej zagadki w Crime Scene Cleaner, w tym zagadki z kaczką w muzeum, zagadki z telewizorem w muzeum, karty VIP i najlepszych kombinacji detergentów.",
+      "metaTitle": "Przewodnik po zagadkach Crime Scene Cleaner - Muzeum, karta VIP i detergenty",
+      "metaDescription": "Rozwiązania zagadek w Crime Scene Cleaner obejmujące zagadkę z kaczką w muzeum, zagadkę z telewizorem, lokalizację karty VIP i najlepsze zestawy detergentów na każdą sytuację.",
+      "categoryLabel": "ZAGADKI",
+      "whatIs": "Czym są zagadki w Crime Scene Cleaner?",
+      "whatIsDescription": "Interaktywne zagadki i ukryte wyzwania rozproszone w misjach Crime Scene Cleaner. Od kaczki w muzeum po tajemnicę karty VIP – te poradniki dostarczają rozwiązań krok po kroku dla każdej zagadki w grze.",
+      "why": "Dlaczego warto czytać poradniki do zagadek w Crime Scene Cleaner?",
+      "whySteps": {
+        "step1Title": "Rozwiąż zagadki w muzeum",
+        "step1Description": "Zdobądź rozwiązania zagadki z kaczką, zagadki z telewizorem i innych wyzwań w muzeum Crime Scene Cleaner",
+        "step2Title": "Znajdź kartę VIP",
+        "step2Description": "Odkryj, gdzie znaleźć i jak użyć karty VIP w Crime Scene Cleaner",
+        "step3Title": "Opanuj kombinacje detergentów",
+        "step3Description": "Poznaj najlepsze kombinacje detergentów dla maksymalnej wydajności sprzątania w Crime Scene Cleaner"
+      },
+      "featured": "Wyróżnione i kluczowe",
+      "all": "Wszystkie poradniki do zagadek"
+    },
+    "media": {
+      "title": "Media o Crime Scene Cleaner",
+      "description": "Relacje medialne dotyczące Crime Scene Cleaner, w tym oficjalny OST, obsada głosowa, najciekawsze wątki ze społeczności Reddit i dyskusje fanów.",
+      "metaTitle": "Media Crime Scene Cleaner - OST, aktorzy głosowi i społeczność",
+      "metaDescription": "Przewodniki medialne Crime Scene Cleaner obejmujące oficjalną ścieżkę dźwiękową, informacje o aktorach głosowych, społeczność Reddit i godne uwagi dyskusje fanów o grze.",
+      "categoryLabel": "MEDIA",
+      "whatIs": "Czym są media Crime Scene Cleaner?",
+      "whatIsDescription": "Informacje o Crime Scene Cleaner obejmujące ścieżki dźwiękowe, grę aktorską i platformy społecznościowe. Poznaj oficjalny OST, dowiedz się więcej o aktorach głosowych i znajdź najlepsze dyskusje społeczności na Reddit.",
+      "why": "Dlaczego warto zgłębiać media Crime Scene Cleaner?",
+      "whySteps": {
+        "step1Title": "Odkryj ścieżkę dźwiękową",
+        "step1Description": "Poznaj OST Crime Scene Cleaner i znajdź utwory, które definiują atmosferę gry",
+        "step2Title": "Dowiedz się o aktorach głosowych",
+        "step2Description": "Dowiedz się, kto użycza głosów postaciom w Crime Scene Cleaner",
+        "step3Title": "Dołącz do społeczności",
+        "step3Description": "Połącz się z innymi graczami Crime Scene Cleaner poprzez Reddit i dyskusje społecznościowe"
+      },
+      "featured": "Wyróżnione i kluczowe",
+      "all": "Wszystkie media"
+    }
   }
 }
