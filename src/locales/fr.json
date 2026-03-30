@@ -11,12 +11,14 @@
     }
   },
   "nav": {
-    "guides": "Guides",
-    "crafting": "Fabrication",
-    "items": "Objets",
-    "biomes": "Biomes",
-    "building": "Construction",
-    "support": "Support"
+    "guide": "Guide",
+    "secrets": "Secrets",
+    "nightmare": "Cauchemar",
+    "act-2": "Acte 2",
+    "platform": "Plateformes",
+    "jobs": "Métier",
+    "puzzle": "Énigmes",
+    "media": "Médias"
   },
   "common": {
     "home": "Accueil",

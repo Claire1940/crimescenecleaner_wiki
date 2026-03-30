@@ -11,12 +11,14 @@
     }
   },
   "nav": {
-    "guides": "Rehberler",
-    "crafting": "Üretim",
-    "items": "Eşyalar",
-    "biomes": "Biyomlar",
-    "building": "İnşa",
-    "support": "Destek"
+    "guide": "Rehber",
+    "secrets": "Sırlar",
+    "nightmare": "Kabus",
+    "act-2": "Bölüm 2",
+    "platform": "Platformlar",
+    "jobs": "Meslekler",
+    "puzzle": "Bulmacalar",
+    "media": "Medya"
   },
   "common": {
     "home": "Ana Sayfa",

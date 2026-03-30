@@ -11,12 +11,14 @@
     }
   },
   "nav": {
-    "guides": "ガイド",
-    "crafting": "クラフト",
-    "items": "アイテム",
-    "biomes": "バイオーム",
-    "building": "建築",
-    "support": "サポート"
+    "guide": "ガイド",
+    "secrets": "シークレット",
+    "nightmare": "ナイトメア",
+    "act-2": "アクト2",
+    "platform": "プラットフォーム",
+    "jobs": "職業",
+    "puzzle": "パズル",
+    "media": "メディア"
   },
   "common": {
     "home": "ホーム",

@@ -11,12 +11,14 @@
     }
   },
   "nav": {
-    "guides": "Anleitungen",
-    "crafting": "Herstellung",
-    "items": "Gegenstände",
-    "biomes": "Biome",
-    "building": "Bauen",
-    "support": "Unterstützung"
+    "guide": "Leitfaden",
+    "secrets": "Geheimnisse",
+    "nightmare": "Alptraum",
+    "act-2": "Akt 2",
+    "platform": "Plattformen",
+    "jobs": "Berufe",
+    "puzzle": "Rätsel",
+    "media": "Medien"
   },
   "common": {
     "home": "Startseite",

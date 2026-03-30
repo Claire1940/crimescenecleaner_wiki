@@ -11,12 +11,14 @@
     }
   },
   "nav": {
-    "guides": "Guías",
-    "crafting": "Fabricación",
-    "items": "Objetos",
-    "biomes": "Biomas",
-    "building": "Construcción",
-    "support": "Soporte"
+    "guide": "Guía",
+    "secrets": "Secretos",
+    "nightmare": "Pesadilla",
+    "act-2": "Acto 2",
+    "platform": "Plataformas",
+    "jobs": "Trabajo",
+    "puzzle": "Rompecabezas",
+    "media": "Medios"
   },
   "common": {
     "home": "Inicio",

@@ -10,7 +10,16 @@
       "twitterDescription": "Crime Scene Cleaner wiki with guides for maps, achievements, updates, endings, tools, detergents, and platform info for Steam, Xbox, and PS5 players."
     }
   },
-  "nav": {},
+  "nav": {
+    "guide": "Guide",
+    "secrets": "Secrets",
+    "nightmare": "Nightmare",
+    "act-2": "Act 2",
+    "platform": "Platform",
+    "jobs": "Jobs",
+    "puzzle": "Puzzle",
+    "media": "Media"
+  },
   "common": {
     "home": "Home",
     "more": "More",
@@ -959,165 +968,165 @@
     "disclaimer": "Unofficial fan-made resource website."
   },
   "pages": {
-    "maps": {
-      "title": "Crime Scene Cleaner Maps",
-      "description": "Complete map guides for every Crime Scene Cleaner location including flow, cleanup routes, hidden areas, and Nightmare variants.",
-      "metaTitle": "Crime Scene Cleaner Maps - Locations, Routes & Secrets",
-      "metaDescription": "Crime Scene Cleaner map guides covering cleanup routes, 100 percent clear strategies, hidden rooms, and mission-specific tips for every location.",
-      "categoryLabel": "MAP GUIDES",
-      "whatIs": "What are Maps?",
-      "whatIsDescription": "Detailed guides for every Crime Scene Cleaner mission location. Learn cleanup routes, hidden area locations, and strategies for achieving full clear ratings on each map.",
-      "why": "Why read map guides?",
+    "guide": {
+      "title": "Crime Scene Cleaner Guide",
+      "description": "Complete walkthrough and achievement guide for Crime Scene Cleaner including chapter breakdowns, time to beat, and 100 percent completion strategies.",
+      "metaTitle": "Crime Scene Cleaner Guide - Walkthrough, Chapters & Achievements",
+      "metaDescription": "Crime Scene Cleaner guides covering full walkthrough, all chapters, achievement guide, time to beat, and strategies for reaching 100 percent completion.",
+      "categoryLabel": "GUIDES",
+      "whatIs": "What are Crime Scene Cleaner Guides?",
+      "whatIsDescription": "Step-by-step guides for Crime Scene Cleaner covering the full walkthrough, every chapter, and achievement unlocks. Whether you are stuck on a specific mission or aiming for 100 percent, these guides cover it all.",
+      "why": "Why read Crime Scene Cleaner guides?",
       "whySteps": {
-        "step1Title": "Learn Each Layout",
-        "step1Description": "Understand the full room structure before starting your cleanup route",
-        "step2Title": "Find Hidden Areas",
-        "step2Description": "Discover secret rooms and puzzle-triggered locations in every mission",
-        "step3Title": "Achieve Full Clears",
-        "step3Description": "Use proven routes to reach 100 percent completion on every map"
+        "step1Title": "Complete Every Chapter",
+        "step1Description": "Follow chapter-by-chapter walkthroughs to progress through every Crime Scene Cleaner mission",
+        "step2Title": "Unlock All Achievements",
+        "step2Description": "Discover the exact conditions for every Steam achievement in Crime Scene Cleaner",
+        "step3Title": "Know Your Playtime",
+        "step3Description": "Find out how long Crime Scene Cleaner takes to beat based on your playstyle"
       },
       "featured": "Featured & Essential",
-      "all": "All Maps"
+      "all": "All Guides"
     },
-    "tools": {
-      "title": "Crime Scene Cleaner Tools",
-      "description": "Complete tool guides for every Crime Scene Cleaner cleaning tool including mop, sponge, pressure washer, ozonator, and upgrade paths.",
-      "metaTitle": "Crime Scene Cleaner Tools - Mop, Sponge & Upgrade Guide",
-      "metaDescription": "Crime Scene Cleaner tool guides covering mop skills, sponge use, pressure washer tips, bucket management, and upgrade priorities for every tool.",
-      "categoryLabel": "TOOLS & UPGRADES",
-      "whatIs": "What are Tools?",
-      "whatIsDescription": "Guides to every Crime Scene Cleaner cleaning tool and upgrade path. Learn which tools to prioritize, how to use detergent buckets, and when to switch between mop, sponge, and pressure washer.",
-      "why": "Why read tool guides?",
+    "secrets": {
+      "title": "Crime Scene Cleaner Secrets",
+      "description": "All hidden secrets in Crime Scene Cleaner including museum secrets, haunted manor secrets, short circuit secrets, and every location-specific easter egg.",
+      "metaTitle": "Crime Scene Cleaner Secrets - All Hidden Items & Easter Eggs",
+      "metaDescription": "Find every Crime Scene Cleaner secret across all missions including the museum, haunted manor, short circuit level, and all other hidden areas and easter eggs.",
+      "categoryLabel": "SECRETS",
+      "whatIs": "What are Crime Scene Cleaner Secrets?",
+      "whatIsDescription": "Hidden items, easter eggs, and optional discoveries scattered across every Crime Scene Cleaner mission. From the museum duck to hidden evidence trails, these secrets reward thorough exploration.",
+      "why": "Why find Crime Scene Cleaner secrets?",
       "whySteps": {
-        "step1Title": "Choose the Right Tool",
-        "step1Description": "Learn which tool works best for each surface type and situation",
-        "step2Title": "Optimize Upgrades",
-        "step2Description": "Spend upgrade points on skills that reduce friction on every mission",
-        "step3Title": "Master Detergents",
-        "step3Description": "Use the two-bucket strategy to hold detergent buffs longer"
+        "step1Title": "Discover Hidden Items",
+        "step1Description": "Find collectibles and interactive objects hidden in every Crime Scene Cleaner mission",
+        "step2Title": "Unlock Secret Achievements",
+        "step2Description": "Many Crime Scene Cleaner secrets are tied to achievement unlocks and story moments",
+        "step3Title": "Explore Every Corner",
+        "step3Description": "Get the most out of each mission by uncovering locations most players miss"
       },
       "featured": "Featured & Essential",
-      "all": "All Tool Guides"
+      "all": "All Secrets"
     },
-    "achievements": {
-      "title": "Crime Scene Cleaner Achievements",
-      "description": "Complete achievement guides for all 80 Crime Scene Cleaner Steam achievements including hidden unlocks, completion requirements, and efficient routes.",
-      "metaTitle": "Crime Scene Cleaner Achievements - All 80 Unlocks Guide",
-      "metaDescription": "Crime Scene Cleaner achievement guide covering all 80 Steam achievements, unlock conditions, hidden achievements, and efficient completion routes.",
-      "categoryLabel": "ACHIEVEMENTS",
-      "whatIs": "What are Achievements?",
-      "whatIsDescription": "Guides to all 80 Crime Scene Cleaner Steam achievements. Learn unlock conditions, combine multiple achievements in one run, and find the most efficient completion routes.",
-      "why": "Why read achievement guides?",
+    "nightmare": {
+      "title": "Crime Scene Cleaner Nightmare Mode",
+      "description": "Complete guides for Crime Scene Cleaner Nightmare Mode including walkthroughs for every Nightmare mission, special rules, and completion strategies.",
+      "metaTitle": "Crime Scene Cleaner Nightmare Mode - Full Guide & Walkthroughs",
+      "metaDescription": "Crime Scene Cleaner Nightmare Mode guides covering walkthrough, Affair with Death, Modern Art Nightmare, special rules, and strategies for every Nightmare mission.",
+      "categoryLabel": "NIGHTMARE MODE",
+      "whatIs": "What is Crime Scene Cleaner Nightmare Mode?",
+      "whatIsDescription": "Nightmare Mode is an advanced difficulty setting in Crime Scene Cleaner that introduces new rules, harder cleanup requirements, and unique challenges for each mission. These guides cover every Nightmare scenario in detail.",
+      "why": "Why play Crime Scene Cleaner Nightmare Mode?",
       "whySteps": {
-        "step1Title": "Know the Conditions",
-        "step1Description": "Understand exactly what triggers each achievement unlock",
-        "step2Title": "Combine Efficiently",
-        "step2Description": "Stack multiple achievement requirements into a single mission run",
-        "step3Title": "Find Hidden Unlocks",
-        "step3Description": "Discover secret achievements tied to exploration and specific actions"
+        "step1Title": "Master Advanced Challenges",
+        "step1Description": "Nightmare Mode tests your Crime Scene Cleaner skills with stricter requirements and new hazards",
+        "step2Title": "Earn Exclusive Rewards",
+        "step2Description": "Completing Crime Scene Cleaner Nightmare missions unlocks achievements and special content",
+        "step3Title": "Learn Mission-Specific Strategies",
+        "step3Description": "Each Nightmare mission requires different approaches covered in our detailed walkthroughs"
       },
       "featured": "Featured & Essential",
-      "all": "All Achievements"
+      "all": "All Nightmare Guides"
     },
-    "updates": {
-      "title": "Crime Scene Cleaner Updates",
-      "description": "Complete update history for Crime Scene Cleaner including Act 2, Nightmare Mode, patch notes, and new content additions.",
-      "metaTitle": "Crime Scene Cleaner Updates - Patch Notes & New Content",
-      "metaDescription": "Crime Scene Cleaner update history covering Act 2, Nightmare Mode, new missions, bug fixes, and platform-specific patches.",
-      "categoryLabel": "UPDATES & PATCHES",
-      "whatIs": "What are Updates?",
-      "whatIsDescription": "Complete update history for Crime Scene Cleaner across all platforms. Learn what changed in each major update including Act 2, Nightmare Mode, and quality of life improvements.",
-      "why": "Why read update guides?",
+    "act-2": {
+      "title": "Crime Scene Cleaner Act 2",
+      "description": "Complete guide to Crime Scene Cleaner Act 2 including new missions, the roadmap, Act 2 secrets, and guides for Town Too Small, Secluded Retreat, and more.",
+      "metaTitle": "Crime Scene Cleaner Act 2 - New Missions, Secrets & Roadmap",
+      "metaDescription": "Crime Scene Cleaner Act 2 guides covering all new missions, Circle of Friends secrets, Town Too Small, Secluded Retreat, Amber Alert, and the official update roadmap.",
+      "categoryLabel": "ACT 2",
+      "whatIs": "What is Crime Scene Cleaner Act 2?",
+      "whatIsDescription": "Act 2 is the major content expansion for Crime Scene Cleaner, introducing new missions, expanded story chapters, and fresh locations. These guides cover every Act 2 mission, secret, and update in detail.",
+      "why": "Why read Crime Scene Cleaner Act 2 guides?",
       "whySteps": {
-        "step1Title": "Stay Current",
-        "step1Description": "Know what changed in the latest Crime Scene Cleaner patches",
-        "step2Title": "New Content",
-        "step2Description": "Discover new missions, modes, and features added in each update",
-        "step3Title": "Bug Fixes",
-        "step3Description": "Learn which issues were resolved and how to apply workarounds"
+        "step1Title": "Navigate New Missions",
+        "step1Description": "Get step-by-step guides for every Crime Scene Cleaner Act 2 mission and location",
+        "step2Title": "Find Act 2 Secrets",
+        "step2Description": "Discover hidden secrets in Circle of Friends, Secluded Retreat, and other Act 2 missions",
+        "step3Title": "Stay Updated on the Roadmap",
+        "step3Description": "Follow the Crime Scene Cleaner update roadmap to know what content is coming next"
       },
       "featured": "Featured & Essential",
-      "all": "All Updates"
+      "all": "All Act 2 Guides"
     },
-    "story": {
-      "title": "Crime Scene Cleaner Story",
-      "description": "Complete story guides for Crime Scene Cleaner including main character background, mission narrative, family story arc, and ending analysis.",
-      "metaTitle": "Crime Scene Cleaner Story - Plot, Endings & Lore Guide",
-      "metaDescription": "Crime Scene Cleaner story guide covering the main character's background, family story arc, mission narratives, and multiple ending explanations.",
-      "categoryLabel": "STORY & LORE",
-      "whatIs": "What is the Story?",
-      "whatIsDescription": "Guides to the Crime Scene Cleaner narrative covering the cleaner's motivation, family storyline, and the events behind each crime scene. Learn the full story and how missions connect.",
-      "why": "Why read story guides?",
-      "whySteps": {
-        "step1Title": "Understand the Motivation",
-        "step1Description": "Learn why the cleaner takes on these dangerous jobs",
-        "step2Title": "Follow the Family Arc",
-        "step2Description": "Track the main character's family storyline across missions",
-        "step3Title": "Unlock All Endings",
-        "step3Description": "Discover the different endings and how to reach them"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Story Guides"
-    },
-    "mixes": {
-      "title": "Crime Scene Cleaner Mixes",
-      "description": "Complete detergent and mix guides for Crime Scene Cleaner including best formulas, bucket strategy, and cleaning efficiency combinations.",
-      "metaTitle": "Crime Scene Cleaner Mixes - Best Detergent & Bucket Guide",
-      "metaDescription": "Crime Scene Cleaner detergent mix guide covering the best formulas, two-bucket strategy, cleaning efficiency tips, and advanced mix combinations.",
-      "categoryLabel": "DETERGENTS & MIXES",
-      "whatIs": "What are Mixes?",
-      "whatIsDescription": "Guides to Crime Scene Cleaner detergents and bucket mixing strategies. Learn the best formulas for different surfaces, how to use the two-bucket setup, and which mixes improve cleaning speed.",
-      "why": "Why read mix guides?",
-      "whySteps": {
-        "step1Title": "Choose the Right Formula",
-        "step1Description": "Match your detergent mix to the surface type and stain severity",
-        "step2Title": "Use the Two-Bucket Setup",
-        "step2Description": "Hold detergent buffs longer with a dedicated rinse bucket",
-        "step3Title": "Save Time and Money",
-        "step3Description": "Efficient mixes reduce how often you need to refill and reapply"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Mix Guides"
-    },
-    "fixes": {
-      "title": "Crime Scene Cleaner Fixes",
-      "description": "Technical guides and bug fixes for Crime Scene Cleaner including the 98 percent issue, Xbox pickup problems, platform compatibility, and common errors.",
-      "metaTitle": "Crime Scene Cleaner Fixes - Bug Solutions & Technical Help",
-      "metaDescription": "Crime Scene Cleaner fix guide covering the 98 percent completion issue, Xbox item pickup problems, platform-specific bugs, and common technical errors.",
-      "categoryLabel": "BUGS & FIXES",
-      "whatIs": "What are Fixes?",
-      "whatIsDescription": "Technical support guides for Crime Scene Cleaner covering common bugs, platform-specific issues, and step-by-step solutions. Learn how to fix the 98 percent issue, pickup problems, and other known errors.",
-      "why": "Why read fix guides?",
-      "whySteps": {
-        "step1Title": "Solve the 98 Percent Issue",
-        "step1Description": "Find the missed spots that cause near-complete cleans to stall",
-        "step2Title": "Fix Platform Issues",
-        "step2Description": "Resolve Xbox and PS5 specific problems with the latest solutions",
-        "step3Title": "Report New Bugs",
-        "step3Description": "Find the right channels to report issues and get official support"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Fix Guides"
-    },
-    "platforms": {
-      "title": "Crime Scene Cleaner Platforms",
-      "description": "Platform comparison guides for Crime Scene Cleaner across Steam, Xbox, and PS5 including version differences, features, and purchase information.",
-      "metaTitle": "Crime Scene Cleaner Platforms - Steam, Xbox & PS5 Guide",
-      "metaDescription": "Crime Scene Cleaner platform guide covering Steam, Xbox, and PS5 versions including supported languages, version differences, Game Pass availability, and purchase options.",
+    "platform": {
+      "title": "Crime Scene Cleaner Platform Guide",
+      "description": "Platform guides for Crime Scene Cleaner covering Steam, Xbox, PS5, and Nintendo Switch including release dates, version differences, and features.",
+      "metaTitle": "Crime Scene Cleaner Platform Guide - Steam, Xbox, PS5 & Switch",
+      "metaDescription": "Crime Scene Cleaner platform guides covering Xbox, PS5, Switch, and Steam versions including release dates, supported languages, and platform-specific differences.",
       "categoryLabel": "PLATFORMS",
-      "whatIs": "What are Platforms?",
-      "whatIsDescription": "Guides to Crime Scene Cleaner across all supported platforms. Learn the differences between Steam, Xbox, and PS5 versions, available languages, and where to buy.",
-      "why": "Why read platform guides?",
+      "whatIs": "What are Crime Scene Cleaner Platform Guides?",
+      "whatIsDescription": "Detailed information about Crime Scene Cleaner across all supported platforms including Steam, Xbox, PS5, and Nintendo Switch. Learn release dates, supported languages, and key differences between versions.",
+      "why": "Why read Crime Scene Cleaner platform guides?",
       "whySteps": {
-        "step1Title": "Choose Your Platform",
-        "step1Description": "Compare features across Steam, Xbox, and PS5 before buying",
-        "step2Title": "Check Language Support",
-        "step2Description": "Confirm your language is supported on your chosen platform",
-        "step3Title": "Find the Best Price",
-        "step3Description": "Learn about Game Pass availability and regional pricing options"
+        "step1Title": "Compare Platforms",
+        "step1Description": "Understand the differences between Crime Scene Cleaner on Steam, Xbox, PS5, and Switch",
+        "step2Title": "Check Release Dates",
+        "step2Description": "Find out when Crime Scene Cleaner launched or is launching on each platform",
+        "step3Title": "Confirm Language Support",
+        "step3Description": "Verify your language is supported on your chosen Crime Scene Cleaner platform"
       },
       "featured": "Featured & Essential",
       "all": "All Platform Guides"
+    },
+    "jobs": {
+      "title": "Crime Scene Cleaner Jobs",
+      "description": "Real-world information about crime scene cleaning jobs including salary, how much crime scene cleaners make, and how to get started in the profession.",
+      "metaTitle": "Crime Scene Cleaner Jobs - Salary & Career Guide",
+      "metaDescription": "Learn about real crime scene cleaner jobs including average salary, how much crime scene cleaners make, job requirements, and how the game compares to the real profession.",
+      "categoryLabel": "JOBS & CAREERS",
+      "whatIs": "What are Crime Scene Cleaner Jobs?",
+      "whatIsDescription": "Real-world information about the crime scene cleaning profession inspired by Crime Scene Cleaner the game. Learn about salaries, job requirements, and what it takes to work in this unique field.",
+      "why": "Why read about crime scene cleaning jobs?",
+      "whySteps": {
+        "step1Title": "Learn Real Salaries",
+        "step1Description": "Find out how much crime scene cleaners actually make in real-world careers",
+        "step2Title": "Understand the Profession",
+        "step2Description": "Discover what crime scene cleaning jobs involve and the skills they require",
+        "step3Title": "Compare Game vs Reality",
+        "step3Description": "See how Crime Scene Cleaner the game portrays the actual profession"
+      },
+      "featured": "Featured & Essential",
+      "all": "All Job Guides"
+    },
+    "puzzle": {
+      "title": "Crime Scene Cleaner Puzzle Guide",
+      "description": "Solutions for every puzzle in Crime Scene Cleaner including the museum duck puzzle, museum TV puzzle, VIP card, and best detergent combinations.",
+      "metaTitle": "Crime Scene Cleaner Puzzle Guide - Museum, VIP Card & Detergents",
+      "metaDescription": "Crime Scene Cleaner puzzle solutions covering the museum duck puzzle, museum TV puzzle, VIP card location, and the best detergent combo for every situation.",
+      "categoryLabel": "PUZZLES",
+      "whatIs": "What are Crime Scene Cleaner Puzzles?",
+      "whatIsDescription": "Interactive puzzles and hidden challenges scattered across Crime Scene Cleaner missions. From the museum duck to the VIP card mystery, these guides provide step-by-step solutions for every in-game puzzle.",
+      "why": "Why read Crime Scene Cleaner puzzle guides?",
+      "whySteps": {
+        "step1Title": "Solve Museum Puzzles",
+        "step1Description": "Get solutions for the museum duck puzzle, TV puzzle, and other Crime Scene Cleaner museum challenges",
+        "step2Title": "Find the VIP Card",
+        "step2Description": "Discover where to find and how to use the VIP card in Crime Scene Cleaner",
+        "step3Title": "Master Detergent Combos",
+        "step3Description": "Learn the best detergent combinations for maximum Crime Scene Cleaner cleaning efficiency"
+      },
+      "featured": "Featured & Essential",
+      "all": "All Puzzle Guides"
+    },
+    "media": {
+      "title": "Crime Scene Cleaner Media",
+      "description": "Crime Scene Cleaner media coverage including the official OST, voice actor credits, Reddit community highlights, and fan discussions.",
+      "metaTitle": "Crime Scene Cleaner Media - OST, Voice Actors & Community",
+      "metaDescription": "Crime Scene Cleaner media guides covering the official soundtrack, voice actor information, Reddit community, and notable fan discussions about the game.",
+      "categoryLabel": "MEDIA",
+      "whatIs": "What is Crime Scene Cleaner Media?",
+      "whatIsDescription": "Coverage of Crime Scene Cleaner across soundtracks, voice acting, and community platforms. Explore the official OST, learn about the voice actors, and find the best community discussions on Reddit.",
+      "why": "Why explore Crime Scene Cleaner media?",
+      "whySteps": {
+        "step1Title": "Discover the Soundtrack",
+        "step1Description": "Explore the Crime Scene Cleaner OST and find tracks that define the game's atmosphere",
+        "step2Title": "Learn About Voice Actors",
+        "step2Description": "Find out who provides the voices behind Crime Scene Cleaner's characters",
+        "step3Title": "Join the Community",
+        "step3Description": "Connect with other Crime Scene Cleaner players through Reddit and community discussions"
+      },
+      "featured": "Featured & Essential",
+      "all": "All Media"
     }
   }
 }

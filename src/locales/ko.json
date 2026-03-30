@@ -1,1 +1,12 @@
-{}
+{
+  "nav": {
+    "guide": "가이드",
+    "secrets": "비밀",
+    "nightmare": "나이트메어",
+    "act-2": "액트 2",
+    "platform": "플랫폼",
+    "jobs": "직업",
+    "puzzle": "퍼즐",
+    "media": "미디어"
+  }
+}

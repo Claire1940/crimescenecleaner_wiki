@@ -1,1 +1,12 @@
-{}
+{
+  "nav": {
+    "guide": "Poradnik",
+    "secrets": "Sekrety",
+    "nightmare": "Koszmar",
+    "act-2": "Akt 2",
+    "platform": "Platformy",
+    "jobs": "Zawód",
+    "puzzle": "Zagadki",
+    "media": "Media"
+  }
+}
