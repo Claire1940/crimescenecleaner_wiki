@@ -36,7 +36,7 @@ export function generateStaticParams() {
 // 生成元数据
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
 	const { locale } = await params
-	const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.lucidblocks.wiki'
+	const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.crimescenecleaner.wiki'
 
 	// 获取 SEO 翻译
 	const t = await getTranslations('seo.home')
@@ -64,7 +64,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 			type: 'website',
 			locale: locale,
 			url: locale === 'en' ? siteUrl : `${siteUrl}/${locale}`,
-			siteName: 'Lucid Blocks Wiki',
+			siteName: 'Crime Scene Cleaner Wiki',
 			title: t('ogTitle'),
 			description: t('ogDescription'),
 			images: [
@@ -72,7 +72,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 					url: `${siteUrl}/images/hero.webp`,
 					width: 1920,
 					height: 1080,
-					alt: 'Lucid Blocks - Surreal Voxel Sandbox',
+					alt: 'Crime Scene Cleaner - Gory First-Person Cleaning Simulator',
 				},
 			],
 		},
@@ -81,7 +81,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 			title: t('twitterTitle'),
 			description: t('twitterDescription'),
 			images: [`${siteUrl}/images/hero.webp`],
-			creator: '@lucidblocks',
+			creator: '@Pres_Studio',
 		},
 		icons: {
 			icon: [

@@ -4,7 +4,7 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "node scripts/validate-icons.js && next dev -H 0.0.0.0",
+    "dev": "node scripts/validate-icons.js && next dev -H 0.0.0.0 -p 6442",
     "build": "node scripts/validate-icons.js && next build",
     "start": "next start",
     "test": "npm run lint && npm run typecheck",

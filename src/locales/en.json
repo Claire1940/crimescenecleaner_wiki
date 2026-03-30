@@ -1,13 +1,13 @@
 {
   "seo": {
     "home": {
-      "title": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "description": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
-      "keywords": "Lucid Blocks, Lucid Blocks wiki, crafting, biomes, achievements, survival, Steam",
-      "ogTitle": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "ogDescription": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
-      "twitterTitle": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "twitterDescription": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, and survival tips for the surreal voxel sandbox on Steam."
+      "title": "Crime Scene Cleaner Wiki - Reviews, Maps & Achievements",
+      "description": "Crime Scene Cleaner wiki with guides for maps, achievements, updates, endings, tools, detergents, and platform info for Steam, Xbox, and PS5 players.",
+      "keywords": "Crime Scene Cleaner, Steam, maps, achievements, updates, endings, tools, detergents, PS5, Xbox",
+      "ogTitle": "Crime Scene Cleaner Wiki - Reviews, Maps & Achievements",
+      "ogDescription": "Crime Scene Cleaner wiki with guides for maps, achievements, updates, endings, tools, detergents, and platform info for Steam, Xbox, and PS5 players.",
+      "twitterTitle": "Crime Scene Cleaner Wiki - Reviews, Maps & Achievements",
+      "twitterDescription": "Crime Scene Cleaner wiki with guides for maps, achievements, updates, endings, tools, detergents, and platform info for Steam, Xbox, and PS5 players."
     }
   },
   "nav": {
@@ -33,27 +33,27 @@
     "readMore": "Read More"
   },
   "hero": {
-    "badge": "Surreal Voxel Survival Sandbox",
-    "title": "Lucid Blocks Wiki",
-    "description": "Explore dreamlike biomes, fuse items with Apotheosis, build freely, and survive strange creatures in this surreal open-world sandbox on Steam.",
-    "getFreeCodesCTA": "Explore Crafting Guide",
+    "badge": "Gory First-Person Cleaning Simulator",
+    "title": "Crime Scene Cleaner Wiki",
+    "description": "Clean blood, bag bodies, remove evidence, upgrade your tools, and uncover the story behind each mission in Crime Scene Cleaner across Steam, Xbox, and PS5.",
+    "getFreeCodesCTA": "View Latest Updates",
     "playOnSteamCTA": "Play on Steam",
     "stats": {
       "stat1": {
-        "value": "1,325",
-        "label": "Players Online"
+        "value": "Aug 14, 2024",
+        "label": "Release Date"
       },
       "stat2": {
-        "value": "1,986",
-        "label": "Peak CCU"
+        "value": "1000000+",
+        "label": "Copies Sold"
       },
       "stat3": {
-        "value": "97%",
-        "label": "Positive Reviews"
+        "value": "98% of 13272",
+        "label": "English Reviews"
       },
       "stat4": {
-        "value": "Mar 12, 2026",
-        "label": "Release Date"
+        "value": "80",
+        "label": "Steam Achievements"
       }
     }
   },
@@ -784,26 +784,27 @@
     ]
   },
   "cta": {
-    "title": "Ready to Explore Lucid Blocks?",
-    "description": "Join the Lucid Blocks community on Discord for guides, updates, and discussions!",
+    "title": "Ready to Clean Crime Scenes?",
+    "description": "Join the Crime Scene Cleaner community on Discord for guides, updates, and discussions!",
     "joinCommunity": "Join Discord",
     "joinGame": "Play on Steam"
   },
   "footer": {
-    "title": "Lucid Blocks Wiki",
-    "description": "Your complete resource hub for Lucid Blocks crafting, biomes, creatures, achievements, and survival guides.",
+    "title": "Crime Scene Cleaner Wiki",
+    "description": "Your complete resource hub for Crime Scene Cleaner maps, tools, achievements, story, mixes, fixes, and platform guides.",
     "resources": "Resources",
     "community": "Community",
     "legal": "Legal",
     "discord": "Discord",
     "twitter": "X / Twitter",
+    "reddit": "Reddit",
     "steamCommunity": "Steam Community",
     "steamStore": "Steam Store",
     "about": "About",
     "privacy": "Privacy Policy",
     "terms": "Terms of Service",
     "copyrightNotice": "Copyright",
-    "copyright": "© 2026 Lucid Blocks Wiki. Not affiliated with the developers of Lucid Blocks.",
+    "copyright": "© 2026 Crime Scene Cleaner Wiki. Not affiliated with President Studio.",
     "disclaimer": "Unofficial fan-made resource website."
   },
   "pages": {
