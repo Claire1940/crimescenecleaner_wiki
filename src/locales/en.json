@@ -635,109 +635,270 @@
     },
     "cscAct2Walkthrough": {
       "title": "Crime Scene Cleaner Act 2 Walkthrough",
-      "displayType": "accordion",
-      "intro": "Act 2 expands Crime Scene Cleaner with new missions, more complex layouts, and additional secrets. Here is what players need to know about tackling the Act 2 content.",
-      "faqs": [
+      "displayType": "step-missions",
+      "eyebrow": "Story Expansion",
+      "intro": "Act 2 adds four new story missions launched on March 26, 2026. Use this mission-by-mission route to clear objectives faster, track hidden content, and avoid backtracking across each new location.",
+      "missions": [
         {
-          "question": "What new missions are in Crime Scene Cleaner Act 2?",
-          "answer": "Act 2 adds new main missions including Amber Alert, which is one of the most completion-heavy jobs in the game, with secrets, multiple CDs, and layered cleanup objectives."
+          "step": 1,
+          "mission": "Amber Alert",
+          "focus": "Opening Act 2 mission",
+          "objectives": [
+            "Clean the main nightclub and back-room areas",
+            "Remove bodies and collect evidence",
+            "Check kitchen, locker-room, and smoke-room puzzle spaces"
+          ],
+          "notable_puzzles": [
+            "Barrel order puzzle near the hidden elevator area",
+            "Dartboard secret route that opens after a precise score sequence",
+            "Bust pedestal secret passage"
+          ],
+          "collectibles_summary": "12 bodies, 16 evidence, 3 secret rooms, 4 CDs",
+          "routing_tip": "Clear the visible objective spaces first, then sweep the kitchen, locker rooms, and hidden wall sections before final cleanup."
         },
         {
-          "question": "How does Crime Scene Cleaner Act 2 differ from Act 1?",
-          "answer": "Act 2 missions tend to be larger and more layered, with more collectibles, tougher cleanup requirements, and additional secrets compared to the Act 1 missions."
+          "step": 2,
+          "mission": "Secluded Retreat",
+          "focus": "Exploration-heavy villa and spa mission",
+          "objectives": [
+            "Search the spa, cabin, and second-floor interior",
+            "Check side paths created by breakable roots and hidden tunnels",
+            "Handle panel and statue-based secret sequences"
+          ],
+          "notable_puzzles": [
+            "Hidden path behind roots in the spa area",
+            "Second-floor panel combination in the futuristic room",
+            "Three-monkey statue placement sequence"
+          ],
+          "collectibles_summary": "3 secret routes, 3 CDs",
+          "routing_tip": "Finish the spa side first, then move upstairs and complete the corridor rooms before returning for statue placement."
         },
         {
-          "question": "What is the Amber Alert mission in Crime Scene Cleaner?",
-          "answer": "Amber Alert is the flagship Act 2 mission. It requires a full completion approach with room-by-room tracking, collectibles, and multiple objectives beyond standard cleanup."
+          "step": 3,
+          "mission": "Circle of Friends",
+          "focus": "Puzzle-dense mansion cleanup",
+          "objectives": [
+            "Sweep garage, villa interior, cellar, and terrace",
+            "Open hidden passages with painting, duck, and brick triggers",
+            "Check first-floor and upper-terrace spaces before exit"
+          ],
+          "notable_puzzles": [
+            "Three-painting combination",
+            "Black duck destruction sequence for the chained coffin",
+            "Hidden brick trigger near the wine-cellar faucet"
+          ],
+          "collectibles_summary": "4 CDs, 2 secret rooms",
+          "routing_tip": "Do the garage and first-floor clue chain early, then save the cellar and terrace for the end so collectible checks stay organized."
         },
         {
-          "question": "Are there new secrets and CDs in Crime Scene Cleaner Act 2?",
-          "answer": "Yes. Act 2 introduces new CD collectibles and secret interactions across its missions. The Amber Alert mission has a dedicated secrets and CDs guide for full completion."
-        },
-        {
-          "question": "When was Crime Scene Cleaner Act 2 released?",
-          "answer": "Act 2 was released as a major content update to Crime Scene Cleaner on Steam. It expanded the game with new missions, a Nightmare Mode variant, and additional collectibles."
+          "step": 4,
+          "mission": "Town Too Small",
+          "focus": "Late Act 2 cleanup with vent and handle secrets",
+          "objectives": [
+            "Open blocked side rooms by clearing trash and obstacles",
+            "Check party room, bowling alley, and maintenance room",
+            "Use the loose handle to unlock the last hidden area"
+          ],
+          "notable_puzzles": [
+            "Kitchen-adjacent vent route",
+            "Maintenance-room door handle shortcut",
+            "Bowling-area secret path"
+          ],
+          "collectibles_summary": "4 CDs, 1 hidden room",
+          "routing_tip": "Treat this mission like a zone-by-zone completion pass: kitchen first, party room second, bowling lanes third, then maintenance room last."
         }
       ]
     },
     "cscAct2Secrets": {
       "title": "Crime Scene Cleaner Act 2 Secrets and CDs Guide",
-      "displayType": "settingCards",
-      "intro": "Act 2 contains additional hidden collectibles, secret rooms, and music CDs across its missions. This guide focuses on what to find, where to look, and how to approach a full collectibles run.",
-      "settings": [
+      "displayType": "mission-cards",
+      "eyebrow": "Collectibles",
+      "intro": "Act 2 hidden rooms, collectible CDs, and puzzle triggers across all four new missions. Find each mission's secrets fast with this trigger-and-location reference.",
+      "items": [
         {
-          "name": "Amber Alert Hidden Rooms",
-          "type": "Mission Secrets",
-          "description": "Amber Alert contains multiple hidden rooms accessed through environmental triggers. Check specific furniture, panels, and interactive objects throughout the location."
+          "mission": "Amber Alert",
+          "collectible_set": "4 CDs and 3 secret routes",
+          "key_locations": [
+            "Kitchen elevator area",
+            "Smoke room with dartboard",
+            "Locker-room side path",
+            "Broken-column room behind the painting"
+          ],
+          "unlock_methods": [
+            "Arrange the marked barrels in the required order",
+            "Use the dartboard sequence so the final dart lands on 1",
+            "Place the bust on the empty pedestal",
+            "Check the hidden path behind the painting"
+          ]
         },
         {
-          "name": "Amber Alert CD Locations",
-          "type": "Collectibles",
-          "description": "Music CDs in Amber Alert are placed in side rooms, behind unlocked doors, and in areas that become accessible after partial cleanup of the main area."
+          "mission": "Secluded Retreat",
+          "collectible_set": "3 CDs and multiple hidden routes",
+          "key_locations": [
+            "Spa area behind breakable roots",
+            "Torch-lit side path near the gate",
+            "Second-floor corridor room by the mirror",
+            "Futuristic room panel",
+            "Monkey-statue room"
+          ],
+          "unlock_methods": [
+            "Place a ladder and break the roots to access the tunnel",
+            "Follow the torch line to the hut area",
+            "Search the second-floor room near the mirror",
+            "Enter the panel combination in the futuristic room",
+            "Place the three monkey statues in the required order"
+          ]
         },
         {
-          "name": "Act 2 Secret Interactions",
-          "type": "Story Items",
-          "description": "Certain story-connected objects and personal effects in Act 2 missions trigger additional story context or unlock secret interactions beyond the main cleanup objective."
+          "mission": "Circle of Friends",
+          "collectible_set": "4 CDs and 2 secret rooms",
+          "key_locations": [
+            "Garage cabinet area",
+            "Painting puzzle hall",
+            "Chained coffin room",
+            "Upper terrace greenhouse",
+            "Red door corridor",
+            "Wine cellar hidden brick"
+          ],
+          "unlock_methods": [
+            "Take the first CD from the garage-side cabinet",
+            "Use the three-painting solution to open a hidden route",
+            "Destroy all black rubber ducks to open the coffin",
+            "Check the terrace greenhouse area for the last CD",
+            "Use the key from the niche above the garage entrance",
+            "Clean the cobweb and press the hidden brick near the faucet"
+          ]
         },
         {
-          "name": "Nightmare Mode Secrets",
-          "type": "Difficulty Secrets",
-          "description": "Nightmare Mode variants of Act 2 missions contain the same secrets but are harder to access due to the increased cleanup requirements. Plan the secrets route as part of the overall mission strategy."
+          "mission": "Town Too Small",
+          "collectible_set": "4 CDs and 1 hidden room",
+          "key_locations": [
+            "Kitchen exit and vent route",
+            "Party room floor pickup",
+            "Bowling table area",
+            "Maintenance room behind stacked boxes"
+          ],
+          "unlock_methods": [
+            "Clear the blocked door, go outside, and break the grate",
+            "Pick up the floor CD in the party room",
+            "Take the table CD in the bowling area",
+            "Find the loose handle, attach it to the maintenance-room door, and enter the hidden room"
+          ]
         }
       ]
     },
     "cscDetergents": {
       "title": "Crime Scene Cleaner Detergents Guide",
-      "displayType": "timeline",
-      "intro": "Detergents in Crime Scene Cleaner improve how effectively your tools clean stains and surfaces. Choosing the right mix and managing your buckets properly makes a noticeable difference on larger missions.",
-      "entries": [
+      "displayType": "table",
+      "eyebrow": "Cleaning Tools",
+      "intro": "A practical detergent reference for faster clears, less bucket maintenance, and cleaner mop loops. Learn what each detergent does and when it is worth using.",
+      "items": [
         {
-          "title": "Clean Detergent",
-          "type": "Basic Mix",
-          "description": "The standard detergent that improves general stain removal across most surfaces. A good starting option for early missions before more advanced options become available."
+          "detergent": "Resistance Detergent",
+          "main_effect": "Lets tools clean more surfaces before they need rinsing",
+          "best_for": "Long cleaning loops where the mop or sponge gets dirty too quickly",
+          "usage_note": "Strong general-purpose pick for reducing rinse frequency on larger stages"
         },
         {
-          "title": "Power Detergent",
-          "type": "Advanced Mix",
-          "description": "A stronger formula for tougher stains and larger surface areas. Best used with the mop on open floors where broad cleaning efficiency matters most."
+          "detergent": "Clean Detergent",
+          "main_effect": "Makes bucket water last longer by slowing how fast rinsing dirties it",
+          "best_for": "Missions where bucket maintenance is more annoying than stain strength",
+          "usage_note": "Pairs well with a separate plain-water bucket in a two-bucket setup"
         },
         {
-          "title": "Two-Bucket Strategy",
-          "type": "Pro Technique",
-          "description": "Run one bucket with detergent for cleaning buffs and a separate bucket with plain water for rinsing. This preserves your detergent longer and gives you more control over when to reset your cleaning tool."
+          "detergent": "Power Detergent",
+          "main_effect": "Cleans harder blood stains faster",
+          "best_for": "Hard surfaces and stubborn stains, especially stronger red stains under UV checks",
+          "usage_note": "Useful when speed matters, but also dirties tools and water faster"
         },
         {
-          "title": "Detergent Timing",
-          "type": "Management Tip",
-          "description": "Apply detergent before tackling the densest stain areas in each room. Reapplying mid-clean interrupts your rhythm and wastes mixing time on large missions."
+          "detergent": "Area Detergent",
+          "main_effect": "Cleans a larger surface area with each pass",
+          "best_for": "Wide easy-to-medium stain fields",
+          "usage_note": "Best when paired with efficient room sweeps rather than precision cleanup"
+        },
+        {
+          "detergent": "Cleaner Detergent",
+          "main_effect": "Hybrid effect combining Resistance and Clean in a weaker form",
+          "best_for": "Balanced all-round bucket setups",
+          "usage_note": "Good convenience option for players who want fewer swaps"
+        },
+        {
+          "detergent": "Pure Detergent",
+          "main_effect": "Hybrid effect combining Area and Power in a weaker form",
+          "best_for": "Broad blood cleanup where both spread and pressure matter",
+          "usage_note": "Useful when you want one bottle to cover mixed stain situations"
+        },
+        {
+          "detergent": "Two-Bucket Method",
+          "main_effect": "Keep one bucket as detergent water and one as plain rinse water",
+          "best_for": "Long missions and players trying to conserve detergent",
+          "usage_note": "Dip a clean tool into the detergent bucket for the buff, rinse dirty tools in the plain-water bucket, then reapply without constantly remaking the detergent bucket"
+        },
+        {
+          "detergent": "Mission Economy Rule",
+          "main_effect": "Detergents reset between missions",
+          "best_for": "Planning whether to spend or conserve supplies mid-level",
+          "usage_note": "If you run out during a mission, you finish with what is left; supplies refresh again when a new mission starts"
         }
       ]
     },
     "cscSystemInfo": {
       "title": "Crime Scene Cleaner System Requirements and Updates",
-      "displayType": "steps",
-      "intro": "Crime Scene Cleaner is available on Steam for PC, Xbox, and PS5. This module covers PC system requirements and the game's major update history.",
-      "steps": [
+      "displayType": "timeline",
+      "eyebrow": "Version & Hardware",
+      "intro": "PC specs, current review snapshot, and the major content beats that explain why players are returning. Check whether your PC can run the game or whether recent updates make it worth reinstalling.",
+      "items": [
         {
-          "title": "PC Minimum Requirements",
-          "description": "Crime Scene Cleaner requires a mid-range PC for stable performance. The game launched on Steam on August 14, 2024 and is available for Windows with controller and keyboard support."
+          "date": "Launch Version",
+          "title": "Base PC Requirements",
+          "details": [
+            "OS: Windows 10/11",
+            "Minimum CPU: i5-7500 or similar",
+            "Recommended CPU: i5-10600 or similar",
+            "Memory: 16 GB RAM",
+            "Minimum GPU: GTX 1060",
+            "Recommended GPU: RTX 2070 SUPER",
+            "Storage: 35 GB available space",
+            "Integrated graphics are not supported",
+            "Intel ARC series may not be supported yet"
+          ]
         },
         {
-          "title": "PC Recommended Setup",
-          "description": "For the smoothest experience, a dedicated GPU with at least 8GB VRAM is recommended. The game runs at a stable frame rate on most modern PC hardware at recommended settings."
+          "date": "Current Steam Snapshot",
+          "title": "Review State",
+          "details": [
+            "English reviews: Overwhelmingly Positive with 13,272 reviews",
+            "Total reviews in all languages: 28,233",
+            "Recent reviews in all languages: 838 and Overwhelmingly Positive"
+          ]
         },
         {
-          "title": "Act 2 Update",
-          "description": "The Act 2 update added new missions including Amber Alert, expanded the story content, and introduced Nightmare Mode difficulty variants for existing maps."
+          "date": "Nightmare Update",
+          "title": "Challenge Modes Added",
+          "details": [
+            "Added Into the Nightmare mode",
+            "Added True Cleaner's Mode with no hints and no hand-holding",
+            "Added unlockable skins for tools and cleaning gear"
+          ]
         },
         {
-          "title": "Platform Updates",
-          "description": "Crime Scene Cleaner has received updates across Steam, Xbox, and PS5 including quality of life improvements, bug fixes, and localization updates for additional languages."
+          "date": "Communiti Update",
+          "title": "Community Side Maps",
+          "details": [
+            "Added Alter Ego",
+            "Added Development Hell",
+            "Expanded side-content variety outside the main story path"
+          ]
         },
         {
-          "title": "Reporting Issues",
-          "description": "For bugs or technical issues, the official Discord server and the Steam Community discussions page are the recommended channels for reporting problems and getting support."
+          "date": "2026-03-26",
+          "title": "Act 2 Story Expansion",
+          "details": [
+            "Act 2 launched on March 26, 2026",
+            "Added the next major story chapter for Kovalsky",
+            "Created fresh demand for new walkthroughs, secret routes, and collectible guides"
+          ]
         }
       ]
     }

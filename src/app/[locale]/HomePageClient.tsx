@@ -760,28 +760,82 @@ export default function HomePageClient({ latestArticles, moduleLinkMap, locale }
         </div>
       </section>
 
-      {/* Module 13: Steam Deck and Controller */}
+      {/* Module 13: Act 2 Walkthrough */}
       <section id="act2-walkthrough" className="scroll-mt-24 px-4 py-20">
         <div className="container mx-auto max-w-5xl">
           <div className="text-center mb-12 scroll-reveal">
+            <span className="inline-block text-xs font-semibold uppercase tracking-widest text-[hsl(var(--nav-theme-light))] mb-3">{t.modules.cscAct2Walkthrough.eyebrow}</span>
             <div className="flex items-center justify-center gap-3 mb-4">
               <Clock className="w-8 h-8 text-[hsl(var(--nav-theme-light))]" />
-              <h2 className="text-4xl md:text-5xl font-bold"><LinkedTitle linkData={moduleLinkMap['cscAct2Walkthrough']} locale={locale}>{t.modules.cscAct2Walkthrough.title}</LinkedTitle></h2>
+              <h2 className="text-4xl md:text-5xl font-bold">
+                <LinkedTitle linkData={moduleLinkMap['cscAct2Walkthrough']} locale={locale}>
+                  {t.modules.cscAct2Walkthrough.title}
+                </LinkedTitle>
+              </h2>
             </div>
             <p className="text-muted-foreground text-lg max-w-3xl mx-auto">{t.modules.cscAct2Walkthrough.intro}</p>
           </div>
-          <div className="scroll-reveal space-y-2">
-            {t.modules.cscAct2Walkthrough.faqs.map((faq: any, index: number) => (
+          <div className="scroll-reveal space-y-4">
+            {t.modules.cscAct2Walkthrough.missions.map((mission: any, index: number) => (
               <div key={index} className="border border-border rounded-xl overflow-hidden">
                 <button
                   onClick={() => setDeckExpanded(deckExpanded === index ? null : index)}
-                  className="w-full flex items-center justify-between p-5 text-left hover:bg-white/5 transition-colors"
+                  className="w-full flex items-center gap-4 p-5 text-left hover:bg-white/5 transition-colors"
                 >
-                  <span className="font-semibold">{faq.question}</span>
-                  <ChevronDown className={`w-5 h-5 flex-shrink-0 transition-transform ${deckExpanded === index ? "rotate-180" : ""}`} />
+                  <div className="flex-shrink-0 w-10 h-10 rounded-full bg-[hsl(var(--nav-theme)/0.2)] border-2 border-[hsl(var(--nav-theme)/0.5)] flex items-center justify-center">
+                    <span className="text-base font-bold text-[hsl(var(--nav-theme-light))]">{mission.step}</span>
+                  </div>
+                  <div className="flex-1 min-w-0">
+                    <span className="font-semibold text-lg block">{mission.mission}</span>
+                    <p className="text-xs text-muted-foreground mt-0.5">{mission.focus}</p>
+                  </div>
+                  <div className="flex items-center gap-3 flex-shrink-0">
+                    <span className="hidden md:inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] text-xs text-[hsl(var(--nav-theme-light))]">
+                      <Star className="w-3 h-3" />{mission.collectibles_summary}
+                    </span>
+                    <ChevronDown className={`w-5 h-5 transition-transform ${deckExpanded === index ? 'rotate-180' : ''}`} />
+                  </div>
                 </button>
                 {deckExpanded === index && (
-                  <div className="px-5 pb-5 text-muted-foreground text-sm">{faq.answer}</div>
+                  <div className="px-5 pb-5 border-t border-border/50 pt-4 space-y-4">
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                      <div>
+                        <div className="flex items-center gap-2 mb-2">
+                          <Check className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
+                          <span className="font-semibold text-sm">Objectives</span>
+                        </div>
+                        <ul className="space-y-1">
+                          {mission.objectives.map((obj: string, oi: number) => (
+                            <li key={oi} className="flex items-start gap-2 text-sm text-muted-foreground">
+                              <ArrowRight className="w-3 h-3 mt-1 flex-shrink-0 text-[hsl(var(--nav-theme-light))]" />
+                              {obj}
+                            </li>
+                          ))}
+                        </ul>
+                      </div>
+                      <div>
+                        <div className="flex items-center gap-2 mb-2">
+                          <Key className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
+                          <span className="font-semibold text-sm">Notable Puzzles</span>
+                        </div>
+                        <ul className="space-y-1">
+                          {mission.notable_puzzles.map((puzzle: string, pi: number) => (
+                            <li key={pi} className="flex items-start gap-2 text-sm text-muted-foreground">
+                              <ArrowRight className="w-3 h-3 mt-1 flex-shrink-0 text-[hsl(var(--nav-theme-light))]" />
+                              {puzzle}
+                            </li>
+                          ))}
+                        </ul>
+                      </div>
+                    </div>
+                    <div className="p-3 bg-[hsl(var(--nav-theme)/0.05)] border border-[hsl(var(--nav-theme)/0.3)] rounded-lg">
+                      <div className="flex items-center gap-2 mb-1">
+                        <TrendingUp className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
+                        <span className="font-semibold text-sm">Routing Tip</span>
+                      </div>
+                      <p className="text-sm text-muted-foreground">{mission.routing_tip}</p>
+                    </div>
+                  </div>
                 )}
               </div>
             ))}
@@ -789,81 +843,140 @@ export default function HomePageClient({ latestArticles, moduleLinkMap, locale }
         </div>
       </section>
 
-      {/* Module 14: Settings and Accessibility */}
+      {/* Module 14: Act 2 Secrets and CDs Guide */}
       <section id="act2-secrets" className="scroll-mt-24 px-4 py-20 bg-white/[0.02]">
         <div className="container mx-auto max-w-5xl">
           <div className="text-center mb-12 scroll-reveal">
-            <h2 className="text-4xl md:text-5xl font-bold mb-4"><LinkedTitle linkData={moduleLinkMap['cscAct2Secrets']} locale={locale}>{t.modules.cscAct2Secrets.title}</LinkedTitle></h2>
+            <span className="inline-block text-xs font-semibold uppercase tracking-widest text-[hsl(var(--nav-theme-light))] mb-3">{t.modules.cscAct2Secrets.eyebrow}</span>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">
+              <LinkedTitle linkData={moduleLinkMap['cscAct2Secrets']} locale={locale}>
+                {t.modules.cscAct2Secrets.title}
+              </LinkedTitle>
+            </h2>
             <p className="text-muted-foreground text-lg max-w-3xl mx-auto">{t.modules.cscAct2Secrets.intro}</p>
           </div>
-          <div className="scroll-reveal grid grid-cols-1 md:grid-cols-2 gap-4">
-            {t.modules.cscAct2Secrets.settings.map((s: any, index: number) => (
+          <div className="scroll-reveal space-y-6">
+            {t.modules.cscAct2Secrets.items.map((item: any, index: number) => (
               <div key={index} className="p-6 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors">
-                <div className="flex items-center gap-3 mb-3">
-                  <Settings className="w-5 h-5 text-[hsl(var(--nav-theme-light))]" />
-                  <h3 className="font-bold">
-                    <LinkedTitle linkData={moduleLinkMap[`cscAct2Secrets::settings::${index}`]} locale={locale}>
-                      {s.name}
-                    </LinkedTitle>
-                  </h3>
-                  <span className="text-xs px-2 py-1 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)]">{s.type}</span>
+                <div className="flex items-center gap-3 mb-4">
+                  <span className="px-3 py-1 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] text-sm font-semibold text-[hsl(var(--nav-theme-light))]">{item.mission}</span>
+                  <span className="text-sm text-muted-foreground">{item.collectible_set}</span>
                 </div>
-                <p className="text-muted-foreground text-sm">{s.description}</p>
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                  <div>
+                    <div className="flex items-center gap-2 mb-2">
+                      <Search className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
+                      <span className="font-semibold text-sm">Key Locations</span>
+                    </div>
+                    <ul className="space-y-1">
+                      {item.key_locations.map((loc: string, li: number) => (
+                        <li key={li} className="flex items-start gap-2 text-sm text-muted-foreground">
+                          <ArrowRight className="w-3 h-3 mt-1 flex-shrink-0 text-[hsl(var(--nav-theme-light))]" />
+                          {loc}
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                  <div>
+                    <div className="flex items-center gap-2 mb-2">
+                      <Key className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
+                      <span className="font-semibold text-sm">How to Unlock</span>
+                    </div>
+                    <ul className="space-y-1">
+                      {item.unlock_methods.map((method: string, mi: number) => (
+                        <li key={mi} className="flex items-start gap-2 text-sm text-muted-foreground">
+                          <ArrowRight className="w-3 h-3 mt-1 flex-shrink-0 text-[hsl(var(--nav-theme-light))]" />
+                          {method}
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                </div>
               </div>
             ))}
           </div>
         </div>
       </section>
 
-      {/* Module 15: Updates and Patch Notes */}
+      {/* Module 15: Detergents Guide */}
       <section id="detergents" className="scroll-mt-24 px-4 py-20">
         <div className="container mx-auto max-w-5xl">
           <div className="text-center mb-12 scroll-reveal">
-            <h2 className="text-4xl md:text-5xl font-bold mb-4"><LinkedTitle linkData={moduleLinkMap['cscDetergents']} locale={locale}>{t.modules.cscDetergents.title}</LinkedTitle></h2>
+            <span className="inline-block text-xs font-semibold uppercase tracking-widest text-[hsl(var(--nav-theme-light))] mb-3">{t.modules.cscDetergents.eyebrow}</span>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">
+              <LinkedTitle linkData={moduleLinkMap['cscDetergents']} locale={locale}>
+                {t.modules.cscDetergents.title}
+              </LinkedTitle>
+            </h2>
             <p className="text-muted-foreground text-lg max-w-3xl mx-auto">{t.modules.cscDetergents.intro}</p>
           </div>
-          <div className="scroll-reveal relative pl-6 border-l-2 border-[hsl(var(--nav-theme)/0.3)] space-y-8">
-            {t.modules.cscDetergents.entries.map((entry: any, index: number) => (
+          {/* Desktop table */}
+          <div className="scroll-reveal hidden md:block overflow-x-auto rounded-xl border border-border mb-6">
+            <table className="w-full text-sm">
+              <thead>
+                <tr className="border-b border-border bg-white/5">
+                  <th className="text-left p-4 font-semibold text-[hsl(var(--nav-theme-light))]">Detergent</th>
+                  <th className="text-left p-4 font-semibold text-[hsl(var(--nav-theme-light))]">Main Effect</th>
+                  <th className="text-left p-4 font-semibold text-[hsl(var(--nav-theme-light))]">Best For</th>
+                  <th className="text-left p-4 font-semibold text-[hsl(var(--nav-theme-light))]">Usage Note</th>
+                </tr>
+              </thead>
+              <tbody>
+                {t.modules.cscDetergents.items.map((item: any, index: number) => (
+                  <tr key={index} className="border-b border-border/50 hover:bg-white/5 transition-colors">
+                    <td className="p-4 font-semibold whitespace-nowrap text-[hsl(var(--nav-theme-light))]">{item.detergent}</td>
+                    <td className="p-4 text-muted-foreground">{item.main_effect}</td>
+                    <td className="p-4 text-muted-foreground">{item.best_for}</td>
+                    <td className="p-4 text-muted-foreground text-xs italic">{item.usage_note}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+          {/* Mobile stacked cards */}
+          <div className="scroll-reveal md:hidden space-y-4">
+            {t.modules.cscDetergents.items.map((item: any, index: number) => (
+              <div key={index} className="p-5 bg-white/5 border border-border rounded-xl">
+                <h3 className="font-bold text-[hsl(var(--nav-theme-light))] mb-2">{item.detergent}</h3>
+                <p className="text-sm text-muted-foreground mb-2"><span className="font-medium text-foreground">Effect:</span> {item.main_effect}</p>
+                <p className="text-sm text-muted-foreground mb-2"><span className="font-medium text-foreground">Best for:</span> {item.best_for}</p>
+                <p className="text-xs text-muted-foreground border-l-2 border-[hsl(var(--nav-theme)/0.3)] pl-3">{item.usage_note}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Module 16: System Requirements and Updates */}
+      <section id="system-info" className="scroll-mt-24 px-4 py-20 bg-white/[0.02]">
+        <div className="container mx-auto max-w-5xl">
+          <div className="text-center mb-12 scroll-reveal">
+            <span className="inline-block text-xs font-semibold uppercase tracking-widest text-[hsl(var(--nav-theme-light))] mb-3">{t.modules.cscSystemInfo.eyebrow}</span>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">
+              <LinkedTitle linkData={moduleLinkMap['cscSystemInfo']} locale={locale}>
+                {t.modules.cscSystemInfo.title}
+              </LinkedTitle>
+            </h2>
+            <p className="text-muted-foreground text-lg max-w-3xl mx-auto">{t.modules.cscSystemInfo.intro}</p>
+          </div>
+          <div className="scroll-reveal relative pl-6 border-l-2 border-[hsl(var(--nav-theme)/0.3)] space-y-8 mb-8">
+            {t.modules.cscSystemInfo.items.map((item: any, index: number) => (
               <div key={index} className="relative">
                 <div className="absolute -left-[1.4rem] w-4 h-4 rounded-full bg-[hsl(var(--nav-theme))] border-2 border-background" />
                 <div className="p-5 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors">
                   <div className="flex items-center gap-2 mb-2">
-                    <span className="text-xs px-2 py-1 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)]">{entry.type}</span>
+                    <span className="text-xs px-2 py-1 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] text-[hsl(var(--nav-theme-light))]">{item.date}</span>
                     <Clock className="w-4 h-4 text-muted-foreground" />
                   </div>
-                  <h3 className="font-bold mb-1">
-                    <LinkedTitle linkData={moduleLinkMap[`cscDetergents::entries::${index}`]} locale={locale}>
-                      {entry.title}
-                    </LinkedTitle>
-                  </h3>
-                  <p className="text-muted-foreground text-sm">{entry.description}</p>
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* Module 16: Crash Fix and Troubleshooting */}
-      <section id="system-info" className="scroll-mt-24 px-4 py-20 bg-white/[0.02]">
-        <div className="container mx-auto max-w-5xl">
-          <div className="text-center mb-12 scroll-reveal">
-            <h2 className="text-4xl md:text-5xl font-bold mb-4"><LinkedTitle linkData={moduleLinkMap['cscSystemInfo']} locale={locale}>{t.modules.cscSystemInfo.title}</LinkedTitle></h2>
-            <p className="text-muted-foreground text-lg max-w-3xl mx-auto">{t.modules.cscSystemInfo.intro}</p>
-          </div>
-          <div className="scroll-reveal space-y-4 mb-8">
-            {t.modules.cscSystemInfo.steps.map((step: any, index: number) => (
-              <div key={index} className="flex gap-4 p-6 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors">
-                <div className="flex-shrink-0 w-12 h-12 rounded-full bg-[hsl(var(--nav-theme)/0.2)] border-2 border-[hsl(var(--nav-theme)/0.5)] flex items-center justify-center">
-                  <span className="text-xl font-bold text-[hsl(var(--nav-theme-light))]">{index + 1}</span>
-                </div>
-                <div>
-                  <h3 className="text-xl font-bold mb-2">
-                    <LinkedTitle linkData={moduleLinkMap[`cscSystemInfo::steps::${index}`]} locale={locale}>
-                      {step.title}
-                    </LinkedTitle>
-                  </h3>
-                  <p className="text-muted-foreground">{step.description}</p>
+                  <h3 className="font-bold text-lg mb-3 text-[hsl(var(--nav-theme-light))]">{item.title}</h3>
+                  <ul className="space-y-1">
+                    {item.details.map((detail: string, di: number) => (
+                      <li key={di} className="flex items-start gap-2">
+                        <Check className="w-4 h-4 text-[hsl(var(--nav-theme-light))] mt-0.5 flex-shrink-0" />
+                        <span className="text-sm text-muted-foreground">{detail}</span>
+                      </li>
+                    ))}
+                  </ul>
                 </div>
               </div>
             ))}
