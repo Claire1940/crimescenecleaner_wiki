@@ -47,3 +47,7 @@ tools/articles/logs/failed_*.log
 tools/articles/modules/transpage/temp/
 tools/validation_report.json
 test-cards.html
+
+# Cloudflare Workers / OpenNext 构建产物
+.open-next/
+.wrangler/
