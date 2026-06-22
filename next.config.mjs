@@ -10,7 +10,7 @@ const nextConfig = {
   allowedDevOrigins: ["*.preview.same-app.com"],
 
   // Docker 部署配置
-  output: 'standalone',
+  output: 'export',
 
   // 性能优化
   compress: true,

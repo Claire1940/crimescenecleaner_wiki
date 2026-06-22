@@ -33,7 +33,7 @@ export function LatestGuides({ articles, locale, className = '' }: LatestGuidesP
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 scroll-reveal">
           {articles.map((article) => {
-            const url = `/${locale}/${article.contentType}/${article.slug}`
+            const url = (locale === 'en' ? `/${article.contentType}/${article.slug}` : `/${locale}/${article.contentType}/${article.slug}`)
 
             return (
               <Link
